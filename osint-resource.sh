@@ -7,7 +7,7 @@ _SENTAKU_NONUMBER=1
 # SNS LIST
 menu="
    Github    : (https://github.com)
-   test   : (https://twitter.com)
+   test      : (https://twitter.com)
    Instagram : (https://www.instagram.com)
    Reddit    : (https://www.reddit.com)
    Facebook  : (https://www.facebook.com)
