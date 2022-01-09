@@ -8,13 +8,33 @@ _SENTAKU_NOHEADER=1
 _SENTAKU_NONUMBER=1
 shopt -s expand_aliases
 
+TITLE_ASCII='\e[31m
+◤◢◣◥◤ ◢◣◆◢◣◥◤◢◣◥◤◢◣◥◤ ◢◣◆◢◣◥◤◢◣◥◤◢◣◥◤ ◢◣◆◢◣◥◤◢◣◥◤◢◣◥◤ ◢◣◆◢◣◥◤◢◣◥◤◢◣◥◤ ◢◣◆◢◣◥◤◢◣◥◤◢◣◥◤ ◢◣◆◢◣◥◤◢◣◥◤◢◣◥◤ ◢◣◆◢◣◥
+
+ ██████╗ ███████╗██╗███╗   ██╗████████╗   ████████╗ ██████╗  ██████╗ ██╗     ███████╗     ██████╗██╗     ██╗
+██╔═══██╗██╔════╝██║████╗  ██║╚══██╔══╝   ╚══██╔══╝██╔═══██╗██╔═══██╗██║     ██╔════╝    ██╔════╝██║     ██║
+██║   ██║███████╗██║██╔██╗ ██║   ██║         ██║   ██║   ██║██║   ██║██║     ███████╗    ██║     ██║     ██║
+██║   ██║╚════██║██║██║╚██╗██║   ██║         ██║   ██║   ██║██║   ██║██║     ╚════██║    ██║     ██║     ██║
+╚██████╔╝███████║██║██║ ╚████║   ██║         ██║   ╚██████╔╝╚██████╔╝███████╗███████║    ╚██████╗███████╗██║
+ ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝   ╚═╝         ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝     ╚═════╝╚══════╝╚═╝
+
+                                    ≡≡≡≡≡ ≡≡≡≡≡ ≡≡≡≡≡ ≡≡≡≡≡ ≡≡≡≡≡
+                                          UPDATE:(1-9-2022)
+                      GITHUB:(https://github.com/Coordinate-Cat/OSINT-TOOLS-CLI)
+                              AUTHOR:(https://github.com/Coordinate-Cat)
+                                    ≡≡≡≡≡ ≡≡≡≡≡ ≡≡≡≡≡ ≡≡≡≡≡ ≡≡≡≡≡
+
+◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢
+\e[31m\e[37m
+'
+
 ERROR_ASCII='\e[31m
   ███████╗██████╗ ██╗   ██╗    ███╗   ██╗ ██████╗ ████████╗    ██████╗ ███████╗ █████╗ ██████╗ ██╗   ██╗
   ██╔════╝██╔══██╗╚██╗ ██╔╝    ████╗  ██║██╔═══██╗╚══██╔══╝    ██╔══██╗██╔════╝██╔══██╗██╔══██╗╚██╗ ██╔╝
-  ███████╗██████╔╝ ╚████╔╝     ██╔██╗ ██║██║   ██║   ██║       ██████╔╝█████╗  ███████║██║  ██║ ╚████╔╝ 
-  ╚════██║██╔══██╗  ╚██╔╝      ██║╚██╗██║██║   ██║   ██║       ██╔══██╗██╔══╝  ██╔══██║██║  ██║  ╚██╔╝  
-  ███████║██║  ██║   ██║▄█╗    ██║ ╚████║╚██████╔╝   ██║       ██║  ██║███████╗██║  ██║██████╔╝   ██║   
-  ╚══════╝╚═╝  ╚═╝   ╚═╝╚═╝    ╚═╝  ╚═══╝ ╚═════╝    ╚═╝       ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝    ╚═╝   
+  ███████╗██████╔╝ ╚████╔╝     ██╔██╗ ██║██║   ██║   ██║       ██████╔╝█████╗  ███████║██║  ██║ ╚████╔╝
+  ╚════██║██╔══██╗  ╚██╔╝      ██║╚██╗██║██║   ██║   ██║       ██╔══██╗██╔══╝  ██╔══██║██║  ██║  ╚██╔╝
+  ███████║██║  ██║   ██║▄█╗    ██║ ╚████║╚██████╔╝   ██║       ██║  ██║███████╗██║  ██║██████╔╝   ██║
+  ╚══════╝╚═╝  ╚═╝   ╚═╝╚═╝    ╚═╝  ╚═══╝ ╚═════╝    ╚═╝       ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝    ╚═╝
 \e[31m
 '
 
@@ -29,8 +49,13 @@ EXIT_ASCII='\e[32m
 '
 ### [ Error hiding and alias loading in shopt ] ################################
 clear && source $HOME/dotfiles/.zshrc
+
 ### [ Aliases ] ################################################################
-alias resource='zsh RESOURCE'
+alias RESOURCE_CMD='zsh $SOCIAL_MEDIA && bash $RESOURCE'
+
+alias ERROR_CMD='clear && echo $ERROR_ASCII && sleep 2m;clear && osint'
+alias EXIT_CMD='clear && echo $EXIT_ASCII && sleep 2m;kill $! wait $! 2>/dev/null sleep 1'
+
 ### [ Name of the function to be executed ] ####################################
 menu="
    Maps, Geolocation and Transport
@@ -63,37 +88,37 @@ menu="
   ﴚ [ EXIT ]
 "
 
-# List of functions to assign to the list
-_sf_0 ()  { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_1 ()  { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_2 ()  { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_3 ()  { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_4 ()  { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_5 ()  { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_6 ()  { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_7 ()  { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_8 ()  { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_9 ()  { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_10 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_11 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_12 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_13 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_14 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_15 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_16 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_17 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_18 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_19 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_20 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_21 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_22 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_23 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_24 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_25 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_26 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_27 () { clear && echo $EXIT_ASCII && sleep 2m;clear && sleep 1m;exit }
+### [ LIST OF FUNCTIONS TO ASSIGN TO THE LIST ] ################################
+_sf_0 ()  { ERROR_CMD }
+_sf_1 ()  { RESOURCE_CMD }
+_sf_2 ()  { ERROR_CMD }
+_sf_3 ()  { ERROR_CMD }
+_sf_4 ()  { ERROR_CMD }
+_sf_5 ()  { ERROR_CMD }
+_sf_6 ()  { ERROR_CMD }
+_sf_7 ()  { ERROR_CMD }
+_sf_8 ()  { ERROR_CMD }
+_sf_9 ()  { ERROR_CMD }
+_sf_10 () { ERROR_CMD }
+_sf_11 () { ERROR_CMD }
+_sf_12 () { ERROR_CMD }
+_sf_13 () { ERROR_CMD }
+_sf_14 () { ERROR_CMD }
+_sf_15 () { ERROR_CMD }
+_sf_16 () { ERROR_CMD }
+_sf_17 () { ERROR_CMD }
+_sf_18 () { ERROR_CMD }
+_sf_19 () { ERROR_CMD }
+_sf_20 () { ERROR_CMD }
+_sf_21 () { ERROR_CMD }
+_sf_22 () { ERROR_CMD }
+_sf_23 () { ERROR_CMD }
+_sf_24 () { ERROR_CMD }
+_sf_25 () { ERROR_CMD }
+_sf_26 () { ERROR_CMD }
+_sf_27 () { EXIT_CMD }
 
-# Search for a selected number of lines
+### [ SEARCH FOR A SELECTED NUMBER OF LINES ] ##################################
 func (){
   for i in `seq 0 99`
     do
@@ -104,9 +129,8 @@ func (){
     done
 }
 
-# Run the selected function.
+### [ RUN THE SELECTED FUNCTION. ] #############################################
 _sf_select () {
-  # The number of functions
   for i in `seq 0 99`
     do
       if   [ $_s_current_n -eq $i ];then
@@ -115,4 +139,4 @@ _sf_select () {
     done
 }
 
-echo "$menu" | _sf_main "$@"
+echo "$TITLE_ASCII" && sleep 4m;echo "$menu" | _sf_main "$@"

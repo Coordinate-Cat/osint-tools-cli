@@ -1,4 +1,6 @@
 # OSINT-TOOLS-CLI
+
+![top](./top.png)
 ## WHATS THIS
 
 THIS IS A CLI VERSION OF THE CHEAT SHEET FOR EASY ACCESS.
@@ -28,7 +30,7 @@ $ brew file install
 ### 3.GLOBAL VARIABLE
 WRITE TO `~/.ZSHRC` OR `~/.BASHZRC`
 ```
-export RESOURCE="$HOME/.osint/OSINT-TOOLS-CLI/osint-resource.sh"
+export SOCIAL_MEDIA="$HOME/OSINT-TOOLS-CLI/social-media.sh"
 ```
 ```
 $ source ~/.zshrc
