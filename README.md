@@ -1,6 +1,7 @@
 # OSINT-TOOLS-CLI
 
 ![top](./top.png)
+![list](./list.png)
 ## WHATS THIS
 
 THIS IS A CLI VERSION OF THE CHEAT SHEET FOR EASY ACCESS.
@@ -19,7 +20,7 @@ $ git clone git@github.com:Coordinate-Cat/OSINT-TOOLS-CLI.git
 ```
 
 ### 2.INTERNALLY DEPENDENT PACKAGES
-Copyright (c) 2014 rcmdnk  
+> Copyright (c) 2014 rcmdnk  
 [SENTAKU](https://github.com/rcmdnk/sentaku)
 ```
 $ brew tap rcmdnk/rcmdnkpac
