@@ -20,7 +20,7 @@ menu="
 # SNS URL PUSH
 _sf_0 ()  { open https://github.com }
 _sf_1 ()  { open https://twitter.com/ }
-_sf_2 ()  { osint }
+_sf_2 ()  { echo "$menu" | _sf_main "$@" }
 
 # Search for a selected number of lines
 func (){
