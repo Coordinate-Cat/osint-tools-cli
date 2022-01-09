@@ -25,6 +25,11 @@ WRITE TO `~/.ZSHRC` OR `~/.BASHZRC`
 ```
 export RESOURCE="$HOME/.osint/OSINT-TOOLS-CLI/osint-resource.sh"
 ```
+```
+$ source ~/.zshrc
+or
+$ source ~/.bashrc
+```
 
 ### 4.ALIAS
 ```
