@@ -3,7 +3,8 @@
 CIPHER387/OSINT_STUFF_TOOL_COLLECTION
 (HTTPS://GITHUB.COM/CIPHER387/OSINT_STUFF_TOOL_COLLECTION)
 
-THIS IS A CHEAT SHEET THAT CAN BE VIEWED IN THE CLI.
+THIS IS A CLI VERSION OF THE ABOVE CHEAT SHEET FOR EASY ACCESS.  
+IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 
 ## INSTALL
 
@@ -13,7 +14,8 @@ $ git clone git@github.com:Coordinate-Cat/OSINT-TOOLS-CLI.git
 ```
 
 ### 2.INTERNALLY DEPENDENT PACKAGES
-USING [SENTAKU](https://github.com/rcmdnk/sentaku)
+Copyright (c) 2014 rcmdnk  
+[SENTAKU](https://github.com/rcmdnk/sentaku)
 ```
 $ brew tap rcmdnk/rcmdnkpac
 $ brew install sentaku

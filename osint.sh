@@ -91,7 +91,7 @@ _sf_23 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
 _sf_24 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
 _sf_25 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
 _sf_26 () { clear && echo $ERROR_ASCII && sleep 2m;osint }
-_sf_27 () { clear && echo $EXIT_ASCII && sleep 2m;clear && exit }
+_sf_27 () { clear && echo $EXIT_ASCII && sleep 2m;clear && sleep 1m;exit }
 
 # Search for a selected number of lines
 func (){
