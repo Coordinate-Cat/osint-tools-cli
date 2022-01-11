@@ -2,8 +2,8 @@
 
 ## ⚠️ SORRY IT'S NOT WORKING YET, BUT WE'RE DOING OUR BEST.
 
-![top](./top.png)
-![list](./list.png)
+![top](./assets/top.png)
+![list](./assets/list.png)
 ## WHATS THIS
 
 THIS IS A CLI VERSION OF THE CHEAT SHEET FOR EASY ACCESS.
