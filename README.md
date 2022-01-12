@@ -15,8 +15,8 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 [LIST INSERTION #4](https://github.com/Coordinate-Cat/OSINT-TOOLS-CLI/issues/4)  
 [COMMON FUNC #5](https://github.com/Coordinate-Cat/OSINT-TOOLS-CLI/issues/5)
 
-<details>
-<summary>Progress</summary>
+### Progress
+
 - [ ] Maps, Geolocation and Transport
 - [ ] Social Media
 - [ ] Domain/IP/Links
@@ -44,9 +44,6 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 - [ ] TV/Radio
 - [ ] VirtualMachines/Linux distributions
 - [ ] My Projects
-</details>
-<br>
-
 ## RESOURCE
 - CIPHER387/OSINT_STUFF_TOOL_COLLECTION
   (HTTPS://GITHUB.COM/CIPHER387/OSINT_STUFF_TOOL_COLLECTION)
