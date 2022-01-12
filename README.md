@@ -128,10 +128,9 @@ export TWITTER="$HOME/OSINT-TOOLS-CLI/bin/SOCIAL_MEDIA/twitter.sh"
 export YOUTUBE="$HOME/OSINT-TOOLS-CLI/bin/SOCIAL_MEDIA/youtube.sh"
 ```
 </details>
-<br>
 
 #### 3-1.EXPORT & SOURCE
-`.zshrc` or `.bashrc`
+DESCRIBE IT ON `.zshrc` OR `.bashrc`
 ```
 export OSINTDIR="$HOME/OSINT-TOOLS-CLI"
 source $OSINTDIR/env.zsh
