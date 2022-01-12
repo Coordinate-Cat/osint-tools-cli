@@ -148,4 +148,4 @@ _sf_select () {
     done
 }
 
-echo -e "$TITLE_ASCII" && sleep 2m;echo "$menu" | _sf_main "$@"
+echo -e "$TITLE_ASCII" && sleep 1m;reset && sleep 2m;echo "$menu" | _sf_main "$@"

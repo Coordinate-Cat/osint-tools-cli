@@ -35,6 +35,7 @@ EXIT_ASCII='\e[32;5;7m
 clear && source $HOME/dotfiles/.zshrc
 
 ### [ Aliases ] ################################################################
+alias TWITTER_CMD='zsh $TWITTER && bash $TWITTER'
 alias YOUTUBE_CMD='zsh $YOUTUBE && bash $YOUTUBE'
 
 alias ERROR_CMD='clear && echo $ERROR_ASCII && sleep 3m;clear && echo "$menu" | _sf_main "$@"'
