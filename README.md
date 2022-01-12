@@ -17,7 +17,7 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 
 ### Progress
 
-- [ ] Maps, Geolocation and Transport
+- [x] Maps, Geolocation and Transport
 - [ ] Social Media
 - [ ] Domain/IP/Links
 - [ ] Image Search and Identification

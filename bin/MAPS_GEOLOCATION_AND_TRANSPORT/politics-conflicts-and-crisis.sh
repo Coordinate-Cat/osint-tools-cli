@@ -42,28 +42,21 @@ alias EXIT_CMD='clear && echo $EXIT_ASCII && sleep 3m;kill $! wait $! 2>/dev/nul
 
 ### [ Name of the function to be executed ] ####################################
 menu="
-   Map View NGMDB — map for exploring some geologic maps and articles from the NGMDB (National Geologic Map Database).
-   WAQI — World's Air Pollution: Real-time Air Quality Index map
-   GlobalFishingMap — click on a point on the map and get the data on the current fishing effort at that location.
-   ncei.noaa.gov — Natural Hazards Viewer (worldwide)
-   Lightingmaps — lightning strikes in real time and also data on thunderstorms that ended months or years ago
-   Light Pollution World Map — showing the degree of light pollution in different countries. It's possible to see the data over time (since 2013)
-   Global Wetlands Map — Interactive map of open waters, mangroves, swamps, fens, riverines, floodswamps, marshs, wet meadows and floodplains (unfortunately, there are not all countries in the world)
-   Fire MAP NASA — online map of fire hotspots around the world (data from VIIRS and MODIS satellites, last 24 hours)
-   Ocearch Shark Tracker — Click on a shark on the world map and find out its name, size and travel log.
-   Surging Seas: Risk Zone Map — Map of points where there is a risk of significant sea level rise in the event of melting glaciers.
-   USA Fishermap — when you click on a freshwater body of water, its detailed map opens, on which the depth at different points is marked
-   Mindat.org — mineral maps for different countries
-   Ventusky.com — collection of weather map (wind, rain, temperature, air pressure, humidity, waves etc)
-   Wunderground — weather history data
-   Rain Alarm — shows where it is raining on the map. You can enable notification of approaching rain (in the browser and in the mobile app)
-   Cyclocane — click on the hurricane on the map and get detailed information about it
-   MeteoBlue — Weather stats data
-   Zoom.earth — Worldwide map of rains, storms, fires, heats, winds and others natural phenomenas
-   NGDC Bathymetry map — worldwide detailed interactive bathymetry map
-   Soar.earth — big collection satellite, drone and ecological maps
-   Geodesics on the Earth — finding the shortest path between two points
-   Google Earth — 3D representation of Earth based primarily on satellite imagery
+   Freedomhouse.org — map of the world that shows the scores of different countries on the following indicators (on a scale of 1 to 100)
+   Crimemapping.com — pick a state, a police agency, and what crimes and where were committed in the territory under its control in the last 24 hours, a week, or a month.
+   Citizen.com — live map of incidents (mainly shooting) that happened in the last hours in major U.S. cities
+   MARITIME AWARENESS PROJECT — detailed map of maritime borders of states, economic zones with statistical data on ports and many other objects
+   Monitor Tracking Civic Space Worldwide Map — Civicus (@CIVICUSalliance) — the global civil society alliance, constitutes an influential network of organisations at the local, national, regional and international levels of civil society.
+   Hungermap — Worldwide Hunger Map
+   Native-land.ca — click on the point on the map and find out: - what nation this area used to belong to; - what language was once spoken there; - a historical event that resulted in a nation losing their territory.
+   RiskMap
+   Liveuamap
+   Crisisgroup
+   Hate Map
+   emmeline.carto.com
+   Global Conflict Tracker
+   Acled data crisis map
+   Frontex Migratory Map — click on a country or region to see how many illegal border crossings have been reported there in the last six months.
   ← [ BACK TO MAPS_GEOLOCATION_AND_TRANSPORT ]
 "
 
@@ -83,14 +76,7 @@ _sf_11 () { echo "test11" }
 _sf_12 () { echo "test12" }
 _sf_13 () { echo "test13" }
 _sf_14 () { echo "test14" }
-_sf_15 () { echo "test15" }
-_sf_16 () { echo "test16" }
-_sf_17 () { echo "test17" }
-_sf_18 () { echo "test18" }
-_sf_19 () { echo "test19" }
-_sf_20 () { echo "test20" }
-_sf_21 () { echo "test21" }
-_sf_22 () { MAPS_GEOLOCATION_AND_TRANSPORT_CMD }
+_sf_15 () { MAPS_GEOLOCATION_AND_TRANSPORT_CMD }
 
 # Search for a selected number of lines
 func (){
