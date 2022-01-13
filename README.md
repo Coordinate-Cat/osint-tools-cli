@@ -1,5 +1,9 @@
 # OSINT-TOOLS-CLI
 
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Coordinate-Cat/osint-tools-cli?style=flat-square)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Coordinate-Cat/osint-tools-cli?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/Coordinate-Cat/osint-tools-cli?style=flat-square)
+
 ## ⚠️ SORRY IT'S NOT WORKING YET, BUT WE'RE DOING OUR BEST.
 
 ![top](./assets/top.png)
