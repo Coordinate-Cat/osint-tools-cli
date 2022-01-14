@@ -1,5 +1,6 @@
 # OSINT-TOOLS-CLI
 
+<<<<<<< HEAD
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Coordinate-Cat/osint-tools-cli?style=flat-square)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Coordinate-Cat/osint-tools-cli?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Coordinate-Cat/osint-tools-cli?style=flat-square)
@@ -8,6 +9,12 @@
 
 ![top](./assets/top.png)
 ![list](./assets/list.png)
+=======
+## ⚠️ SORRY IT'S NOT WORKING YET, BUT WE'RE DOING OUR BEST.
+
+![top](./top.png)
+![list](./list.png)
+>>>>>>> 4b8c9f3521998ada3aa5cc0740749c02884bd0f7
 ## WHATS THIS
 
 THIS IS A CLI VERSION OF THE CHEAT SHEET FOR EASY ACCESS.

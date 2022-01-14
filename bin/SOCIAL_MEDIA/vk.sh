@@ -35,78 +35,20 @@ EXIT_ASCII='\e[32;5;7m
 clear && source $HOME/dotfiles/.zshrc
 
 ### [ Aliases ] ################################################################
-alias TWITTER_CMD='zsh $TWITTER && bash $TWITTER'
-alias YOUTUBE_CMD='zsh $YOUTUBE && bash $YOUTUBE'
-alias TIKTOK_CMD='zsh $TIKTOK && bash $TIKTOK'
+alias SOCIAL_MEDIA_CMD='zsh $SOCIAL_MEDIA && bash $SOCIAL_MEDIA'
 
 alias ERROR_CMD='clear && echo $ERROR_ASCII && sleep 3m;clear && echo "$menu" | _sf_main "$@"'
-alias TOC_CMD='zsh $TOC && bash $TOC'
+alias EXIT_CMD='clear && echo $EXIT_ASCII && sleep 3m;kill $! wait $! 2>/dev/null sleep 1'
 
 ### [ Name of the function to be executed ] ####################################
 menu="
-   Twitter
-   YouTube
-   TikTok
-   Facebook
-   Clubhouse
-   Linkedin
-   Xing
-   Reddit
-   Onlyfans
-   Twitch
-   Fidonet
-   Usenet
-   Tumblr
-   Flickr
-   Spotify
-   Discord
-   Yandex
-   Instagram
-   Google
-   Patreon
-   Github
-   Parler
-   Pornhub
-   Steam
-   Xbox
-   VK
-   Office365
-   OneDrive
-   Universal
-  ﴚ [ BACK TO TOC ]
+   Vk.city4me.com — tracking user online time
+  ← [ BACK TO SOCIAL MEDIA ]
 "
 
 # SNS URL PUSH
-_sf_0 ()   { TWITTER_CMD }
-_sf_1 ()   { YOUTUBE_CMD }
-_sf_2 ()   { TIKTOK_CMD }
-_sf_3 ()   {  }
-_sf_4 ()   {  }
-_sf_5 ()   {  }
-_sf_6 ()   {  }
-_sf_7 ()   {  }
-_sf_8 ()   {  }
-_sf_9 ()   {  }
-_sf_10 ()  {  }
-_sf_11 ()  {  }
-_sf_12 ()  {  }
-_sf_13 ()  {  }
-_sf_14 ()  {  }
-_sf_15 ()  {  }
-_sf_16 ()  {  }
-_sf_17 ()  {  }
-_sf_18 ()  {  }
-_sf_19 ()  {  }
-_sf_20 ()  {  }
-_sf_21 ()  {  }
-_sf_22 ()  {  }
-_sf_23 ()  {  }
-_sf_24 ()  {  }
-_sf_25 ()  {  }
-_sf_26 ()  {  }
-_sf_27 ()  {  }
-_sf_28 ()  {  }
-_sf_29 ()  { TOC_CMD }
+_sf_0 ()   { ERROR_CMD }
+_sf_1 ()   { SOCIAL_MEDIA_CMD }
 
 # Search for a selected number of lines
 func (){

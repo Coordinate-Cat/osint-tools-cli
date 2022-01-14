@@ -35,51 +35,32 @@ EXIT_ASCII='\e[32;5;7m
 clear && source $HOME/dotfiles/.zshrc
 
 ### [ Aliases ] ################################################################
-alias TWITTER_CMD='zsh $TWITTER && bash $TWITTER'
-alias YOUTUBE_CMD='zsh $YOUTUBE && bash $YOUTUBE'
-alias TIKTOK_CMD='zsh $TIKTOK && bash $TIKTOK'
+alias SOCIAL_MEDIA_CMD='zsh $SOCIAL_MEDIA && bash $SOCIAL_MEDIA'
 
 alias ERROR_CMD='clear && echo $ERROR_ASCII && sleep 3m;clear && echo "$menu" | _sf_main "$@"'
-alias TOC_CMD='zsh $TOC && bash $TOC'
+alias EXIT_CMD='clear && echo $EXIT_ASCII && sleep 3m;kill $! wait $! 2>/dev/null sleep 1'
 
 ### [ Name of the function to be executed ] ####################################
 menu="
-   Twitter
-   YouTube
-   TikTok
-   Facebook
-   Clubhouse
-   Linkedin
-   Xing
-   Reddit
-   Onlyfans
-   Twitch
-   Fidonet
-   Usenet
-   Tumblr
-   Flickr
-   Spotify
-   Discord
-   Yandex
-   Instagram
-   Google
-   Patreon
-   Github
-   Parler
-   Pornhub
-   Steam
-   Xbox
-   VK
-   Office365
-   OneDrive
-   Universal
-  ﴚ [ BACK TO TOC ]
+   Star History — simple tool that shows how the number of stars a repository on #Github has changed over the past three months.
+   Commits.top — Current list of the most active @Github users by country
+   Gitstar Ranking — Unofficial GitHub star ranking for users, organizations and repositories
+   Github Rater — rates GitHub profile upon data received from GitHub API
+   Github Trending Archives — Github trending archive for a specific date.
+   GitHub Repository Size — simple google chrome extension to view Github repo size
+   Gitcolombo — simple and fast tool that collects information (edit statistics and contacts) about repository contributors on Github
+   Coderstats — enter Github username and get detailed statistics of profile: languages, issues, forks, stars and much more
+   GitHub-Chart — it shows a visual representation of the temporal distribution of user changes in the repositories. You can visually see "productivity peaks" and see which days of the week a person is most active
+   Zen — Tool for gathering emails of #Github users
+   GithubCompare — When searching for OSINT tools on #Github, you will often come across several repositories with the same name. This service will help to visually compare them, determine which one was created earlier, which one has more forks and stars.
+   DownGit — Create GitHub Resource Download Link
+  ← [ BACK TO SOCIAL MEDIA ]
 "
 
 # SNS URL PUSH
-_sf_0 ()   { TWITTER_CMD }
-_sf_1 ()   { YOUTUBE_CMD }
-_sf_2 ()   { TIKTOK_CMD }
+_sf_0 ()   { ERROR_CMD }
+_sf_1 ()   {  }
+_sf_2 ()   {  }
 _sf_3 ()   {  }
 _sf_4 ()   {  }
 _sf_5 ()   {  }
@@ -89,24 +70,7 @@ _sf_8 ()   {  }
 _sf_9 ()   {  }
 _sf_10 ()  {  }
 _sf_11 ()  {  }
-_sf_12 ()  {  }
-_sf_13 ()  {  }
-_sf_14 ()  {  }
-_sf_15 ()  {  }
-_sf_16 ()  {  }
-_sf_17 ()  {  }
-_sf_18 ()  {  }
-_sf_19 ()  {  }
-_sf_20 ()  {  }
-_sf_21 ()  {  }
-_sf_22 ()  {  }
-_sf_23 ()  {  }
-_sf_24 ()  {  }
-_sf_25 ()  {  }
-_sf_26 ()  {  }
-_sf_27 ()  {  }
-_sf_28 ()  {  }
-_sf_29 ()  { TOC_CMD }
+_sf_12 ()  { SOCIAL_MEDIA_CMD }
 
 # Search for a selected number of lines
 func (){
