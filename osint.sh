@@ -61,6 +61,7 @@ clear && source $HOME/dotfiles/.zshrc
 ### [ Aliases ] ################################################################
 alias MAPS_GEOLOCATION_AND_TRANSPORT_CMD='zsh $MAPS_GEOLOCATION_AND_TRANSPORT && bash $MAPS_GEOLOCATION_AND_TRANSPORT'
 alias SOCIAL_MEDIA_CMD='zsh $SOCIAL_MEDIA && bash $SOCIAL_MEDIA'
+alias CODE_CMD='zsh $CODE && bash $CODE'
 
 alias ERROR_CMD='clear && echo $ERROR_ASCII && sleep 3m;clear && echo "$menu" | _sf_main "$@"'
 alias EXIT_CMD='clear && echo $EXIT_ASCII && sleep 3m;kill $! wait $! 2>/dev/null sleep 1'
@@ -104,7 +105,7 @@ _sf_2 ()  { ERROR_CMD }
 _sf_3 ()  { ERROR_CMD }
 _sf_4 ()  { ERROR_CMD }
 _sf_5 ()  { ERROR_CMD }
-_sf_6 ()  { ERROR_CMD }
+_sf_6 ()  { CODE_CMD }
 _sf_7 ()  { ERROR_CMD }
 _sf_8 ()  { ERROR_CMD }
 _sf_9 ()  { ERROR_CMD }
