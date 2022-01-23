@@ -46,7 +46,7 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 - [x] Apps and programs
 - [x] Brands, companies, items
 - [x] Movies
-- [ ] TV/Radio
+- [x] TV/Radio
 - [ ] VirtualMachines/Linux distributions
 - [ ] My Projects
 ## RESOURCE
