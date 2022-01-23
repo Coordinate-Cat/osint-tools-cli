@@ -23,6 +23,7 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 
 - [x] Maps, Geolocation and Transport
 - [x] Social Media
+- [ ] Downloaders
 - [ ] Domain/IP/Links
 - [ ] Image Search and Identification
 - [x] Cryptocurrencies

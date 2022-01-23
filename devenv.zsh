@@ -8,7 +8,7 @@ export TOC="$OSINTDIR/bin/toc.sh"
 ### CHILD PAGE
 export MAPS_GEOLOCATION_AND_TRANSPORT="$OSINTDIR/bin/maps-geolocation-and-transport.sh"
 export SOCIAL_MEDIA="$OSINTDIR/bin/social-media.sh"
-export DOWNLOADERS_MEDIA="$OSINTDIR/bin/downloaders.sh"
+export DOWNLOADERS="$OSINTDIR/bin/downloaders.sh"
 export DOMAIN_IP_LINKS="$OSINTDIR/bin/domain-ip-links.sh"
 export IMAGE_SEARCH_AND_IDENTIFICATION="$OSINTDIR/bin/image-search-and-identification.sh"
 export CRYPTOCURRENCIES="$OSINTDIR/bin/cryptocurrencies.sh"
