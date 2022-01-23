@@ -44,7 +44,7 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 - [x] NFT
 - [x] Keywords, trends, news analytics
 - [x] Apps and programs
-- [ ] Brands, companies, items
+- [x] Brands, companies, items
 - [ ] Movies
 - [ ] TV/Radio
 - [ ] VirtualMachines/Linux distributions
