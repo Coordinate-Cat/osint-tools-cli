@@ -2,10 +2,10 @@
 # export OSINT="$OSINTDIR/osint.sh"
 
 ## TABLE OF CONTENTS
-## Files without TITLE_ASCII. e.g.(osint.sh -> CHILD PAGE[EXIT] -> toc.sh)
+## Files without TITLE_ASCII. e.g.(osint.sh -> BIN[EXIT] -> toc.sh)
 export TOC="$OSINTDIR/bin/toc.sh"
 
-### CHILD PAGE
+### BIN
 export MAPS_GEOLOCATION_AND_TRANSPORT="$OSINTDIR/bin/maps-geolocation-and-transport.sh"
 export SOCIAL_MEDIA="$OSINTDIR/bin/social-media.sh"
 export DOWNLOADERS="$OSINTDIR/bin/downloaders.sh"
@@ -37,7 +37,7 @@ export TV_RADIO="$OSINTDIR/bin/tv-radio.sh"
 export VIRTUALMACHINES_LINUX_DISTRIBUTIONS="$OSINTDIR/bin/virtualmachines-linux-distributions.sh"
 export MY_PROJECTS="$OSINTDIR/bin/my-projects.sh"
 
-#### OSINT/MAPS_GEOLOCATION_AND_TRANSPORT
+#### BIN/MAPS_GEOLOCATION_AND_TRANSPORT
 export SOCIAL_MEDIA_AND_PHOTOS_MAPS="$OSINTDIR/bin/MAPS_GEOLOCATION_AND_TRANSPORT/social-media-and-photos-maps.sh"
 export NATURE_AVIATION="$OSINTDIR/bin/MAPS_GEOLOCATION_AND_TRANSPORT/nature-aviation.sh"
 export MARITIME="$OSINTDIR/bin/MAPS_GEOLOCATION_AND_TRANSPORT/maritime.sh"
@@ -51,7 +51,7 @@ export TOOLS="$OSINTDIR/bin/MAPS_GEOLOCATION_AND_TRANSPORT/tools.sh"
 export STREET_VIEW="$OSINTDIR/bin/MAPS_GEOLOCATION_AND_TRANSPORT/street-view.sh"
 export OTHER="$OSINTDIR/bin/MAPS_GEOLOCATION_AND_TRANSPORT/other.sh"
 
-# OSINT/SOCIAL_MEDIA
+#### BIN/SOCIAL_MEDIA
 export TWITTER="$OSINTDIR/bin/SOCIAL_MEDIA/twitter.sh"
 export YOUTUBE="$OSINTDIR/bin/SOCIAL_MEDIA/youtube.sh"
 export TIKTOK="$OSINTDIR/bin/SOCIAL_MEDIA/tiktok.sh"
@@ -81,3 +81,19 @@ export VK="$OSINTDIR/bin/SOCIAL_MEDIA/vk.sh"
 export OFFICE365="$OSINTDIR/bin/SOCIAL_MEDIA/office365.sh"
 export ONEDRIVE="$OSINTDIR/bin/SOCIAL_MEDIA/onedrive.sh"
 export UNIVERSAL="$OSINTDIR/bin/SOCIAL_MEDIA/universal.sh"
+
+# BIN/DOMAIN_IP_LINKS
+export DORKS_PENTEST_VULNERABILITIES="$OSINTDIR/bin/DOMAIN_IP_LINKS/dorks-pentest-vulnerabilities.sh"
+export SEARCHERS_SCRAPERS_EXTRACTORS_PARSERS="$OSINTDIR/bin/DOMAIN_IP_LINKS/searchers-scrapers-extractors-parsers.sh"
+export BACKLINKS_ANALYZE="$OSINTDIR/bin/DOMAIN_IP_LINKS/backlinks-analyze.sh"
+export REDIRECT_LOOKUP="$OSINTDIR/bin/DOMAIN_IP_LINKS/redirect-lookup.sh"
+export COOKIES_ANALYZE="$OSINTDIR/bin/DOMAIN_IP_LINKS/cookies-analyze.sh"
+export WEBSITES_FILES_METADATA_ANALYZE_AND_FILES_DOWNLOADS="$OSINTDIR/bin/DOMAIN_IP_LINKS/websites-files-metadata-analyze-and-files-downloads.sh"
+export WEBSITE_ANALYZE="$OSINTDIR/bin/DOMAIN_IP_LINKS/website-analyze.sh"
+export DOMAIN_IP_INVESTIGATION="$OSINTDIR/bin/DOMAIN_IP_LINKS/domain-ip-investigation.sh"
+export SUBDOMAINS_SCAN_BRUTE="$OSINTDIR/bin/DOMAIN_IP_LINKS/subdomains-scan-brute.sh"
+export CLOUDFARE="$OSINTDIR/bin/DOMAIN_IP_LINKS/cloudfare.sh"
+export DATABASES_OF_DOMAINS="$OSINTDIR/bin/DOMAIN_IP_LINKS/databases-of-domains.sh"
+export WEBSITE_TRAFFIC_LOOK_UP="$OSINTDIR/bin/DOMAIN_IP_LINKS/website-traffic-look-up.sh"
+export WEBSITE_TECHNOLOGY_LOOK_UP="$OSINTDIR/bin/DOMAIN_IP_LINKS/website-technology-look-up.sh"
+export SOURCE_CODE_ANALYZES_URL_UNSHORTENERS="$OSINTDIR/bin/DOMAIN_IP_LINKS/source-code-analyzes-url-unshortenerssh"
