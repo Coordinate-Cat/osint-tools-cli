@@ -42,20 +42,13 @@ alias TOC_CMD='zsh $TOC && bash $TOC'
 
 ### [ Name of the function to be executed ] ####################################
 menu="
-   Investigator Recon Tool — web based handy-#recon tool that uses different #GoogleDorking techniques and some open sources service to find juicy information about target websites. It helps you quickly check and gather information about the target domain name.
-   Site Dorks
-   Google (universal) Dork Builder — Quick create queries with advanced search operator for Google, Bing, Yandex etc. Copy dorks from Google Hacking Database. Save dorks in your own database
-   0xdork — Very light and simple #Python tool for Google Dorking
-   Snyk.io — Website Vulnerabilities Scanner
-   dorks.faisalahmed.me — online constructor of google dorks for searching 'sensitive' wesite pages
-   Fast Google Dorks Scan — Search the website for vulnerable pages and files with sensitive information using 45 types of Google Dorks.
-   Dork Scanner — NOT support Google. Only Bing, ASK and http://WoW.com (AOL) search engines. Can work with very long lists of queries/documents (in .txt files)
-   ixss.warsong.pw — very old service for making XSS (Cross Site Scripting) faster and easier
-   ReconFTW — tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities
-   LFITester — Tool which tests if a server is vulnerable to Local File Inclusion (LFI) attack
-   Oralyzer — Script that check website for following types of Open Redirect Vulnerabilities
-   RobotTester — Simple Python script can enumerate all URLs present in robots.txt files, and test whether they can be accessed or not.
-  ﴚ [ BACK TO MAPS_GEOLOCATION_AND_TRANSPORT ]
+   find+ | Regex Find-in-Page Tool — extension for Chrome that helps you quickly find pieces of text on a web page that match a certain regular expression
+   Google Chrome webpage Regexp search
+   Regex Checker — Search and highlight (in webpage): Emails, Phone numbers, Dates, Prices, Addresses
+   moarTLS Analyzer — addon which check all links on the webpage and show list of non-secure links
+   Scrape API — Proxy API for Web Scraping
+   Try.jsoup.org — online version of HTML pasrer http://github.com/jhy/jsoup
+  ﴚ [ BACK TO DOMAIN_IP_LINKS ]
 "
 
 # CODE URL PUSH
@@ -65,14 +58,7 @@ _sf_2 ()   {  }
 _sf_3 ()   {  }
 _sf_4 ()   {  }
 _sf_5 ()   {  }
-_sf_6 ()   {  }
-_sf_7 ()   {  }
-_sf_8 ()   {  }
-_sf_9 ()   {  }
-_sf_10 ()  {  }
-_sf_11 ()  {  }
-_sf_12 ()  {  }
-_sf_13 ()  { DOMAIN_IP_LINKS_CMD }
+_sf_6 ()   { DOMAIN_IP_LINKS_CMD }
 
 # Search for a selected number of lines
 func (){
