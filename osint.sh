@@ -80,6 +80,7 @@ alias NOOSINT_TOOLS_CMD='zsh $NOOSINT_TOOLS && bash $NOOSINT_TOOLS'
 alias TOOLS_COLLECTIONS_CMD='zsh $TOOLS_COLLECTIONS && bash $TOOLS_COLLECTIONS'
 alias FILES_CMD='zsh $FILES && bash $FILES'
 alias IMEI_AND_SERIAL_NUMBERS_CMD='zsh $IMEI_AND_SERIAL_NUMBERS && bash $IMEI_AND_SERIAL_NUMBERS'
+alias NFT_CMD='zsh $NFT && bash $NFT'
 alias KEYWORDS_TRENDS_NEWS_ANALYTICS_CMD='zsh $KEYWORDS_TRENDS_NEWS_ANALYTICS && bash $KEYWORDS_TRENDS_NEWS_ANALYTICS'
 alias APPS_AND_PROGRAMS_CMD='zsh $APPS_AND_PROGRAMS && bash $APPS_AND_PROGRAMS'
 alias BRANDS_COMPANIES_ITEMS_CMD='zsh $BRANDS_COMPANIES_ITEMS && bash $BRANDS_COMPANIES_ITEMS'
@@ -114,6 +115,7 @@ menu="
    Tools collections
    Files
    IMEI and serial numbers
+   NFT
   ﳊ Keywords, trends, news analytics
    Apps and programs
    Brands, companies, items
@@ -146,14 +148,15 @@ _sf_17 () { NOOSINT_TOOLS_CMD }
 _sf_18 () { TOOLS_COLLECTIONS_CMD }
 _sf_19 () { FILES_CMD }
 _sf_20 () { IMEI_AND_SERIAL_NUMBERS_CMD }
-_sf_21 () { KEYWORDS_TRENDS_NEWS_ANALYTICS_CMD }
-_sf_22 () { APPS_AND_PROGRAMS_CMD }
-_sf_23 () { BRANDS_COMPANIES_ITEMS_CMD }
-_sf_24 () { MOVIES_CMD }
-_sf_25 () { TV_RADIO_CMD }
-_sf_26 () { VIRTUALMACHINES_LINUX_DISTRIBUTIONS_CMD }
-_sf_27 () { MY_PROJECTS_CMD }
-_sf_28 () { EXIT_CMD }
+_sf_21 () { NFT_CMD }
+_sf_22 () { KEYWORDS_TRENDS_NEWS_ANALYTICS_CMD }
+_sf_23 () { APPS_AND_PROGRAMS_CMD }
+_sf_24 () { BRANDS_COMPANIES_ITEMS_CMD }
+_sf_25 () { MOVIES_CMD }
+_sf_26 () { TV_RADIO_CMD }
+_sf_27 () { VIRTUALMACHINES_LINUX_DISTRIBUTIONS_CMD }
+_sf_28 () { MY_PROJECTS_CMD }
+_sf_29 () { EXIT_CMD }
 
 ### [ SEARCH FOR A SELECTED NUMBER OF LINES ] ##################################
   func (){
