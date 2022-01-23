@@ -42,17 +42,15 @@ alias TOC_CMD='zsh $TOC && bash $TOC'
 
 ### [ Name of the function to be executed ] ####################################
 menu="
-   Redirect Detective — tool that allows you to do a full trace of a URL Redirect
-   Wheregoes.com — tool that allows you to do a full trace of a URL Redirect
-   Spyoffers.com — tool that allows you to do a full trace of a URL Redirect
+   SEO Spyglass Backlink checker
+   Neilpatel backlinks analyzer — find out how many sites are linking to a certain web page
   ﴚ [ BACK TO DOMAIN_IP_LINKS ]
 "
 
 # CODE URL PUSH
 _sf_0 ()   {  }
 _sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   { DOMAIN_IP_LINKS_CMD }
+_sf_2 ()   { DOMAIN_IP_LINKS_CMD }
 
 # Search for a selected number of lines
 func (){
