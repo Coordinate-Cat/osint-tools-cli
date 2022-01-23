@@ -29,6 +29,7 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 - [ ] Messengers
 - [x] Code
 - [x] Search engines
+- [x] Tools for DuckDuckGo
 - [x] Tools for Google
 - [x] IOT
 - [x] Archives

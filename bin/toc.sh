@@ -44,6 +44,7 @@ alias CYPTOCURRENCIES_CMD='zsh $CYPTOCURRENCIES && bash $CYPTOCURRENCIES'
 alias MESSENGERS_CMD='zsh $MESSENGERS && bash $MESSENGERS'
 alias CODE_CMD='zsh $CODE && bash $CODE'
 alias SEARCH_ENGINES_CMD='zsh $SEARCH_ENGINES && bash $SEARCH_ENGINES'
+alias TOOLS_FOR_DUCKDUCKGO_CMD='zsh $TOOLS_FOR_DUCKDUCKGO && bash $TOOLS_FOR_DUCKDUCKGO'
 alias TOOLS_FOR_GOOGLE_CMD='zsh $TOOLS_FOR_GOOGLE && bash $TOOLS_FOR_GOOGLE'
 alias IOT_CMD='zsh $IOT && bash $IOT'
 alias ARCHIVES_CMD='zsh $ARCHIVES && bash $ARCHIVES'
@@ -79,6 +80,7 @@ menu="
    Messengers
    Code
    Search engines
+   Tools for DuckDuckGo
    Tools for Google
    IOT
    Archives
@@ -112,27 +114,28 @@ _sf_5 ()  { CYPTOCURRENCIES_CMD }
 _sf_6 ()  { MESSENGERS_CMD }
 _sf_7 ()  { CODE_CMD }
 _sf_8 ()  { SEARCH_ENGINES_CMD }
-_sf_9 ()  { TOOLS_FOR_GOOGLE_CMD }
-_sf_10 () { IOT_CMD }
-_sf_11 () { ARCHIVES_CMD }
-_sf_12 () { ARCHIVES_OF_DOCUMENTS_CMD }
-_sf_13 () { DATASETS_CMD }
-_sf_14 () { PASSWORDS_EMAILS_PHONE_NUMBERS_CMD }
-_sf_15 () { PEOPLE_SEARCH_CMD }
-_sf_16 () { SOCK_PUPPETS_CMD }
-_sf_17 () { NOOSINT_TOOLS_CMD }
-_sf_18 () { TOOLS_COLLECTIONS_CMD }
-_sf_19 () { FILES_CMD }
-_sf_20 () { IMEI_AND_SERIAL_NUMBERS_CMD }
-_sf_21 () { NFT_CMD }
-_sf_22 () { KEYWORDS_TRENDS_NEWS_ANALYTICS_CMD }
-_sf_23 () { APPS_AND_PROGRAMS_CMD }
-_sf_24 () { BRANDS_COMPANIES_ITEMS_CMD }
-_sf_25 () { MOVIES_CMD }
-_sf_26 () { TV_RADIO_CMD }
-_sf_27 () { VIRTUALMACHINES_LINUX_DISTRIBUTIONS_CMD }
-_sf_28 () { MY_PROJECTS_CMD }
-_sf_29 () { EXIT_CMD }
+_sf_9 ()  { TOOLS_FOR_DUCKDUCKGO_CMD }
+_sf_10 ()  { TOOLS_FOR_GOOGLE_CMD }
+_sf_11 () { IOT_CMD }
+_sf_12 () { ARCHIVES_CMD }
+_sf_13 () { ARCHIVES_OF_DOCUMENTS_CMD }
+_sf_14 () { DATASETS_CMD }
+_sf_15 () { PASSWORDS_EMAILS_PHONE_NUMBERS_CMD }
+_sf_16 () { PEOPLE_SEARCH_CMD }
+_sf_17 () { SOCK_PUPPETS_CMD }
+_sf_18 () { NOOSINT_TOOLS_CMD }
+_sf_19 () { TOOLS_COLLECTIONS_CMD }
+_sf_20 () { FILES_CMD }
+_sf_21 () { IMEI_AND_SERIAL_NUMBERS_CMD }
+_sf_22 () { NFT_CMD }
+_sf_23 () { KEYWORDS_TRENDS_NEWS_ANALYTICS_CMD }
+_sf_24 () { APPS_AND_PROGRAMS_CMD }
+_sf_25 () { BRANDS_COMPANIES_ITEMS_CMD }
+_sf_26 () { MOVIES_CMD }
+_sf_27 () { TV_RADIO_CMD }
+_sf_28 () { VIRTUALMACHINES_LINUX_DISTRIBUTIONS_CMD }
+_sf_29 () { MY_PROJECTS_CMD }
+_sf_30 () { EXIT_CMD }
 
 ### [ SEARCH FOR A SELECTED NUMBER OF LINES ] ##################################
 func (){
