@@ -42,7 +42,7 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 - [x] Files
 - [x] IMEI and serial numbers
 - [x] NFT
-- [ ] Keywords, trends, news analytics
+- [x] Keywords, trends, news analytics
 - [ ] Apps and programs
 - [ ] Brands, companies, items
 - [ ] Movies
