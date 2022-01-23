@@ -34,7 +34,7 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 - [x] Archives
 - [x] Archives of documents
 - [x] Datasets
-- [ ] Passwords, emails, phone numbers
+- [x] Passwords, emails, phone numbers
 - [ ] People search
 - [ ] Sock Puppets
 - [ ] NOOSINT tools
