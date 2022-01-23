@@ -47,7 +47,7 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 - [x] Brands, companies, items
 - [x] Movies
 - [x] TV/Radio
-- [ ] VirtualMachines/Linux distributions
+- [x] VirtualMachines/Linux distributions
 - [ ] My Projects
 ## RESOURCE
 - CIPHER387/OSINT_STUFF_TOOL_COLLECTION
