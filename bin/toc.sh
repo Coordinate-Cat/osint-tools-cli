@@ -37,6 +37,7 @@ clear && source $HOME/dotfiles/.zshrc
 ### [ Aliases ] ################################################################
 alias MAPS_GEOLOCATION_AND_TRANSPORT_CMD='zsh $MAPS_GEOLOCATION_AND_TRANSPORT && bash $MAPS_GEOLOCATION_AND_TRANSPORT'
 alias SOCIAL_MEDIA_CMD='zsh $SOCIAL_MEDIA && bash $SOCIAL_MEDIA'
+alias DOWNLOADERS_CMD='zsh $DOWNLOADERS && bash $DOWNLOADERS'
 alias DOMAINS_IP_LINKS_CMD='zsh $DOMAINS_IP_LINKS && bash $DOMAINS_IP_LINKS'
 alias IMAGE_SEARCH_AND_IDENTIFICATION_CMD='zsh $IMAGE_SEARCH_AND_IDENTIFICATION && bash $IMAGE_SEARCH_AND_IDENTIFICATION'
 alias CYPTOCURRENCIES_CMD='zsh $CYPTOCURRENCIES && bash $CYPTOCURRENCIES'
@@ -70,6 +71,7 @@ alias EXIT_CMD='clear && echo $EXIT_ASCII && sleep 3m;kill $! wait $! 2>/dev/nul
 menu="
    Maps, Geolocation and Transport
    Social Media
+   Downloaders
    Domain/IP/Links
    Image Search and Identification
    Cryptocurrencies
@@ -101,32 +103,33 @@ menu="
 ### [ LIST OF FUNCTIONS TO ASSIGN TO THE LIST ] ################################
 _sf_0 ()  { MAPS_GEOLOCATION_AND_TRANSPORT_CMD }
 _sf_1 ()  { SOCIAL_MEDIA_CMD }
-_sf_2 ()  { DOMAINS_IP_LINKS_CMD }
-_sf_3 ()  { IMAGE_SEARCH_AND_IDENTIFICATION_CMD }
-_sf_4 ()  { CYPTOCURRENCIES_CMD }
-_sf_5 ()  { MESSENGERS_CMD }
-_sf_6 ()  { CODE_CMD }
-_sf_7 ()  { SEARCH_ENGINES_CMD }
-_sf_8 ()  { TOOLS_FOR_GOOGLE_CMD }
-_sf_9 ()  { IOT_CMD }
-_sf_10 () { ARCHIVES_CMD }
-_sf_11 () { ARCHIVES_OF_DOCUMENTS_CMD }
-_sf_12 () { DATASETS_CMD }
-_sf_13 () { PASSWORDS_EMAILS_PHONE_NUMBERS_CMD }
-_sf_14 () { PEOPLE_SEARCH_CMD }
-_sf_15 () { SOCK_PUPPETS_CMD }
-_sf_16 () { NOOSINT_TOOLS_CMD }
-_sf_17 () { TOOLS_COLLECTIONS_CMD }
-_sf_18 () { FILES_CMD }
-_sf_19 () { IMEI_AND_SERIAL_NUMBERS_CMD }
-_sf_20 () { KEYWORDS_TRENDS_NEWS_ANALYTICS_CMD }
-_sf_21 () { APPS_AND_PROGRAMS_CMD }
-_sf_22 () { BRANDS_COMPANIES_ITEMS_CMD }
-_sf_23 () { MOVIES_CMD }
-_sf_24 () { TV_RADIO_CMD }
-_sf_25 () { VIRTUALMACHINES_LINUX_DISTRIBUTIONS_CMD }
-_sf_26 () { MY_PROJECTS_CMD }
-_sf_27 () { EXIT_CMD }
+_sf_2 ()  { DOWNLOADERS_CMD }
+_sf_3 ()  { DOMAINS_IP_LINKS_CMD }
+_sf_4 ()  { IMAGE_SEARCH_AND_IDENTIFICATION_CMD }
+_sf_5 ()  { CYPTOCURRENCIES_CMD }
+_sf_6 ()  { MESSENGERS_CMD }
+_sf_7 ()  { CODE_CMD }
+_sf_8 ()  { SEARCH_ENGINES_CMD }
+_sf_9 ()  { TOOLS_FOR_GOOGLE_CMD }
+_sf_10 () { IOT_CMD }
+_sf_11 () { ARCHIVES_CMD }
+_sf_12 () { ARCHIVES_OF_DOCUMENTS_CMD }
+_sf_13 () { DATASETS_CMD }
+_sf_14 () { PASSWORDS_EMAILS_PHONE_NUMBERS_CMD }
+_sf_15 () { PEOPLE_SEARCH_CMD }
+_sf_16 () { SOCK_PUPPETS_CMD }
+_sf_17 () { NOOSINT_TOOLS_CMD }
+_sf_18 () { TOOLS_COLLECTIONS_CMD }
+_sf_19 () { FILES_CMD }
+_sf_20 () { IMEI_AND_SERIAL_NUMBERS_CMD }
+_sf_21 () { KEYWORDS_TRENDS_NEWS_ANALYTICS_CMD }
+_sf_22 () { APPS_AND_PROGRAMS_CMD }
+_sf_23 () { BRANDS_COMPANIES_ITEMS_CMD }
+_sf_24 () { MOVIES_CMD }
+_sf_25 () { TV_RADIO_CMD }
+_sf_26 () { VIRTUALMACHINES_LINUX_DISTRIBUTIONS_CMD }
+_sf_27 () { MY_PROJECTS_CMD }
+_sf_28 () { EXIT_CMD }
 
 ### [ SEARCH FOR A SELECTED NUMBER OF LINES ] ##################################
 func (){
