@@ -25,7 +25,7 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 - [x] Social Media
 - [ ] Domain/IP/Links
 - [ ] Image Search and Identification
-- [ ] Cryptocurrencies
+- [x] Cryptocurrencies
 - [ ] Messengers
 - [x] Code
 - [x] Search engines
