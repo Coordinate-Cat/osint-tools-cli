@@ -43,7 +43,7 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 - [x] IMEI and serial numbers
 - [x] NFT
 - [x] Keywords, trends, news analytics
-- [ ] Apps and programs
+- [x] Apps and programs
 - [ ] Brands, companies, items
 - [ ] Movies
 - [ ] TV/Radio
