@@ -39,8 +39,8 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 - [x] Sock Puppets
 - [x] NOOSINT tools
 - [x] Tools collections
-- [ ] Files
-- [ ] IMEI and serial numbers
+- [x] Files
+- [x] IMEI and serial numbers
 - [ ] Keywords, trends, news analytics
 - [ ] Apps and programs
 - [ ] Brands, companies, items
