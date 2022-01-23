@@ -45,7 +45,7 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 - [x] Keywords, trends, news analytics
 - [x] Apps and programs
 - [x] Brands, companies, items
-- [ ] Movies
+- [x] Movies
 - [ ] TV/Radio
 - [ ] VirtualMachines/Linux distributions
 - [ ] My Projects
