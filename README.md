@@ -37,8 +37,8 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 - [x] Passwords, emails, phone numbers
 - [x] People search
 - [x] Sock Puppets
-- [ ] NOOSINT tools
-- [ ] Tools collections
+- [x] NOOSINT tools
+- [x] Tools collections
 - [ ] Files
 - [ ] IMEI and serial numbers
 - [ ] Keywords, trends, news analytics
