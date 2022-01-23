@@ -35,76 +35,32 @@ EXIT_ASCII='\e[32;5;7m
 clear && source $HOME/dotfiles/.zshrc
 
 ### [ Aliases ] ################################################################
-alias MAPS_GEOLOCATION_AND_TRANSPORT_CMD='zsh $MAPS_GEOLOCATION_AND_TRANSPORT && bash $MAPS_GEOLOCATION_AND_TRANSPORT'
-alias SOCIAL_MEDIA_CMD='zsh $SOCIAL_MEDIA && bash $SOCIAL_MEDIA'
-alias CODE_CMD='zsh $CODE && bash $CODE'
-
 alias ERROR_CMD='clear && echo $ERROR_ASCII && sleep 3m;clear && echo "$menu" | _sf_main "$@"'
-alias EXIT_CMD='clear && echo $EXIT_ASCII && sleep 3m;kill $! wait $! 2>/dev/null sleep 1'
+alias TOC_CMD='zsh $TOC && bash $TOC'
 
 ### [ Name of the function to be executed ] ####################################
 menu="
-   Maps, Geolocation and Transport
-   Social Media
-   Domain/IP/Links
-   Image Search and Identification
-   Cryptocurrencies
-   Messengers
-   Code
-   Search engines
-   Tools for Google
-   IOT
-   Archives
-   Archives of documents
-   Datasets
-   Passwords, emails, phone numbers
-   People search
-  ﴣ Sock Puppets
-   NOOSINT tools
-   Tools collections
-   Files
-   IMEI and serial numbers
-  ﳊ Keywords, trends, news analytics
-   Apps and programs
-   Brands, companies, items
-  ﳜ Movies
-   TV/Radio
-   VirtualMachines/Linux distributions
-   My Projects
-  ﴚ [ EXIT ]
+   UK National Archives — search in the catalogue of United Kingdom 'The National Archives'
+   Directory of Open Access Journals — Search by 16 920 journals, 6, 588, 661 articles, 80 lanquages, 129 countries
+   National Center for Biotechnology — unique tool to search 39 scientific databases (Pubmed, SRA, OMIN, MedGen etc) from one page
+   industrydocuments.ucsf.edu — digital archive of documents created by industries which influence public health (tobacco, chemical, drug, fossil fuel)
+   Offshor Leaks — Search through various databases of leaked documents of offshore companies
+   Vault.fbi.gov — Vault is FOIA Library, containing 6,700 documents that have been scanned from paper
+   Lux Leaks — — the name of a financial scandal revealed in November 2014 by a journalistic investigation.
+  ﴚ [ BACK TO TOC ]
 "
 
-### [ LIST OF FUNCTIONS TO ASSIGN TO THE LIST ] ################################
-_sf_0 ()  { MAPS_GEOLOCATION_AND_TRANSPORT_CMD }
-_sf_1 ()  { SOCIAL_MEDIA_CMD }
-_sf_2 ()  { ERROR_CMD }
-_sf_3 ()  { ERROR_CMD }
-_sf_4 ()  { ERROR_CMD }
-_sf_5 ()  { ERROR_CMD }
-_sf_6 ()  { CODE_CMD }
-_sf_7 ()  { ERROR_CMD }
-_sf_8 ()  { ERROR_CMD }
-_sf_9 ()  { ERROR_CMD }
-_sf_10 () { ERROR_CMD }
-_sf_11 () { ERROR_CMD }
-_sf_12 () { ERROR_CMD }
-_sf_13 () { ERROR_CMD }
-_sf_14 () { ERROR_CMD }
-_sf_15 () { ERROR_CMD }
-_sf_16 () { ERROR_CMD }
-_sf_17 () { ERROR_CMD }
-_sf_18 () { ERROR_CMD }
-_sf_19 () { ERROR_CMD }
-_sf_20 () { ERROR_CMD }
-_sf_21 () { ERROR_CMD }
-_sf_22 () { ERROR_CMD }
-_sf_23 () { ERROR_CMD }
-_sf_24 () { ERROR_CMD }
-_sf_25 () { ERROR_CMD }
-_sf_26 () { ERROR_CMD }
-_sf_27 () { EXIT_CMD }
+# CODE URL PUSH
+_sf_0 ()  {  }
+_sf_1 ()  {  }
+_sf_2 ()  {  }
+_sf_3 ()  {  }
+_sf_4 ()  {  }
+_sf_5 ()  {  }
+_sf_6 ()  {  }
+_sf_7 ()  { TOC_CMD }
 
-### [ SEARCH FOR A SELECTED NUMBER OF LINES ] ##################################
+# Search for a selected number of lines
 func (){
   for i in `seq 0 99`
     do
@@ -115,8 +71,9 @@ func (){
     done
 }
 
-### [ RUN THE SELECTED FUNCTION. ] #############################################
+# Run the selected function.
 _sf_select () {
+  # The number of functions
   for i in `seq 0 99`
     do
       if   [ $_s_current_n -eq $i ];then

@@ -22,7 +22,7 @@ TITLE_ASCII='\e[31m
                       GITHUB:(https://github.com/Coordinate-Cat/OSINT-TOOLS-CLI)
                   COLLECTION:(https://github.com/CIPHER387/OSINT_STUFF_TOOL_COLLECTION)
                               AUTHOR:(https://github.com/Coordinate-Cat)
-                                          UPDATE:(1-10-2022)
+                                          UPDATE:(23/1/2022)
                                     ≡≡≡≡≡ ≡≡≡≡≡ ≡≡≡≡≡ ≡≡≡≡≡ ≡≡≡≡≡
 
 ◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢
@@ -56,12 +56,37 @@ EXIT_ASCII='\e[32;5;7m
 '
 ### [ Error hiding and alias loading in shopt ] ################################
 # REPLACE THIS WITH THE PATH WHERE YOUR .ZSHRC OR .BASHRC IS LOCATED
-clear && source $HOME/dotfiles/.zshrc
+  clear && source $HOME/dotfiles/.zshrc
 
 ### [ Aliases ] ################################################################
 alias MAPS_GEOLOCATION_AND_TRANSPORT_CMD='zsh $MAPS_GEOLOCATION_AND_TRANSPORT && bash $MAPS_GEOLOCATION_AND_TRANSPORT'
 alias SOCIAL_MEDIA_CMD='zsh $SOCIAL_MEDIA && bash $SOCIAL_MEDIA'
+alias DOWNLOADERS_CMD='zsh $DOWNLOADERS && bash $DOWNLOADERS'
+alias DOMAINS_IP_LINKS_CMD='zsh $DOMAINS_IP_LINKS && bash $DOMAINS_IP_LINKS'
+alias IMAGE_SEARCH_AND_IDENTIFICATION_CMD='zsh $IMAGE_SEARCH_AND_IDENTIFICATION && bash $IMAGE_SEARCH_AND_IDENTIFICATION'
+alias CYPTOCURRENCIES_CMD='zsh $CYPTOCURRENCIES && bash $CYPTOCURRENCIES'
+alias MESSENGERS_CMD='zsh $MESSENGERS && bash $MESSENGERS'
 alias CODE_CMD='zsh $CODE && bash $CODE'
+alias SEARCH_ENGINES_CMD='zsh $SEARCH_ENGINES && bash $SEARCH_ENGINES'
+alias TOOLS_FOR_GOOGLE_CMD='zsh $TOOLS_FOR_GOOGLE && bash $TOOLS_FOR_GOOGLE'
+alias IOT_CMD='zsh $IOT && bash $IOT'
+alias ARCHIVES_CMD='zsh $ARCHIVES && bash $ARCHIVES'
+alias ARCHIVES_OF_DOCUMENTS_CMD='zsh $ARCHIVES_OF_DOCUMENTS && bash $ARCHIVES_OF_DOCUMENTS'
+alias DATASETS_CMD='zsh $DATASETS && bash $DATASETS'
+alias PASSWORDS_EMAIL_PHONE_NUMBERS_CMD='zsh $PASSWORDS_EMAIL_PHONE_NUMBERS && bash $PASSWORDS_EMAIL_PHONE_NUMBERS'
+alias PEOPLE_SEARCH_CMD='zsh $PEOPLE_SEARCH && bash $PEOPLE_SEARCH'
+alias SOCK_PUPPETS_CMD='zsh $SOCK_PUPPETS && bash $SOCK_PUPPETS'
+alias NOOSINT_TOOLS_CMD='zsh $NOOSINT_TOOLS && bash $NOOSINT_TOOLS'
+alias TOOLS_COLLECTIONS_CMD='zsh $TOOLS_COLLECTIONS && bash $TOOLS_COLLECTIONS'
+alias FILES_CMD='zsh $PEOPLE_SEARCFILES && bash $FILES'
+alias IMEI_AND_SERIAL_NUMBERS_CMD='zsh $IMEI_AND_SERIAL_NUMBERS && bash $IMEI_AND_SERIAL_NUMBERS'
+alias KEYWORDS_TRENDS_NEWS_ANALYTICS_CMD='zsh $KEYWORDS_TRENDS_NEWS_ANALYTICS && bash $KEYWORDS_TRENDS_NEWS_ANALYTICS'
+alias APPS_AND_PROGRAMS_CMD='zsh $APPS_AND_PROGRAMS && bash $APPS_AND_PROGRAMS'
+alias BRANDS_COMPANIES_ITEMS_CMD='zsh $BRANDS_COMPANIES_ITEMS && bash $BRANDS_COMPANIES_ITEMS'
+alias MOVIES_CMD='zsh $MOVIES && bash $MOVIES'
+alias TV_RADIO_CMD='zsh $TV_RADIO && bash $TV_RADIO'
+alias VIRTUALMACHINES_LINUX_DISTRIBUTIONS_CMD='zsh $VIRTUALMACHINES_LINUX_DISTRIBUTIONS && bash $VIRTUALMACHINES_LINUX_DISTRIBUTIONS'
+alias MY_PROJECTS_CMD='zsh $MY_PROJECTS && bash $MY_PROJECTS'
 
 alias ERROR_CMD='clear && echo $ERROR_ASCII && sleep 3m;clear && echo "$menu" | _sf_main "$@"'
 alias EXIT_CMD='clear && echo $EXIT_ASCII && sleep 3m;kill $! wait $! 2>/dev/null sleep 1'
@@ -70,6 +95,7 @@ alias EXIT_CMD='clear && echo $EXIT_ASCII && sleep 3m;kill $! wait $! 2>/dev/nul
 menu="
    Maps, Geolocation and Transport
    Social Media
+   Downloaders
    Domain/IP/Links
    Image Search and Identification
    Cryptocurrencies
@@ -95,58 +121,59 @@ menu="
    TV/Radio
    VirtualMachines/Linux distributions
    My Projects
-  ﴚ [ EXIT ]
+  ﴚ [ EXIT - Mischief managed! ]
 "
 
 ### [ LIST OF FUNCTIONS TO ASSIGN TO THE LIST ] ################################
 _sf_0 ()  { MAPS_GEOLOCATION_AND_TRANSPORT_CMD }
 _sf_1 ()  { SOCIAL_MEDIA_CMD }
-_sf_2 ()  { ERROR_CMD }
-_sf_3 ()  { ERROR_CMD }
-_sf_4 ()  { ERROR_CMD }
-_sf_5 ()  { ERROR_CMD }
-_sf_6 ()  { CODE_CMD }
-_sf_7 ()  { ERROR_CMD }
-_sf_8 ()  { ERROR_CMD }
-_sf_9 ()  { ERROR_CMD }
-_sf_10 () { ERROR_CMD }
-_sf_11 () { ERROR_CMD }
-_sf_12 () { ERROR_CMD }
-_sf_13 () { ERROR_CMD }
-_sf_14 () { ERROR_CMD }
-_sf_15 () { ERROR_CMD }
-_sf_16 () { ERROR_CMD }
-_sf_17 () { ERROR_CMD }
-_sf_18 () { ERROR_CMD }
-_sf_19 () { ERROR_CMD }
-_sf_20 () { ERROR_CMD }
-_sf_21 () { ERROR_CMD }
-_sf_22 () { ERROR_CMD }
-_sf_23 () { ERROR_CMD }
-_sf_24 () { ERROR_CMD }
-_sf_25 () { ERROR_CMD }
-_sf_26 () { ERROR_CMD }
-_sf_27 () { EXIT_CMD }
+_sf_2 ()  { DOWNLOADERS_CMD }
+_sf_3 ()  { DOMAINS_IP_LINKS_CMD }
+_sf_4 ()  { IMAGE_SEARCH_AND_IDENTIFICATION_CMD }
+_sf_5 ()  { CYPTOCURRENCIES_CMD }
+_sf_6 ()  { MESSENGERS_CMD }
+_sf_7 ()  { CODE_CMD }
+_sf_8 ()  { SEARCH_ENGINES_CMD }
+_sf_9 ()  { TOOLS_FOR_GOOGLE_CMD }
+_sf_10 () { IOT_CMD }
+_sf_11 () { ARCHIVES_CMD }
+_sf_12 () { ARCHIVES_OF_DOCUMENTS_CMD }
+_sf_13 () { DATASETS_CMD }
+_sf_14 () { PASSWORDS_EMAIL_PHONE_NUMBERS_CMD }
+_sf_15 () { PEOPLE_SEARCH_CMD }
+_sf_16 () { SOCK_PUPPETS_CMD }
+_sf_17 () { NOOSINT_TOOLS_CMD }
+_sf_18 () { TOOLS_COLLECTIONS_CMD }
+_sf_19 () { FILES_CMD }
+_sf_20 () { IMEI_AND_SERIAL_NUMBERS_CMD }
+_sf_21 () { KEYWORDS_TRENDS_NEWS_ANALYTICS_CMD }
+_sf_22 () { APPS_AND_PROGRAMS_CMD }
+_sf_23 () { BRANDS_COMPANIES_ITEMS_CMD }
+_sf_24 () { MOVIES_CMD }
+_sf_25 () { TV_RADIO_CMD }
+_sf_26 () { VIRTUALMACHINES_LINUX_DISTRIBUTIONS_CMD }
+_sf_27 () { MY_PROJECTS_CMD }
+_sf_28 () { EXIT_CMD }
 
 ### [ SEARCH FOR A SELECTED NUMBER OF LINES ] ##################################
-func (){
-  for i in `seq 0 99`
-    do
-    _sf_ + $i () {
-      _s_current_n=$i
-      _s_break=1
-    }
-    done
-}
+  func (){
+    for i in `seq 0 99`
+      do
+      _sf_ + $i () {
+        _s_current_n=$i
+        _s_break=1
+      }
+      done
+  }
 
 ### [ RUN THE SELECTED FUNCTION. ] #############################################
-_sf_select () {
-  for i in `seq 0 99`
-    do
-      if   [ $_s_current_n -eq $i ];then
-        _sf_$i
-      fi
-    done
-}
+  _sf_select () {
+    for i in `seq 0 99`
+      do
+        if   [ $_s_current_n -eq $i ];then
+          _sf_$i
+        fi
+      done
+  }
 
-echo -e "$TITLE_ASCII" && sleep 2m;echo "$menu" | _sf_main "$@"
+echo -e "$TITLE_ASCII" && sleep 1m;reset && sleep 2m;echo "$menu" | _sf_main "$@"

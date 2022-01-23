@@ -10,6 +10,7 @@ export TOC="$HOME/OSINT-TOOLS-CLI/bin/toc.sh"
 ### CHILD PAGE
 export MAPS_GEOLOCATION_AND_TRANSPORT="$HOME/OSINT-TOOLS-CLI/bin/maps-geolocation-and-transport.sh"
 export SOCIAL_MEDIA="$HOME/OSINT-TOOLS-CLI/bin/social-media.sh"
+export DOWNLOADERS_MEDIA="$OSINTDIR/bin/downloaders.sh"
 export DOMAIN_IP_LINKS="$HOME/OSINT-TOOLS-CLI/bin/domain-ip-links.sh"
 export IMAGE_SEARCH_AND_IDENTIFICATION="$HOME/OSINT-TOOLS-CLI/bin/image-search-and-identification.sh"
 export CRYPTOCURRENCIES="$HOME/OSINT-TOOLS-CLI/bin/cryptocurrencies.sh"

@@ -27,13 +27,13 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 - [ ] Image Search and Identification
 - [ ] Cryptocurrencies
 - [ ] Messengers
-- [ ] Code
-- [ ] Search engines
-- [ ] Tools for Google
-- [ ] IOT
-- [ ] Archives
-- [ ] Archives of documents
-- [ ] Datasets
+- [x] Code
+- [x] Search engines
+- [x] Tools for Google
+- [x] IOT
+- [x] Archives
+- [x] Archives of documents
+- [x] Datasets
 - [ ] Passwords, emails, phone numbers
 - [ ] People search
 - [ ] Sock Puppets
