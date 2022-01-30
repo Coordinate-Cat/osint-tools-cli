@@ -35,62 +35,34 @@ EXIT_ASCII='\e[32;5;7m
 clear && source $HOME/dotfiles/.zshrc
 
 ### [ Aliases ] ################################################################
-alias DORKS_PENTEST_VULNERABILITIES_CMD='zsh $DORKS_PENTEST_VULNERABILITIES && $DORKS_PENTEST_VULNERABILITIES'
-alias SEARCHERS_SCRAPERS_EXTRACTORS_PARSERS_CMD='zsh $SEARCHERS_SCRAPERS_EXTRACTORS_PARSERS && $SEARCHERS_SCRAPERS_EXTRACTORS_PARSERS'
-alias BACKLINKS_ANALYZE_CMD='zsh $BACKLINKS_ANALYZE && $BACKLINKS_ANALYZE'
-alias REDIRECT_LOOKUP_CMD='zsh $REDIRECT_LOOKUP && $REDIRECT_LOOKUP'
-alias COOKIES_ANALYZE_CMD='zsh $COOKIES_ANALYZE && $COOKIES_ANALYZE'
-alias WEBSITES_FILES_METADATA_ANALYZE_AND_FILES_DOWNLOADS_CMD='zsh $WEBSITES_FILES_METADATA_ANALYZE_AND_FILES_DOWNLOADS && $WEBSITES_FILES_METADATA_ANALYZE_AND_FILES_DOWNLOADS'
-alias WEBSITE_ANALYZE_CMD='zsh $WEBSITE_ANALYZE && $WEBSITE_ANALYZE'
-alias DOMAIN_IP_INVESTIGATION_CMD='zsh $DOMAIN_IP_INVESTIGATION && $DOMAIN_IP_INVESTIGATION'
-alias SUBDOMAINS_SCAN_BRUTE_CMD='zsh $SUBDOMAINS_SCAN_BRUTE && $SUBDOMAINS_SCAN_BRUTE'
-alias CLOUDFARE_CMD='zsh $CLOUDFARE && $DORKS_PENTEST_VCLOUDFAREULNERABILITIES'
-alias DATABASES_OF_DOMAINS_CMD='zsh $DATABASES_OF_DOMAINS && $DATABASES_OF_DOMAINS'
-alias WEBSITE_TRAFFIC_LOOK_UP_CMD='zsh $WEBSITE_TRAFFIC_LOOK_UP && $WEBSITE_TRAFFIC_LOOK_UP'
-alias WEBSITE_TECHNOLOGY_LOOK_UP_CMD='zsh $WEBSITE_TECHNOLOGY_LOOK_UP && $WEBSITE_TECHNOLOGY_LOOK_UP'
-alias SOURCE_CODE_ANALYZES_CMD='zsh $SOURCE_CODE_ANALYZES && $SOURCE_CODE_ANALYZES'
-alias URL_UNSHORTENERS_CMD='zsh $URL_UNSHORTENERS && $URL_UNSHORTENERS'
+alias DOMAIN_IP_LINKS_CMD='zsh $DOMAIN_IP_LINKS && bash $DOMAIN_IP_LINKS'
 
 alias ERROR_CMD='clear && echo $ERROR_ASCII && sleep 3m;clear && echo "$menu" | _sf_main "$@"'
 alias TOC_CMD='zsh $TOC && bash $TOC'
 
 ### [ Name of the function to be executed ] ####################################
 menu="
-   Dorks/Pentest/Vulnerabilities
-   Searchers, scrapers, extractors, parsers
-   Backlinks analyze
-   Redirect lookup
-   Cookies analyze
-   Website's files metadata analyze and files downloads
-   Website analyze
-   Domain/IP investigation
-   Subdomains scan/brute
-   Cloudfare
-   Databases of domains
-   Website traffic look up
-   Website technology look up
-   Source Code Analyzes
-   URL unshorteners
-  ﴚ [ BACK TO TOC ]
+   Retire.js — GoogleChrome extension for scanning a web app for use of vulnerable JavaScript libraries
+   OpenLink Structured Data Sniffer — GoogleChrome extension which reveals structured metadata (Microdata, RDFa, JSON-LD, Turtle, etc.) embedded within HTML documents.
+   SIngle File — GoogleChrome, Firefox and MicrosoftEdge addon to save webpage in single html file
+   Dirscraper — OSINT scanning tool which discovers and maps directories found in javascript files hosted on a website
+   Ericom Page Risk Analysis — Get a detailed report with links to CSS, Javascript, Fonts, XHR, Images and domains web pages
+   SecretFinder — Tool for find sensitive data (apikeys, accesstoken,jwt,..) or search anything with #regexp on #javascript files
+   Copy all links and image links to CSV or JSON — Download all links from current webpage in CSV (for open in #Excel) or JSON
+   ArchiveReady — OSINT specialists most often use various web archives to analyze other people's sites. But if you want your descendants to be able to find your own site, check whether the code of its pages is understandable for crawlers of web archives.
+  ﴚ [ BACK TO DOMAIN_IP_LINKS ]
 "
 
-# SNS URL PUSH
-_sf_0 ()   { DORKS_PENTEST_VULNERABILITIES_CMD }
-_sf_1 ()   { SEARCHERS_SCRAPERS_EXTRACTORS_PARSERS_CMD }
-_sf_2 ()   { BACKLINKS_ANALYZE_CMD }
-_sf_3 ()   { REDIRECT_LOOKUP_CMD }
-_sf_4 ()   { COOKIES_ANALYZE_CMD }
-_sf_5 ()   { WEBSITES_FILES_METADATA_ANALYZE_AND_FILES_DOWNLOADS_CMD }
-_sf_6 ()   { WEBSITE_ANALYZE_CMD }
-_sf_7 ()   { DOMAIN_IP_INVESTIGATION_CMD }
-_sf_8 ()   { SUBDOMAINS_SCAN_BRUTE_CMD }
-_sf_9 ()   { CLOUDFARE_CMD }
-_sf_10 ()  { DATABASES_OF_DOMAINS_CMD }
-_sf_11 ()  { WEBSITE_TRAFFIC_LOOK_UP_CMD }
-_sf_12 ()  { WEBSITE_TECHNOLOGY_LOOK_UP_CMD }
-_sf_13 ()  { SOURCE_CODE_ANALYZES_CMD }
-_sf_14 ()  { URL_UNSHORTENERS_CMD }
-_sf_15 ()  { TOC_CMD }
+# CODE URL PUSH
+_sf_0 () {  }
+_sf_1 () {  }
+_sf_2 () {  }
+_sf_3 () {  }
+_sf_4 () {  }
+_sf_5 () {  }
+_sf_6 () {  }
+_sf_7 () {  }
+_sf_8 () { DOMAIN_IP_LINKS_CMD }
 
 # Search for a selected number of lines
 func (){

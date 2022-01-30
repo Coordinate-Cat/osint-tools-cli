@@ -24,7 +24,7 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
 - [x] Maps, Geolocation and Transport
 - [x] Social Media
 - [x] Downloaders
-- [ ] Domain/IP/Links
+- [x] Domain/IP/Links
 - [ ] Image Search and Identification
 - [x] Cryptocurrencies
 - [ ] Messengers
@@ -99,14 +99,15 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
   - [ ] Databases of domains
   - [ ] Website traffic look up
   - [ ] Website technology look up
-  - [ ] Source Code Analyzes URL unshorteners
+  - [ ] Source Code Analyzes
+  - [ ] URL unshorteners
 - [ ] Image Search and Identification
   - [ ] Reverse Image Search Engines
   - [ ] Other Image Search Engines
   - [ ] Image Analyze
   - [ ] Exif Analyze and Editing
   - [ ] Face recognition and search
-  - [ ] Font Indenfication 
+  - [ ] Font Indenfication
 - [ ] Cryptocurrencies
 - [ ] Messengers
   - [ ] Telegram

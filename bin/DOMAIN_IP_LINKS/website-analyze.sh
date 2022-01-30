@@ -35,62 +35,38 @@ EXIT_ASCII='\e[32;5;7m
 clear && source $HOME/dotfiles/.zshrc
 
 ### [ Aliases ] ################################################################
-alias DORKS_PENTEST_VULNERABILITIES_CMD='zsh $DORKS_PENTEST_VULNERABILITIES && $DORKS_PENTEST_VULNERABILITIES'
-alias SEARCHERS_SCRAPERS_EXTRACTORS_PARSERS_CMD='zsh $SEARCHERS_SCRAPERS_EXTRACTORS_PARSERS && $SEARCHERS_SCRAPERS_EXTRACTORS_PARSERS'
-alias BACKLINKS_ANALYZE_CMD='zsh $BACKLINKS_ANALYZE && $BACKLINKS_ANALYZE'
-alias REDIRECT_LOOKUP_CMD='zsh $REDIRECT_LOOKUP && $REDIRECT_LOOKUP'
-alias COOKIES_ANALYZE_CMD='zsh $COOKIES_ANALYZE && $COOKIES_ANALYZE'
-alias WEBSITES_FILES_METADATA_ANALYZE_AND_FILES_DOWNLOADS_CMD='zsh $WEBSITES_FILES_METADATA_ANALYZE_AND_FILES_DOWNLOADS && $WEBSITES_FILES_METADATA_ANALYZE_AND_FILES_DOWNLOADS'
-alias WEBSITE_ANALYZE_CMD='zsh $WEBSITE_ANALYZE && $WEBSITE_ANALYZE'
-alias DOMAIN_IP_INVESTIGATION_CMD='zsh $DOMAIN_IP_INVESTIGATION && $DOMAIN_IP_INVESTIGATION'
-alias SUBDOMAINS_SCAN_BRUTE_CMD='zsh $SUBDOMAINS_SCAN_BRUTE && $SUBDOMAINS_SCAN_BRUTE'
-alias CLOUDFARE_CMD='zsh $CLOUDFARE && $DORKS_PENTEST_VCLOUDFAREULNERABILITIES'
-alias DATABASES_OF_DOMAINS_CMD='zsh $DATABASES_OF_DOMAINS && $DATABASES_OF_DOMAINS'
-alias WEBSITE_TRAFFIC_LOOK_UP_CMD='zsh $WEBSITE_TRAFFIC_LOOK_UP && $WEBSITE_TRAFFIC_LOOK_UP'
-alias WEBSITE_TECHNOLOGY_LOOK_UP_CMD='zsh $WEBSITE_TECHNOLOGY_LOOK_UP && $WEBSITE_TECHNOLOGY_LOOK_UP'
-alias SOURCE_CODE_ANALYZES_CMD='zsh $SOURCE_CODE_ANALYZES && $SOURCE_CODE_ANALYZES'
-alias URL_UNSHORTENERS_CMD='zsh $URL_UNSHORTENERS && $URL_UNSHORTENERS'
+alias DOMAIN_IP_LINKS_CMD='zsh $DOMAIN_IP_LINKS && bash $DOMAIN_IP_LINKS'
 
 alias ERROR_CMD='clear && echo $ERROR_ASCII && sleep 3m;clear && echo "$menu" | _sf_main "$@"'
 alias TOC_CMD='zsh $TOC && bash $TOC'
 
 ### [ Name of the function to be executed ] ####################################
 menu="
-   Dorks/Pentest/Vulnerabilities
-   Searchers, scrapers, extractors, parsers
-   Backlinks analyze
-   Redirect lookup
-   Cookies analyze
-   Website's files metadata analyze and files downloads
-   Website analyze
-   Domain/IP investigation
-   Subdomains scan/brute
-   Cloudfare
-   Databases of domains
-   Website traffic look up
-   Website technology look up
-   Source Code Analyzes
-   URL unshorteners
-  ﴚ [ BACK TO TOC ]
+   Lookyloo — Webapp allowing to scrape a website and then displays a tree of domains calling each other (redirects, frames, javascript, css, fonts, images etc)
+   Core SERP Vitals — adds a bit of information from CrUX API to the standard Google search results
+   BGPView — web-browsing tool and an API that lets you gather information about the current state and structure of the internet, including ASNs, IP addresses, IXs, BGP Downstream & Upstream Peers, and much more
+   Terms of Service Didn't Read — find out what interesting privacy and confidentiality clauses are in the license agreements of popular websites and apps
+   analyzeid.com — find websites with the same owner by domain name. Checking for email, Facebook App ID and nameserver matches
+   MMHDAN — Calculate a fingerprint of a website (HTML, Favicon, Certificate in SHA1, SHA256, MD5, MMH3) and create the quick links to search it in IOT search engines
+   Hackertarget — 14 tools for gathering information about domain using Hackerarget API (http://hackertarget.com)
+   AnalyticsRelationships — command line #tool for to search for links between domains by Google Analytics ID
+   Pidrila — Python Interactive Deepweb-oriented Rapid Intelligent Link Analyzer
+   Adsense Identiicator Finder — this service finds other sites belonging to the same owner or company by Google Adsense ID
+  ﴚ [ BACK TO DOMAIN_IP_LINKS ]
 "
 
-# SNS URL PUSH
-_sf_0 ()   { DORKS_PENTEST_VULNERABILITIES_CMD }
-_sf_1 ()   { SEARCHERS_SCRAPERS_EXTRACTORS_PARSERS_CMD }
-_sf_2 ()   { BACKLINKS_ANALYZE_CMD }
-_sf_3 ()   { REDIRECT_LOOKUP_CMD }
-_sf_4 ()   { COOKIES_ANALYZE_CMD }
-_sf_5 ()   { WEBSITES_FILES_METADATA_ANALYZE_AND_FILES_DOWNLOADS_CMD }
-_sf_6 ()   { WEBSITE_ANALYZE_CMD }
-_sf_7 ()   { DOMAIN_IP_INVESTIGATION_CMD }
-_sf_8 ()   { SUBDOMAINS_SCAN_BRUTE_CMD }
-_sf_9 ()   { CLOUDFARE_CMD }
-_sf_10 ()  { DATABASES_OF_DOMAINS_CMD }
-_sf_11 ()  { WEBSITE_TRAFFIC_LOOK_UP_CMD }
-_sf_12 ()  { WEBSITE_TECHNOLOGY_LOOK_UP_CMD }
-_sf_13 ()  { SOURCE_CODE_ANALYZES_CMD }
-_sf_14 ()  { URL_UNSHORTENERS_CMD }
-_sf_15 ()  { TOC_CMD }
+# CODE URL PUSH
+_sf_0 () {  }
+_sf_1 () {  }
+_sf_2 () {  }
+_sf_3 () {  }
+_sf_4 () {  }
+_sf_5 () {  }
+_sf_6 () {  }
+_sf_7 () {  }
+_sf_8 () {  }
+_sf_9 () {  }
+_sf_10 () { DOMAIN_IP_LINKS_CMD }
 
 # Search for a selected number of lines
 func (){
