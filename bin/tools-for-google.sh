@@ -40,6 +40,7 @@ alias TOC_CMD='zsh $TOC && bash $TOC'
 
 ### [ Name of the function to be executed ] ####################################
 menu="
+   Google Search Scraper — Crawls Google Search result pages (SERPs) and extracts a list of organic results, ads, related queries and more. It supports selection of custom country, language and location
    Googler — command line google search tool
    goosh.org — online google search command line tool
    Web Search Navigator — extension that adds keyboard shortcuts to Google, YouTube, Github, Amazon, and others
@@ -58,21 +59,22 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 ()   {  }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
-_sf_4 ()   {  }
-_sf_5 ()   {  }
-_sf_6 ()   {  }
-_sf_7 ()   {  }
-_sf_8 ()   {  }
-_sf_9 ()   {  }
-_sf_10 ()  {  }
-_sf_11 ()  {  }
-_sf_12 ()  {  }
-_sf_13 ()  {  }
-_sf_14 ()  { TOC_CMD }
+_sf_0 ()  { open "https://apify.com/apify/google-search-scraper" }
+_sf_1 ()  { open "https://github.com/jarun/googler" }
+_sf_2 ()  { open "https://goosh.org/" }
+_sf_3 ()  { open "https://github.com/infokiller/web-search-navigator" }
+_sf_4 ()  { open "https://chrome.google.com/webstore/detail/overload-search-advanced/knihkdaajdhpjgeiadaefmjmpbnlojbg/related" }
+_sf_5 ()  { open "https://tools.digitalmethods.net/beta/scrapeGoogle/autocomplete.php" }
+_sf_6 ()  { open "https://github.com/TheSpeedX/SDorker" }
+_sf_7 ()  { open "https://github.com/XAMFRA/XGS" }
+_sf_8 ()  { open "https://chrome.google.com/webstore/detail/google-email-extractor/aabpdmlmkpedpigeignclfmodjhplllj/related" }
+_sf_9 ()  { open "https://seqe.me/" }
+_sf_10 () { open "https://www.brightlocal.com/local-search-results-checker/" }
+_sf_11 () { open "https://chrome.google.com/webstore/detail/auto-searcher/hhggekcjcdgenbgejmkhineppclnkbkn/related" }
+_sf_12 () { open "https://2lingual.com/" }
+_sf_13 () { open "http://isearchfrom.com/" }
+_sf_14 () { open "https://github.com/370rokas/anonscraper" }
+_sf_15 () { TOC_CMD }
 
 # Search for a selected number of lines
 func (){
