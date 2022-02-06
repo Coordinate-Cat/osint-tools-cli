@@ -40,19 +40,19 @@ alias TOC_CMD='zsh $TOC && bash $TOC'
 
 ### [ Name of the function to be executed ] ####################################
 menu="
-   Greynoise.io
-   fofa.so
-   Thingful.net
+   Greynoise.io — One by one types words from a given list into the search bar of #Google, #Bing, or another search engine
+   fofa.so — google search in two languages simultaneously in one window
+   Thingful.net — allows you to customize the country, language, device, city when searching on Google
    TheLordEye — Tool that searches for devices directly connected to the internet with a user specified query. It returns results for webcams, traffic lights, routers, smart TVs etc
   ﴚ [ BACK TO TOC ]
 "
 
 # CODE URL PUSH
-_sf_0 ()   {  }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
-_sf_4 ()   { TOC_CMD }
+_sf_0 () { open "https://www.greynoise.io/" }
+_sf_1 () { open "https://fofa.so/" }
+_sf_2 () { open "https://www.thingful.net/" }
+_sf_3 () { open "https://github.com/rlyonheart/thelordseye" }
+_sf_4 () { TOC_CMD }
 
 # Search for a selected number of lines
 func (){

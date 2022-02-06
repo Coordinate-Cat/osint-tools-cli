@@ -200,7 +200,7 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
 - [x] Code
 - [x] Search engines
 - [x] Tools for Google
-- [ ] IOT
+- [x] IOT
 - [ ] Archives
 - [ ] Archives of documents
 - [ ] Datasets
