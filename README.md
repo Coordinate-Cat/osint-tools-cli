@@ -203,7 +203,7 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
 - [x] IOT
 - [x] Archives
 - [x] Archives of documents
-- [ ] Datasets
+- [x] Datasets
 - [ ] Passwords, emails, phone numbers
 - [ ] People search
 - [ ] Sock Puppets
