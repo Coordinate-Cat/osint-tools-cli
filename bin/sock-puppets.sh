@@ -50,21 +50,31 @@ menu="
   ﴣ @TempMail_org_bot — telegram bot for quick creation of temporary email addresses (to receive emails when registering on different sites)
   ﴣ Text2img — text to image AI generator
   ﴣ Face Anonimyzer — Upload a face photo and get set of similar AI generated faces.
+  ﴣ AI video generator — Type the text (video script). Choose a character and script template. Click the 'Submit a video' button. Enter your registration data and wait for the letter with the result
+  ﴣ AI Face maker — Just draw a person face (note that there is a separate tool for each part of the face) and the neural network will generate a realistic photo based on it.
+  ﴣ SessionBox — multi-login browser extension
+  ﴣ MultiLogin — multi-login browser extension
+  ﴣ FreshStart — multi-login browser extension
   ﴚ [ BACK TO TOC ]
 "
 
 # CODE URL PUSH
-_sf_0 ()   {  }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
-_sf_4 ()   {  }
-_sf_5 ()   {  }
-_sf_6 ()   {  }
-_sf_7 ()   {  }
-_sf_8 ()   {  }
-_sf_9 ()   {  }
-_sf_10 ()  { TOC_CMD }
+_sf_0 ()  { open "https://generated.photos/face-generator/" }
+_sf_1 ()  { open "https://generated.photos/faces" }
+_sf_2 ()  { open "https://www.voicebooking.com/en/free-voice-over-generator" }
+_sf_3 ()  { open "https://thisxdoesnotexist.com" }
+_sf_4 ()  { open "https://www.thexifer.net" }
+_sf_5 ()  { open "https://geotagonline.com" }
+_sf_6 ()  { open "https://www.elfqrin.com/fakeid.php" }
+_sf_7 ()  { open "https://t.me/TempMail_org_bot" }
+_sf_8 ()  { open "https://deepai.org/machine-learning-model/text2img" }
+_sf_9 ()  { open "https://generated.photos/anonymizer" }
+_sf_10 () { open "https://www.synthesia.io/free-ai-video-demo" }
+_sf_11 () { open "https://massless.io/tool/face-maker-ai/" }
+_sf_12 () { open "https://chrome.google.com/webstore/detail/sessionbox-multi-login-to/megbklhjamjbcafknkgmokldgolkdfig?hl=ru" }
+_sf_13 () { open "https://chrome.google.com/webstore/detail/multilogin/ijfgglilaeakmoilplpcjcgjaoleopfi?hl=ru" }
+_sf_14 () { open "https://chrome.google.com/webstore/detail/freshstart-cross-browser/nmidkjogcjnnlfimjcedenagjfacpobb?hl=ru" }
+_sf_15 () { TOC_CMD }
 
 # Search for a selected number of lines
 func (){

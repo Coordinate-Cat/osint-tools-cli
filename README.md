@@ -206,7 +206,7 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
 - [x] Datasets
 - [x] Passwords, emails, phone numbers
 - [x] People search
-- [ ] Sock Puppets
+- [x] Sock Puppets
 - [ ] NOOSINT tools
 - [ ] Tools collections
 - [ ] Files
