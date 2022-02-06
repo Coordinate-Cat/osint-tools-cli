@@ -49,6 +49,7 @@ menu="
    Spotify downloader — download spotify playlist in mp3 from YouTube
    Zspotify — Spotify track downloader. Download mp3 by link or by keywords
    Snaptik.app — TikTok Video Downloader TikTok Scraper — scrapping video from user, trend or hashtag feed, extracting video's or user's metadata, downloading video or music, processing a list of clips or users from a file
+   TikTok Scraper — scrapping video from user, trend or hashtag feed, extracting video's or user's metadata, downloading video or music, processing a list of clips or users from a file
    YouTube Comment Downloader — easy to install and fast tool for downloading YouTube comments in txt/json. Does NOT require authorization or API keys.
    Storysaver.net — download Instagram stories
    Fdown.net — Facebook video downloader
@@ -60,23 +61,24 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 ()  {  }
-_sf_1 ()  {  }
-_sf_2 ()  {  }
-_sf_3 ()  {  }
-_sf_4 ()  {  }
-_sf_5 ()  {  }
-_sf_6 ()  {  }
-_sf_7 ()  {  }
-_sf_8 ()  {  }
-_sf_9 ()  {  }
-_sf_10 () {  }
-_sf_11 () {  }
-_sf_12 () {  }
-_sf_13 () {  }
-_sf_14 () {  }
-_sf_15 () {  }
-_sf_16 () { TOC_CMD }
+_sf_0 ()  { open "https://pypi.org/project/wenku/" }
+_sf_1 ()  { open "https://github.com/mohan3d/slideshare-go" }
+_sf_2 ()  { open "https://github.com/wkentaro/gdown" }
+_sf_3 ()  { open "https://github.com/jsvine/waybackpack" }
+_sf_4 ()  { open "https://github.com/xenova/chat-downloader" }
+_sf_5 ()  { open "https://github.com/mikf/gallery-dl" }
+_sf_6 ()  { open "https://github.com/spotDL/spotify-downloader" }
+_sf_7 ()  { open "https://github.com/Footsiefat/zspotify" }
+_sf_8 ()  { open "https://snaptik.app/" }
+_sf_9 ()  { open "https://github.com/drawrowfly/tiktok-scraper" }
+_sf_10 () { open "https://github.com/egbertbouman/youtube-comment-downloader" }
+_sf_11 () { open "https://www.storysaver.net" }
+_sf_12 () { open "https://fdown.net" }
+_sf_13 () { open "https://untwitch.com" }
+_sf_14 () { open "https://redditsave.com" }
+_sf_15 () { open "https://minhaskamal.github.io/DownGit/#/home" }
+_sf_16 () { open "https://en.savefrom.net/70/" }
+_sf_17 () { TOC_CMD }
 
 # Search for a selected number of lines
 func (){
