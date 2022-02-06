@@ -46,8 +46,8 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 () {  }
-_sf_1 () {  }
+_sf_0 () { open "https://www.checkmi.info/" }
+_sf_1 () { open "https://contex.com/serial-number-lookup/" }
 _sf_2 () { TOC_CMD }
 
 # Search for a selected number of lines

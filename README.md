@@ -210,7 +210,7 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
 - [x] NOOSINT tools
 - [x] Tools collections
 - [x] Files
-- [ ] IMEI and serial numbers
+- [x] IMEI and serial numbers
 - [ ] Keywords, trends, news analytics
 - [ ] Apps and programs
 - [ ] Brands, companies, items
