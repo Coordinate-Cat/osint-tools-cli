@@ -49,9 +49,9 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()  { echo "test0" }
-_sf_1 ()  { echo "test1" }
-_sf_2 ()  { echo "test2" }
+_sf_0 ()  { open "https://juckins.net/amtrak_status/archive/html/history.php" }
+_sf_1 ()  { open "https://www.nsinternational.com/en/stations/station-maps-floor-plan" }
+_sf_2 ()  { open "https://rasp.yandex.ru/map/trains" }
 _sf_3 ()  { MAPS_GEOLOCATION_AND_TRANSPORT_CMD }
 
 # Search for a selected number of lines

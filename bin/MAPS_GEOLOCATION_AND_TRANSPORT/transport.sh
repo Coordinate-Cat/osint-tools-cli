@@ -50,10 +50,10 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()  { echo "test0" }
-_sf_1 ()  { echo "test1" }
-_sf_2 ()  { echo "test2" }
-_sf_3 ()  { echo "test3" }
+_sf_0 ()  { open "https://cipher387.github.io/venicle_number_search_toolbox/" }
+_sf_1 ()  { open "https://tracker.geops.ch" }
+_sf_2 ()  { open "https://cipher387.github.io/public_transport_maps/" }
+_sf_3 ()  { open "http://www.worldlicenseplates.com/" }
 _sf_4 ()  { MAPS_GEOLOCATION_AND_TRANSPORT_CMD }
 
 # Search for a selected number of lines

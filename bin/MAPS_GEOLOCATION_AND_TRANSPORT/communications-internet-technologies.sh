@@ -54,14 +54,14 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()  { echo "test0" }
-_sf_1 ()  { echo "test1" }
-_sf_2 ()  { echo "test2" }
-_sf_3 ()  { echo "test3" }
-_sf_4 ()  { echo "test4" }
-_sf_5 ()  { echo "test5" }
-_sf_6 ()  { echo "test6" }
-_sf_7 ()  { echo "test7" }
+_sf_0 ()  { open "http://Opencellid.org" }
+_sf_1 ()  { open "https://www.mylnikov.org/" }
+_sf_2 ()  { open "http://nperf.com/en/map" }
+_sf_3 ()  { open "https://www.nperf.com/en/map/5g" }
+_sf_4 ()  { open "http://vincos.it/world-map-of-social-networks" }
+_sf_5 ()  { open "https://app.any.run" }
+_sf_6 ()  { open "https://www.webcamtaxi.com/en/russia/moscow-province/badoo-office.html" }
+_sf_7 ()  { open "http://radio.garden/visit/moscow/MQfEnBji" }
 _sf_8 ()  { MAPS_GEOLOCATION_AND_TRANSPORT_CMD }
 
 # Search for a selected number of lines

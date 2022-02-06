@@ -50,10 +50,10 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()  { echo "test0" }
-_sf_1 ()  { echo "test1" }
-_sf_2 ()  { echo "test2" }
-_sf_3 ()  { echo "test3" }
+_sf_0 ()  { open "https://ridewithgps.com/users" }
+_sf_1 ()  { open "http://www.wandermap.net/en/#/z15/55.7522011,37.6156006/terrain" }
+_sf_2 ()  { open "http://www.runmap.net/en/?tab=new#/z15/55.7522011,37.6156006/terrain" }
+_sf_3 ()  { open "https://www.bikemap.net/" }
 _sf_4 ()  { MAPS_GEOLOCATION_AND_TRANSPORT_CMD }
 
 # Search for a selected number of lines

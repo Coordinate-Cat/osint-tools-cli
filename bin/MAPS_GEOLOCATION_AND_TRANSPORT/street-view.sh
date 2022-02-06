@@ -45,14 +45,16 @@ menu="
    Show My Street — simple tool that simplifies and speeds up your research work with Google Street View. Just click on the map and see street panoramas
    Mapillary — street panoramas over the world
    360cities.net/map — world map of panoramic (360 degrees) images
+   Earthviewer360.com — Click on a point on the map to see a 360 degree video panorama (it's possiblle to pause to see some areas in more detail)
   ← [ BACK TO MAPS_GEOLOCATION_AND_TRANSPORT ]
 "
 
 # SNS URL PUSH
-_sf_0 ()  { echo "test0" }
-_sf_1 ()  { echo "test1" }
-_sf_2 ()  { echo "test2" }
-_sf_3 ()  { MAPS_GEOLOCATION_AND_TRANSPORT_CMD }
+_sf_0 ()  { open "http://showmystreet.com" }
+_sf_1 ()  { open "https://www.mapillary.com/app/" }
+_sf_2 ()  { open "https://360cities.net/map" }
+_sf_3 ()  { open "http://earthviewer360.com" }
+_sf_4 ()  { MAPS_GEOLOCATION_AND_TRANSPORT_CMD }
 
 # Search for a selected number of lines
 func (){

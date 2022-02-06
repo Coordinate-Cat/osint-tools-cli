@@ -61,21 +61,21 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()  { echo "test0" }
-_sf_1 ()  { echo "test1" }
-_sf_2 ()  { echo "test2" }
-_sf_3 ()  { echo "test3" }
-_sf_4 ()  { echo "test4" }
-_sf_5 ()  { echo "test5" }
-_sf_6 ()  { echo "test6" }
-_sf_7 ()  { echo "test7" }
-_sf_8 ()  { echo "test8" }
-_sf_9 ()  { echo "test9" }
-_sf_10 () { echo "test10" }
-_sf_11 () { echo "test11" }
-_sf_12 () { echo "test12" }
-_sf_13 () { echo "test13" }
-_sf_14 () { echo "test14" }
+_sf_0 ()  { open "http://freedomhouse.org/explore-the-map" }
+_sf_1 ()  { open "https://www.crimemapping.com/" }
+_sf_2 ()  { open "https://citizen.com/explore" }
+_sf_3 ()  { open "https://map.nbr.org/interactivemap/" }
+_sf_4 ()  { open "https://monitor.civicus.org" }
+_sf_5 ()  { open "https://hungermap.wfp.org" }
+_sf_6 ()  { open "https://native-land.ca/" }
+_sf_7 ()  { open "https://www.riskmap.com/" }
+_sf_8 ()  { open "https://liveuamap.com/" }
+_sf_9 ()  { open "https://www.crisisgroup.org/crisiswatch" }
+_sf_10 () { open "https://www.splcenter.org/hate-map" }
+_sf_11 () { open "https://emmeline.carto.com/me" }
+_sf_12 () { open "https://www.cfr.org/global-conflict-tracker/?category=us" }
+_sf_13 () { open "https://acleddata.com/dashboard/#/dashboard" }
+_sf_14 () { open "https://frontex.europa.eu/we-know/migratory-map/" }
 _sf_15 () { MAPS_GEOLOCATION_AND_TRANSPORT_CMD }
 
 # Search for a selected number of lines

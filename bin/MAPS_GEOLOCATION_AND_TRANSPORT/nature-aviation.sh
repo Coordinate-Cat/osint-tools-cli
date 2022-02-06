@@ -68,28 +68,28 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()  { echo "test0" }
-_sf_1 ()  { echo "test1" }
-_sf_2 ()  { echo "test2" }
-_sf_3 ()  { echo "test3" }
-_sf_4 ()  { echo "test4" }
-_sf_5 ()  { echo "test5" }
-_sf_6 ()  { echo "test6" }
-_sf_7 ()  { echo "test7" }
-_sf_8 ()  { echo "test8" }
-_sf_9 ()  { echo "test9" }
-_sf_10 () { echo "test10" }
-_sf_11 () { echo "test11" }
-_sf_12 () { echo "test12" }
-_sf_13 () { echo "test13" }
-_sf_14 () { echo "test14" }
-_sf_15 () { echo "test15" }
-_sf_16 () { echo "test16" }
-_sf_17 () { echo "test17" }
-_sf_18 () { echo "test18" }
-_sf_19 () { echo "test19" }
-_sf_20 () { echo "test20" }
-_sf_21 () { echo "test21" }
+_sf_0 ()  { open "https://ngmdb.usgs.gov/mapview/?center=-97,39.6&zoom=4" }
+_sf_1 ()  { open "http://waqi.info" }
+_sf_2 ()  { open "https://globalfishingwatch.org/map/" }
+_sf_3 ()  { open "https://www.ncei.noaa.gov/maps/hazards/" }
+_sf_4 ()  { open "https://www.lightningmaps.org/" }
+_sf_5 ()  { open "https://www.lightpollutionmap.info/" }
+_sf_6 ()  { open "https://www2.cifor.org/global-wetlands/" }
+_sf_7 ()  { open "https://firms.modaps.eosdis.nasa.gov/map/" }
+_sf_8 ()  { open "https://www.ocearch.org/tracker/" }
+_sf_9 ()  { open "https://ss2.climatecentral.org/#12/40.7298/-74.0070?show=satellite&projections=0-K14_RCP85-SLR&level=5&unit=feet&pois=hide" }
+_sf_10 () { open "https://usa.fishermap.org/depth-map/" }
+_sf_11 () { open "https://www.mindat.org/countrylist.php" }
+_sf_12 () { open "https://www.ventusky.com/" }
+_sf_13 () { open "https://www.wunderground.com/history" }
+_sf_14 () { open "http://rain-alarm.com" }
+_sf_15 () { open "https://cyclocane.com" }
+_sf_16 () { open "https://www.meteoblue.com/" }
+_sf_17 () { open "https://zoom.earth/" }
+_sf_18 () { open "https://maps.ngdc.noaa.gov/viewers/bathymetry/" }
+_sf_19 () { open "https://soar.earth/" }
+_sf_20 () { open "https://academo.org/demos/geodesics/" }
+_sf_21 () { open "https://www.google.com/earth/" }
 _sf_22 () { MAPS_GEOLOCATION_AND_TRANSPORT_CMD }
 
 # Search for a selected number of lines

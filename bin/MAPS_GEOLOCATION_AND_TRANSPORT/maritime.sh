@@ -54,14 +54,14 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()  { echo "test0" }
-_sf_1 ()  { echo "test1" }
-_sf_2 ()  { echo "test2" }
-_sf_3 ()  { echo "test3" }
-_sf_4 ()  { echo "test4" }
-_sf_5 ()  { echo "test5" }
-_sf_6 ()  { echo "test6" }
-_sf_7 ()  { echo "test7" }
+_sf_0 ()  { open "https://www.track-trace.com/container" }
+_sf_1 ()  { open "http://container-tracking.org/" }
+_sf_2 ()  { open "https://www.searates.com/container/tracking/" }
+_sf_3 ()  { open "https://www.cma-cgm.com/ebusiness/schedules/voyage" }
+_sf_4 ()  { open "https://theshippingdatabase.com/" }
+_sf_5 ()  { open "https://www.submarinecablemap.com/" }
+_sf_6 ()  { open "https://www.marinevesseltraffic.com/submarine-vessels-tracking-map" }
+_sf_7 ()  { open "https://ports.com/sea-route/" }
 _sf_8 ()  { MAPS_GEOLOCATION_AND_TRANSPORT_CMD }
 
 # Search for a selected number of lines

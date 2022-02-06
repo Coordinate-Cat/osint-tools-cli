@@ -56,16 +56,16 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()  { echo "test0" }
-_sf_1 ()  { echo "test1" }
-_sf_2 ()  { echo "test2" }
-_sf_3 ()  { echo "test3" }
-_sf_4 ()  { echo "test4" }
-_sf_5 ()  { echo "test5" }
-_sf_6 ()  { echo "test6" }
-_sf_7 ()  { echo "test7" }
-_sf_8 ()  { echo "test8" }
-_sf_9 ()  { echo "test9" }
+_sf_0 ()  { open "http://jopf.re/osmaps-radius/" }
+_sf_1 ()  { open "http://zhenyanghua.github.io/MeasureTool-GoogleMaps-V3/" }
+_sf_2 ()  { open "https://www.acscdg.com/" }
+_sf_3 ()  { open "https://app.measuremaponline.com/dashboard/overview" }
+_sf_4 ()  { open "https://mapfight.xyz/browse/" }
+_sf_5 ()  { open "https://chrome.google.com/webstore/detail/presto-map-lead-extractor/ljnhdpilgapdpecpbpdiideeknfpkiih/related" }
+_sf_6 ()  { open "https://chrome.google.com/webstore/detail/g-map-extractor/eehgalnhbmkfalhdjkeenggnniebdpgi/related" }
+_sf_7 ()  { open "https://www.gpsvisualizer.com/" }
+_sf_8 ()  { open "https://www.mapchecking.com/" }
+_sf_9 ()  { open "https://www.mapnificent.net/" }
 _sf_10 () { MAPS_GEOLOCATION_AND_TRANSPORT_CMD }
 
 # Search for a selected number of lines
