@@ -207,7 +207,7 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
 - [x] Passwords, emails, phone numbers
 - [x] People search
 - [x] Sock Puppets
-- [ ] NOOSINT tools
+- [x] NOOSINT tools
 - [ ] Tools collections
 - [ ] Files
 - [ ] IMEI and serial numbers

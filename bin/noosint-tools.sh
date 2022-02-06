@@ -40,6 +40,7 @@ alias TOC_CMD='zsh $TOC && bash $TOC'
 
 ### [ Name of the function to be executed ] ####################################
 menu="
+   Wordtune.com — Provide a link to the text of the article or upload a PDF document. In response, the service will give a brief retelling of the main ideas of the text.
    Manytools — Collection of tools to automate the repetitive jobs involved in webdevelopment and hacking.
    Gdown — When downloading files from Google Drive curl/wget fails (because of the security notice). But this problem is easily solved.
    Webdext — An intelligent and quick web data extractor for #GoogleChrome. Support data extraction from web pages containing a list of objects such as product listing, news listing, search result, etc
@@ -49,6 +50,7 @@ menu="
    Codesandbox — Great online environment for creating, testing, and researching written JavaScript tools (and #OSINT has many: social-analyzer, opencti, rengine, aleph).
    Voice Stress Test — tool analyzes the voice and determines a person's stress level.
    Scrapersnbots — A collection of a wide variety of online tools for #osint and not only: search for users with a specific name on different sites, one domain #Google Image search, YouTube tags viewer, url-extractor and much more
+   Broken Link Hijacker — Crawls the website and searches for all the broken links (in '<a href' and '<img src').
    Headlines.Sharethrough.com — analyzes headlines according to four indicators (strenghts, suggestions, engagement, impression) and gives a score from 1 to 100
    Miteru — Experimental phishing kit detection tool. It collects phishy URLs from phishing info feeds and checks each phishy URL whether it enables directory listing and contains a phishing kit (compressed file) or not
    Slideshare Downloader — A very simple and fast tool for downloading Slideshare presentations in PDF format (recommend to choose High quality at once)
@@ -100,63 +102,65 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 ()  {  }
-_sf_1 ()  {  }
-_sf_2 ()  {  }
-_sf_3 ()  {  }
-_sf_4 ()  {  }
-_sf_5 ()  {  }
-_sf_6 ()  {  }
-_sf_7 ()  {  }
-_sf_8 ()  {  }
-_sf_9 ()  {  }
-_sf_10 () {  }
-_sf_11 () {  }
-_sf_12 () {  }
-_sf_13 () {  }
-_sf_14 () {  }
-_sf_15 () {  }
-_sf_16 () {  }
-_sf_17 () {  }
-_sf_18 () {  }
-_sf_19 () {  }
-_sf_20 () {  }
-_sf_21 () {  }
-_sf_22 () {  }
-_sf_23 () {  }
-_sf_24 () {  }
-_sf_25 () {  }
-_sf_26 () {  }
-_sf_27 () {  }
-_sf_28 () {  }
-_sf_29 () {  }
-_sf_30 () {  }
-_sf_31 () {  }
-_sf_32 () {  }
-_sf_33 () {  }
-_sf_34 () {  }
-_sf_35 () {  }
-_sf_36 () {  }
-_sf_37 () {  }
-_sf_38 () {  }
-_sf_39 () {  }
-_sf_40 () {  }
-_sf_41 () {  }
-_sf_42 () {  }
-_sf_43 () {  }
-_sf_44 () {  }
-_sf_45 () {  }
-_sf_46 () {  }
-_sf_47 () {  }
-_sf_48 () {  }
-_sf_49 () {  }
-_sf_50 () {  }
-_sf_51 () {  }
-_sf_52 () {  }
-_sf_53 () {  }
-_sf_54 () {  }
-_sf_55 () {  }
-_sf_56 () { TOC_CMD }
+_sf_0 ()  { open "https://wordtune.com/read" }
+_sf_1 ()  { open "https://manytools.org" }
+_sf_2 ()  { open "https://github.com/wkentaro/gdown" }
+_sf_3 ()  { open "https://chrome.google.com/webstore/detail/webdext/jkgddhdaaejpmlmddpbedgnkdgiacblk/related" }
+_sf_4 ()  { open "https://youlean.co/online-loudness-meter/" }
+_sf_5 ()  { open "https://chrome.google.com/webstore/detail/download-sorter/mebfblkahpknogabckmdjcmjbnpfdpcj/related" }
+_sf_6 ()  { open "https://chrome.google.com/webstore/detail/z-history-dump/ahpkicobhkchblogldpjchdhmdnblpkm/related" }
+_sf_7 ()  { open "https://codesandbox.io/" }
+_sf_8 ()  { open "https://www.cignaglobal.com/stress-care/individuals/voice-tool" }
+_sf_9 ()  { open "https://www.scrapersnbots.com/webtools/" }
+_sf_10 () { open "https://github.com/MayankPandey01/BrokenLinkHijacker" }
+_sf_11 () { open "https://headlines.sharethrough.com/" }
+_sf_12 () { open "https://github.com/ninoseki/miteru" }
+_sf_13 () { open "https://github.com/mohan3d/slideshare-go" }
+_sf_14 () { open "https://chrome.google.com/webstore/detail/web-history-stat/fccaimiahhpljpnlnheimldcfhdhjgdl/related" }
+_sf_15 () { open "https://t.me/YTranslateBot" }
+_sf_16 () { open "https://mr0grog.github.io/google-docs-to-markdown/" }
+_sf_17 () { open "https://www.cloudhq.net/apps" }
+_sf_18 () { open "https://chrome.google.com/webstore/detail/aha-music-song-finder-for/dpacanjfikmhoddligfbehkpomnbgblf/related" }
+_sf_19 () { open "https://chrome.google.com/webstore/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm/related?hl=ru" }
+_sf_20 () { open "https://web--proxy.herokuapp.com/" }
+_sf_21 () { open "http://www.remindmewhen.io/" }
+_sf_22 () { open "https://chrome.google.com/webstore/detail/broken-link-checker/nibppfobembgfmejpjaaeocbogeonhch/related" }
+_sf_23 () { open "https://binvis.io/" }
+_sf_24 () { open "https://script.google.com/macros/s/AKfycbxbGNGajrxv-HbX2sVY2OTu7yj9VvxlOMOeQblZFuq7rYm7uyo/exec" }
+_sf_25 () { open "https://www.unscreen.com/" }
+_sf_26 () { open "https://www.shellcheck.net/" }
+_sf_27 () { open "https://archivebox.io" }
+_sf_28 () { open "https://chrome.google.com/webstore/detail/udemy-video-playback-spee/jipobffkabkgddgmdmmgjoaopbnjnffn/related" }
+_sf_29 () { open "https://chrome.google.com/webstore/detail/magical-text-expander/iibninhmiggehlcdolcilmhacighjamp/related" }
+_sf_30 () { open "https://coveryourtracks.eff.org" }
+_sf_31 () { open "https://github.com/gephi/gephi" }
+_sf_32 () { open "https://xenon.stanford.edu/~xusch/regexp/" }
+_sf_33 () { open "https://chrome.google.com/webstore/detail/search-commands/ggjakfijchdkbmmhbfemjciidhnipgoe/related" }
+_sf_34 () { open "https://chrome.google.com/webstore/detail/smart-ruler/npgpdlfoflcfcohplcdclmocfemgpdga/related" }
+_sf_35 () { open "https://chrome.google.com/webstore/detail/developer-search-tool/bkolnanfonknnhpeakommihhllojnecf/related" }
+_sf_36 () { open "https://emn178.github.io/online-tools/index.html" }
+_sf_37 () { open "https://products.groupdocs.app/metadata/total" }
+_sf_38 () { open "https://github.com/httpcats/http.cat" }
+_sf_39 () { open "https://gitpod.io/workspaces" }
+_sf_40 () { open "https://crackstation.net/" }
+_sf_41 () { open "https://www.functions-online.com/" }
+_sf_42 () { open "https://siftrss.com/" }
+_sf_43 () { open "https://brew.sh/" }
+_sf_44 () { open "https://httpie.io/run" }
+_sf_45 () { open "https://json-csv.com/" }
+_sf_46 () { open "https://www.onworks.net/runos/create-os.html?os=win10_emulator&home=init" }
+_sf_47 () { open "https://www.onworks.net/os-distributions/special-os/free-parrot-security-os-online" }
+_sf_48 () { open "https://www.scrapersnbots.com/webtools/open-multiple-links-one-click.php" }
+_sf_49 () { open "https://tobloef.com/text2mindmap/" }
+_sf_50 () { open "https://gchq.github.io/CyberChef/" }
+_sf_51 () { open "https://www.textise.net/" }
+_sf_52 () { open "https://shadowcrypt.net/tools/" }
+_sf_53 () { open "https://chrome.google.com/webstore/detail/record-voice-comments-in/lbfofpndjldbnhnhibhmggblcbpoomon" }
+_sf_54 () { open "http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20" }
+_sf_55 () { open "http://cheatsheet-maker.herokuapp.com" }
+_sf_56 () { open "https://www.caloriemama.ai/api" }
+_sf_57 () { open "https://chrome.google.com/webstore/detail/webmapper/foachceonkmkeiigdbkjcihnaabppicf/related" }
+_sf_58 () { TOC_CMD }
 
 # Search for a selected number of lines
 func (){
