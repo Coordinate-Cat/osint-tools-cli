@@ -52,12 +52,12 @@ menu="
 
 # CODE URL PUSH
 _sf_0 () { open "https://nationalarchives.gov.uk/" }
-_sf_1 () { open "" }
-_sf_2 () { open "" }
-_sf_3 () { open "" }
-_sf_4 () { open "" }
-_sf_5 () { open "" }
-_sf_6 () { open "" }
+_sf_1 () { open "https://doaj.org/search/journals" }
+_sf_2 () { open "https://www.ncbi.nlm.nih.gov/" }
+_sf_3 () { open "http://industrydocuments.ucsf.edu/" }
+_sf_4 () { open "https://offshoreleaks.icij.org/" }
+_sf_5 () { open "https://vault.fbi.gov/search" }
+_sf_6 () { open "https://projects.icij.org/luxembourg-leaks/viz/industries/index.html" }
 _sf_7 () { TOC_CMD }
 
 # Search for a selected number of lines
