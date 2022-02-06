@@ -14,6 +14,107 @@ THIS IS A CLI VERSION OF THE CHEAT SHEET FOR EASY ACCESS.
 TABLE OF CONTENTS IS BASED ON [CIPHER387/OSINT_STUFF_TOOL_COLLECTION](HTTPS://GITHUB.COM/CIPHER387/OSINT_STUFF_TOOL_COLLECTION).  
 IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 
+## TREE
+```
+toc
+├ MAPS_GEOLOCATION_AND_TRANSPORT
+│ ├ Social media and photos maps
+│ ├ Nature Aviation
+│ ├ Maritime
+│ ├ Railway
+│ ├ Routes
+│ ├ Politics, conflicts and crisis
+│ ├ Urban and industrial infrastructure
+│ ├ Transport
+│ ├ Communications, Internet, Technologies Tools
+│ ├ Street View
+│ └ Other
+├ SOCIAL_MEDIA
+│ ├ Twitter
+│ ├ YouTube
+│ ├ TikTok
+│ ├ Facebook
+│ ├ Clubhouse
+│ ├ Linkedin
+│ ├ Xing
+│ ├ Reddit
+│ ├ Onlyfans
+│ ├ Twitch
+│ ├ Fidonet
+│ ├ Usenet
+│ ├ Tumblr
+│ ├ Flickr
+│ ├ Spotify
+│ ├ Discord
+│ ├ Yandex
+│ ├ Instagram
+│ ├ Google
+│ ├ Patreon
+│ ├ Github
+│ ├ Parler
+│ ├ Pornhub
+│ ├ Steam
+│ ├ Xbox
+│ ├ VK
+│ ├ Office365
+│ ├ OneDrive
+│ └ Universal
+├ DOWNLOADERS
+├ DOMAIN_IP_LINKS
+│ ├ Dorks/Pentest/Vulnerabilities
+│ ├ Searchers, scrapers, extractors, parsers
+│ ├ Backlinks analyze
+│ ├ Redirect lookup
+│ ├ Cookies analyze
+│ ├ Website's files metadata analyze and files downloads
+│ ├ Website analyze
+│ ├ Domain/IP investigation
+│ ├ Subdomains scan/brute
+│ ├ Cloudfare
+│ ├ Databases of domains
+│ ├ Website traffic look up
+│ ├ Website technology look up
+│ ├ Source Code Analyzes
+│ └ URL unshorteners
+├ IMAGE_SEARCH_AND_IDENTIFICATION
+│ ├ Reverse Image Search Engines
+│ ├ Other Image Search Engines
+│ ├ Image Analyze
+│ ├ Exif Analyze and Editing
+│ ├ Face recognition and search
+│ └ Font Indenfication
+├ CRYPTOCURRENCIES
+├ MESSENGERS
+│ ├ Telegram
+│ ├ WhatsApp
+│ ├ Kik
+│ ├ Skype
+│ └ Others
+├ CODE
+├ SEARCH_ENGINES
+├ TOOLS_FOR_DUCKDUCKGO
+├ TOOLS_FOR_GOOGLE
+├ IOT
+├ ARCHIVES
+├ ARCHIVES_OF_DOCUMENTS
+├ DATASETS
+├ PASSWORDS_EMAILS_PHONE_NUMBERS
+├ PEOPLE_SEARCH
+├ SOCK_PUPPETS
+├ NOOSINT_TOOLS
+├ TOOLS_COLLECTIONS
+├ FILES
+├ NFT
+├ IMEI_AND_SERIAL_NUMBERS
+├ KEYWORDS_TRENDS_NEWS_ANALYTICS
+├ APPS_AND_PROGRAMS
+├ BRANDS_COMPANIES_ITEMS
+├ MOVIES
+├ TV_RADIO
+├ VIRTUALMACHINES_LINUX_DISTRIBUTIONS
+└ MY_PROJECTS
+```
+
 ## VERSION
 WRITTING
 https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
@@ -21,37 +122,6 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
 ⚠️IT WON'T WORK UNTIL THESE TWO ISUUES ARE COMPLETED.⚠️  
 ### Progress
 ### ~~[LIST INSERTION #4](https://github.com/Coordinate-Cat/OSINT-TOOLS-CLI/issues/4)~~
-- [x] Maps, Geolocation and Transport
-- [x] Social Media
-- [x] Downloaders
-- [x] Domain/IP/Links
-- [x] Image Search and Identification
-- [x] Cryptocurrencies
-- [x] Messengers
-- [x] Code
-- [x] Search engines
-- [x] Tools for DuckDuckGo
-- [x] Tools for Google
-- [x] IOT
-- [x] Archives
-- [x] Archives of documents
-- [x] Datasets
-- [x] Passwords, emails, phone numbers
-- [x] People search
-- [x] Sock Puppets
-- [x] NOOSINT tools
-- [x] Tools collections
-- [x] Files
-- [x] IMEI and serial numbers
-- [x] NFT
-- [x] Keywords, trends, news analytics
-- [x] Apps and programs
-- [x] Brands, companies, items
-- [x] Movies
-- [x] TV/Radio
-- [x] VirtualMachines/Linux distributions
-- [x] My Projects
-
 ### [ADD COMMAND TO JUMP TO LINK #7](https://github.com/Coordinate-Cat/OSINT-TOOLS-CLI/issues/7)
 - [ ] Maps, Geolocation and Transport
 - [ ] Social Media
