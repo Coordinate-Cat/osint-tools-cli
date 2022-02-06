@@ -46,9 +46,9 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 ()   {  }
-_sf_1 ()   {  }
-_sf_2 ()   { TOC_CMD }
+_sf_0 () { open "https://github.com/facundoolano/google-play-scraper" }
+_sf_1 () { open "https://github.com/facundoolano/app-store-scraper" }
+_sf_2 () { TOC_CMD }
 
 # Search for a selected number of lines
 func (){
