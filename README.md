@@ -216,7 +216,7 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
 - [x] Apps and programs
 - [x] Brands, companies, items
   - [x] Amazon
-- [ ] Movies
+- [x] Movies
 - [ ] TV/Radio
 - [ ] VirtualMachines/Linux distributions
 - [ ] My Projects
