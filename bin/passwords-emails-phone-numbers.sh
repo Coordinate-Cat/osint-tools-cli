@@ -78,49 +78,51 @@ menu="
    Many Passwords — Default passwords for IoT devices and for web applications (for ex. MySQL and PostgreSQL admin panels)
    PassHunt — Command line tool for searching of default credentials for network devices, web applications and more. Search through 523 vendors and their 2084 default passwords
    BugMenot — login and passwords for public accounts in different services
+   FireFly — Get information about phone number using Numverify API
   ﴚ [ BACK TO TOC ]
 "
 
 # CODE URL PUSH
-_sf_0 ()  {  }
-_sf_1 ()  {  }
-_sf_2 ()  {  }
-_sf_3 ()  {  }
-_sf_4 ()  {  }
-_sf_5 ()  {  }
-_sf_6 ()  {  }
-_sf_7 ()  {  }
-_sf_8 ()  {  }
-_sf_9 ()  {  }
-_sf_10 () {  }
-_sf_11 () {  }
-_sf_12 () {  }
-_sf_13 () {  }
-_sf_14 () {  }
-_sf_15 () {  }
-_sf_16 () {  }
-_sf_17 () {  }
-_sf_18 () {  }
-_sf_19 () {  }
-_sf_20 () {  }
-_sf_21 () {  }
-_sf_22 () {  }
-_sf_23 () {  }
-_sf_24 () {  }
-_sf_25 () {  }
-_sf_26 () {  }
-_sf_27 () {  }
-_sf_28 () {  }
-_sf_29 () {  }
-_sf_30 () {  }
-_sf_31 () {  }
-_sf_32 () {  }
-_sf_33 () {  }
-_sf_34 () {  }
-_sf_35 () {  }
-_sf_36 () {  }
-_sf_37 () {  }
-_sf_38 () { TOC_CMD }
+_sf_0 ()  { open "https://leakpeek.com/" }
+_sf_1 ()  { open "https://breachchecker.com/" }
+_sf_2 ()  { open "http://metricsparrow.com/toolkit/email-permutator/" }
+_sf_3 ()  { open "https://snov.io/email-finder" }
+_sf_4 ()  { open "https://t.me/maigret_osint_bot" }
+_sf_5 ()  { open "https://analyzeid.com/username/" }
+_sf_6 ()  { open "https://github.com/thewhiteh4t/nexfil" }
+_sf_7 ()  { open "https://github.com/WildSiphon/Mailfoguess" }
+_sf_8 ()  { open "https://www.loc.gov/collections/united-states-telephone-directory-collection/" }
+_sf_9 ()  { open "http://www.oldphonebook.com/" }
+_sf_10 () { open "https://github.com/s41r4j/phomber" }
+_sf_11 () { open "https://github.com/TheRealDalunacrobate/DaProfiler" }
+_sf_12 () { open "https://github.com/CYB3R-G0D/SPY" }
+_sf_13 () { open "https://hunter.io/" }
+_sf_14 () { open "https://www.signalhire.com/candidates/47dc037faace4abeb0727d6f4d0f3079" }
+_sf_15 () { open "https://github.com/sharsil/mailcat" }
+_sf_16 () { open "https://github.com/qeeqbox/social-analyzer" }
+_sf_17 () { open "http://sovaweb.herokuapp.com/" }
+_sf_18 () { open "https://github.com/Rog3rSm1th/Profil3r" }
+_sf_19 () { open "https://github.com/BLINKING-IDIOT/Aliens_eye" }
+_sf_20 () { open "https://github.com/rlyonheart/thorndyke" }
+_sf_21 () { open "https://github.com/soxoj/marple" }
+_sf_22 () { open "https://www.behindthename.com" }
+_sf_23 () { open "https://github.com/megadose/holehe" }
+_sf_24 () { open "https://github.com/khast3x/h8mail" }
+_sf_25 () { open "https://cipher387.github.io/pastebinsearchengines/" }
+_sf_26 () { open "https://psbdmp.ws" }
+_sf_27 () { open "https://mailboxlayer.com/" }
+_sf_28 () { open "https://tools.emailhippo.com/email/" }
+_sf_29 () { open "https://numverify.com/" }
+_sf_30 () { open "https://cybernews.com/personal-data-leak-check/" }
+_sf_31 () { open "https://spycloud.com/check-your-exposure/" }
+_sf_32 () { open "https://en.gravatar.com/site/check/" }
+_sf_33 () { open "https://github.com/mishakorzik/UserFinder" }
+_sf_34 () { open "https://www.cleancss.com/router-default/" }
+_sf_35 () { open "https://many-passwords.github.io/" }
+_sf_36 () { open "https://github.com/Viralmaniar/Passhunt" }
+_sf_37 () { open "http://bugmenot.com" }
+_sf_38 () { open "https://github.com/Lexxrt/FireFly" }
+_sf_39 () { TOC_CMD }
 
 # Search for a selected number of lines
 func (){
