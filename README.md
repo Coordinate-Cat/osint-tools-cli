@@ -119,7 +119,7 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 WRITTING
 https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
 ## ISSUES
-⚠️IT WON'T WORK UNTIL THESE TWO ISUUES ARE COMPLETED.⚠️  
+⚠️IT WON'T WORK UNTIL THESE TWO ISSUES ARE COMPLETED.⚠️  
 ### Progress
 ### ~~[LIST INSERTION #4](https://github.com/Coordinate-Cat/OSINT-TOOLS-CLI/issues/4)~~
 ### [ADD COMMAND TO JUMP TO LINK #7](https://github.com/Coordinate-Cat/OSINT-TOOLS-CLI/issues/7)
