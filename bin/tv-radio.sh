@@ -46,9 +46,9 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 ()   {  }
-_sf_1 ()   {  }
-_sf_2 ()   { TOC_CMD }
+_sf_0 () { open "https://www.radio.net/local-stations" }
+_sf_1 () { open "https://americanarchive.org" }
+_sf_2 () { TOC_CMD }
 
 # Search for a selected number of lines
 func (){
