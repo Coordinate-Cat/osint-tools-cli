@@ -51,14 +51,14 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 ()  {  }
-_sf_1 ()  {  }
-_sf_2 ()  {  }
-_sf_3 ()  {  }
-_sf_4 ()  {  }
-_sf_5 ()  {  }
-_sf_6 ()  {  }
-_sf_7 ()  { TOC_CMD }
+_sf_0 () { open "https://nationalarchives.gov.uk/" }
+_sf_1 () { open "" }
+_sf_2 () { open "" }
+_sf_3 () { open "" }
+_sf_4 () { open "" }
+_sf_5 () { open "" }
+_sf_6 () { open "" }
+_sf_7 () { TOC_CMD }
 
 # Search for a selected number of lines
 func (){
