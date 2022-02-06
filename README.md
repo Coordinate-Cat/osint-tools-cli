@@ -218,7 +218,7 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
   - [x] Amazon
 - [x] Movies
 - [x] TV/Radio
-- [ ] VirtualMachines/Linux distributions
+- [x] VirtualMachines/Linux distributions
 - [ ] My Projects
 
 ## USAGE
