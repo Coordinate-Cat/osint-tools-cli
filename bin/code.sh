@@ -55,26 +55,30 @@ menu="
    PublicWWW — webpages source code search engine
    SourceGraph — universal code search engine
    NerdyData — html/css/code search engine
+   De4js — HTML/JS deobfuscator
+   TIO RUN — Run and test code written in one of 680 programming languages (260 practical and 420 recreational) directly in your browser
   ﴚ [ BACK TO TOC ]
 "
 
 # CODE URL PUSH
-_sf_0 ()   {  }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
-_sf_4 ()   {  }
-_sf_5 ()   {  }
-_sf_6 ()   {  }
-_sf_7 ()   {  }
-_sf_8 ()   {  }
-_sf_9 ()   {  }
-_sf_10 ()  {  }
-_sf_11 ()  {  }
-_sf_12 ()  {  }
-_sf_13 ()  {  }
-_sf_14 ()  {  }
-_sf_15 ()  { TOC_CMD }
+_sf_0 ()  { open "https://grep.app/" }
+_sf_1 ()  { open "https://searchcode.com/" }
+_sf_2 ()  { open "https://cipher387.github.io/code_repository_google_custom_search_engines/" }
+_sf_3 ()  { open "https://libraries.io" }
+_sf_4 ()  { open "https://github.com/champmq/TheScrapper" }
+_sf_5 ()  { open "https://github.com/jordanpotti/CloudScraper" }
+_sf_6 ()  { open "https://freemailscraper.herokuapp.com/complete-website-email-scraper" }
+_sf_7 ()  { open "https://extendsclass.com/python-tester.html" }
+_sf_8 ()  { open "https://github.com/gwen001/github-search" }
+_sf_9 ()  { open "https://sploitus.com/" }
+_sf_10 () { open "https://leakcop.info/" }
+_sf_11 () { open "https://github.com/github/github-artifact-exporter" }
+_sf_12 () { open "https://publicwww.com/" }
+_sf_13 () { open "https://about.sourcegraph.com/" }
+_sf_14 () { open "https://www.nerdydata.com/" }
+_sf_14 () { open "https://lelinhtinh.github.io/de4js/" }
+_sf_14 () { open "https://tio.run" }
+_sf_15 () { TOC_CMD }
 
 # Search for a selected number of lines
 func (){

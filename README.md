@@ -166,7 +166,7 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
   - [x] Office365
   - [x] OneDrive
   - [x] Universal
-- [ ] Downloaders
+- [x] Downloaders
 - [ ] Domain/IP/Links
   - [ ] Dorks/Pentest/Vulnerabilities
   - [ ] Searchers, scrapers, extractors, parsers
@@ -197,7 +197,7 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
   - [ ] Kik
   - [ ] Skype
   - [ ] Others
-- [ ] Code
+- [x] Code
 - [ ] Search engines
 - [ ] Tools for Google
 - [ ] IOT
