@@ -208,7 +208,7 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
 - [x] People search
 - [x] Sock Puppets
 - [x] NOOSINT tools
-- [ ] Tools collections
+- [x] Tools collections
 - [ ] Files
 - [ ] IMEI and serial numbers
 - [ ] Keywords, trends, news analytics
