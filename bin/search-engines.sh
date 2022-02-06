@@ -82,44 +82,44 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()  { ERROR_CMD }
-_sf_1 ()  {  }
-_sf_2 ()  {  }
-_sf_3 ()  {  }
-_sf_4 ()  {  }
-_sf_5 ()  {  }
-_sf_6 ()  {  }
-_sf_7 ()  {  }
-_sf_8 ()  {  }
-_sf_9 ()  {  }
-_sf_10 () {  }
-_sf_11 () {  }
-_sf_12 () {  }
-_sf_13 () {  }
-_sf_14 () {  }
-_sf_15 () {  }
-_sf_16 () {  }
-_sf_17 () {  }
-_sf_18 () {  }
-_sf_19 () {  }
-_sf_20 () {  }
-_sf_21 () {  }
-_sf_22 () {  }
-_sf_23 () {  }
-_sf_24 () {  }
-_sf_25 () {  }
-_sf_26 () {  }
-_sf_27 () {  }
-_sf_28 () {  }
-_sf_29 () {  }
-_sf_30 () {  }
-_sf_31 () {  }
-_sf_32 () {  }
-_sf_33 () {  }
-_sf_34 () {  }
-_sf_35 () {  }
-_sf_36 () {  }
-_sf_37 () { ERROR_CMD }
+_sf_0 ()  { open "https://fnd.io/" }
+_sf_1 ()  { open "https://www.globalspec.com/" }
+_sf_2 ()  { open "https://www.searchftps.net/" }
+_sf_3 ()  { open "https://github.com/zquestz/s" }
+_sf_4 ()  { open "https://github.com/megadose/OnionSearch" }
+_sf_5 ()  { open "https://recruitin.net/" }
+_sf_6 ()  { open "http://filesearch.link" }
+_sf_7 ()  { open "https://uvrx.com" }
+_sf_8 ()  { open "http://mac.lc" }
+_sf_9 ()  { open "https://www.hashatit.com/" }
+_sf_10 () { open "https://www.goo.ne.jp/" }
+_sf_11 () { open "https://explainshell.com/" }
+_sf_12 () { open "https://firebounty.com" }
+_sf_13 () { open "https://github.com/rlyonheart/thedevilseye" }
+_sf_14 () { open "https://peteyvid.com" }
+_sf_15 () { open "https://filesearching.com" }
+_sf_16 () { open "https://3dfindit.com/textsearch" }
+_sf_17 () { open "http://filechef.com" }
+_sf_18 () { open "https://cse.google.com/cse?cx=017922636351918147428:v7m0tfgk6uj#gsc.tab=0" }
+_sf_19 () { open "http://buckets.grayhatwarfare.com" }
+_sf_20 () { open "http://osint.sh/buckets" }
+_sf_21 () { open "https://www.listennotes.com/" }
+_sf_22 () { open "https://thereisabotforthat.com/bots/search" }
+_sf_23 () { open "https://www.scoperac.com/booleanstringbank/" }
+_sf_24 () { open "https://github.com/Ibit-to/google-unlocked" }
+_sf_25 () { open "https://www.iconfinder.com/search" }
+_sf_26 () { open "https://datasetsearch.research.google.com/" }
+_sf_27 () { open "https://onionsearchengine.com/" }
+_sf_28 () { open "http://dnmugu4755642434.onion.pet/captcha" }
+_sf_29 () { open "https://gifcities.org/" }
+_sf_30 () { open "https://presearch.org/" }
+_sf_31 () { open "https://milled.com/search" }
+_sf_32 () { open "https://github.com/Araekiel/orion" }
+_sf_33 () { open "https://www.soundeffectssearch.com/find-a-sound-library/" }
+_sf_34 () { open "https://packettotal.com/app/search" }
+_sf_35 () { open "https://github.com/searxng/searxng" }
+_sf_36 () { open "https://searchall.net" }
+_sf_37 () { open "https://query-server.herokuapp.com" }
 _sf_38 () { TOC_CMD }
 
 # Search for a selected number of lines
