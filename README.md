@@ -201,7 +201,7 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
 - [x] Search engines
 - [x] Tools for Google
 - [x] IOT
-- [ ] Archives
+- [x] Archives
 - [ ] Archives of documents
 - [ ] Datasets
 - [ ] Passwords, emails, phone numbers

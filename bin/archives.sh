@@ -59,30 +59,34 @@ menu="
    cachedview.b4your.com — quick search website old versions in different search engines and archives
    Internet Archive Wayback Machine Link Ripper — Enter a host or URL to retrieve the links to the URL's archived versions at http://wayback.archive.org. A text file is produced which lists the archive URLs.
    Waybackpack — download the entire #WaybackMachine archive for a given URL. You can only download versions for a certain date range (date format YYYYMMDDhhss)
+   TheTimeMachine — Toolkit to use http://archive.org to search for vulnerabilities
+   Waybackpy — If you want to write your own script to work with http://archive.org, check out the #python library Wayback Machine API. You can use it to quickly automate the extraction of all sorts of website data from the webarchive.
   ﴚ [ BACK TO TOC ]
 "
 
 # CODE URL PUSH
-_sf_0 ()  {  }
-_sf_1 ()  {  }
-_sf_2 ()  {  }
-_sf_3 ()  {  }
-_sf_4 ()  {  }
-_sf_5 ()  {  }
-_sf_6 ()  {  }
-_sf_7 ()  {  }
-_sf_8 ()  {  }
-_sf_9 ()  {  }
-_sf_10 () {  }
-_sf_11 () {  }
-_sf_12 () {  }
-_sf_13 () {  }
-_sf_14 () {  }
-_sf_15 () {  }
-_sf_16 () {  }
-_sf_17 () {  }
-_sf_18 () {  }
-_sf_19 () { TOC_CMD }
+_sf_0 ()  { open "https://quickcacheandarchivesearch.onrender.com/" }
+_sf_1 ()  { open "http://trove.nla.gov.au/search/category/websites" }
+_sf_2 ()  { open "https://chrome.google.com/webstore/detail/vandal/knoccgahmcfhngbjhdbcodajdioedgdo/related" }
+_sf_3 ()  { open "https://theoldnet.com/" }
+_sf_4 ()  { open "http://carbondate.cs.odu.edu/" }
+_sf_5 ()  { open "https://arquivo.pt/" }
+_sf_6 ()  { open "https://archive.md/" }
+_sf_7 ()  { open "http://webarchive.loc.gov/" }
+_sf_8 ()  { open "https://swap.stanford.edu/" }
+_sf_9 ()  { open "http://wayback.archive-it.org/" }
+_sf_10 () { open "https://vefsafn.is/" }
+_sf_11 () { open "http://web.archive.bibalex.org/" }
+_sf_12 () { open "https://archive.vn/" }
+_sf_13 () { open "https://www.webarchive.org.uk/" }
+_sf_14 () { open "https://chrome.google.com/webstore/detail/web-archives/hkligngkgcpcolhcnkgccglchdafcnao/related" }
+_sf_15 () { open "https://gaetanlhf.github.io/EasyCache/" }
+_sf_16 () { open "https://cachedview.b4your.com/en/" }
+_sf_17 () { open "https://tools.digitalmethods.net/beta/internetArchiveWaybackMachineLinkRipper/#" }
+_sf_18 () { open "https://github.com/jsvine/waybackpack" }
+_sf_19 () { open "https://github.com/anmolksachan/TheTimeMachine" }
+_sf_20 () { open "https://github.com/akamhy/waybackpy" }
+_sf_21 () { TOC_CMD }
 
 # Search for a selected number of lines
 func (){
