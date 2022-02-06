@@ -49,6 +49,7 @@ menu="
    @mediainforobot — telegram bot to getting metadata from different types of files
    Mutagen — get meta data of audiofiles thrue command line
    compress-or-die.com/analyze — get detail information about images (exif, metatags, ICC_Profile, quantanisation tables)
+   aperisolve.fr — Deep image layers (Supperimposed, Red, Green, Blue) and properties (Zsteg, Steghide, Outguess, Exif, Binwalk, Foremost) analyze tool.
    voyant-tools.org — analysis of particular words in .TXT, .DOCX, .XLSX, .CSV and other file types.
    Analyze file format online
    ToolSley: analyze file format online
@@ -58,21 +59,22 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 ()   { ERROR_CMD }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
-_sf_4 ()   {  }
-_sf_5 ()   {  }
-_sf_6 ()   {  }
-_sf_7 ()   {  }
-_sf_8 ()   {  }
-_sf_9 ()   {  }
-_sf_10 ()  {  }
-_sf_11 ()  {  }
-_sf_12 ()  {  }
-_sf_13 ()  {  }
-_sf_14 ()  { TOC_CMD }
+_sf_0 ()  { open "https://github.com/cipher387/grep_for_osint" }
+_sf_1 ()  { open "http://diffnow.com" }
+_sf_2 ()  { open "https://www.imaios.com/en/Imaios-Dicom-Viewer" }
+_sf_3 ()  { open "https://github.com/mnismt/CompressedCrack" }
+_sf_4 ()  { open "https://www.protectedzip.com/" }
+_sf_5 ()  { open "https://github.com/metachris/pdfx" }
+_sf_6 ()  { open "https://t.me/mediainforobot" }
+_sf_7 ()  { open "https://github.com/quodlibet/mutagen" }
+_sf_8 ()  { open "https://compress-or-die.com/analyze" }
+_sf_9 ()  { open "https://aperisolve.fr" }
+_sf_10 () { open "https://voyant-tools.org/" }
+_sf_11 () { open "https://www.aconvert.com/analyze.html" }
+_sf_12 () { open "https://www.toolsley.com/file.html" }
+_sf_13 () { open "https://academo.org/demos/spectrum-analyzer/" }
+_sf_14 () { open "https://recoverytoolbox.com/" }
+_sf_15 () { TOC_CMD }
 
 # Search for a selected number of lines
 func (){
