@@ -50,12 +50,12 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 () {  }
-_sf_1 () {  }
-_sf_2 () {  }
-_sf_3 () {  }
-_sf_4 () {  }
-_sf_5 () {  }
+_sf_0 () { open "https://wordstat.yandex.ru/" }
+_sf_1 () { open "https://trends.google.com/trends/" }
+_sf_2 () { open "https://keywordtool.io/search/keywords/" }
+_sf_3 () { open "https://books.google.com/ngrams/" }
+_sf_4 () { open "http://news-explorer.mybluemix.net/" }
+_sf_5 () { open "https://trends.pinterest.com/" }
 _sf_6 () { TOC_CMD }
 
 # Search for a selected number of lines

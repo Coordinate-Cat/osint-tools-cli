@@ -211,7 +211,7 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
 - [x] Tools collections
 - [x] Files
 - [x] IMEI and serial numbers
-- [ ] Keywords, trends, news analytics
+- [x] Keywords, trends, news analytics
 - [ ] Apps and programs
 - [ ] Brands, companies, items
 - [ ] Movies
