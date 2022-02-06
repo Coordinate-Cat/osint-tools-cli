@@ -331,3 +331,10 @@ HACK NERD FONT
 - MACOS (CATALINA OR BIGSUR)
 - ITERM2
 - [VERSION MANAGEMENT](https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53)
+
+## CONTRIBUTORS
+<a href="https://github.com/Coordinate-Cat/OSINT-TOOLS-CLI/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Coordinate-Cat/OSINT-TOOLS-CLI" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
