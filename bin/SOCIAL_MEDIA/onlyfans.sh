@@ -42,6 +42,7 @@ alias EXIT_CMD='clear && echo $EXIT_ASCII && sleep 3m;kill $! wait $! 2>/dev/nul
 
 ### [ Name of the function to be executed ] ####################################
 menu="
+   fansmetrics.com — Search in 20 millions #OnlyFans accounts
    Onlysearch.com — Onlyfans users search engines
    onlyfinder.com — OnlyFans profiles search engine (search by people, images and deals)
    hubite.com/onlyfans-search/ — OnlyFans profiles search engine with price filter
@@ -49,10 +50,11 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()   { ERROR_CMD }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   { SOCIAL_MEDIA_CMD }
+_sf_0 () { open "http://fansmetrics.com" }
+_sf_1 () { open "https://onlysearch.co/" }
+_sf_2 () { open "https://onlyfinder.com/" }
+_sf_3 () { open "https://hubite.com/onlyfans-search/" }
+_sf_4 () { SOCIAL_MEDIA_CMD }
 
 # Search for a selected number of lines
 func (){

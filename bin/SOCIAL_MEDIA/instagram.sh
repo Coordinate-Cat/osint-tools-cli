@@ -48,17 +48,21 @@ menu="
    Instagram analyzer and viewer
    Sterraxcyl — Tool for export to excel someone's #Instagram followers and/or following with details (Username, FullName, Bio, Followers and Following count, etc)
    Storysaver.net — download Instagram stories.
+   Instagram Scraper — Scrape info about accounts, posts, stories and comment
+   Instagram Hashtag Scraper — Enter hashtag name and scrape all post tagged it. Get caption, commentsCount, photo dimensions, URL, other hashtags and other details in CSV, JSON or XLS table.
   ← [ BACK TO SOCIAL MEDIA ]
 "
 
 # SNS URL PUSH
-_sf_0 ()   { ERROR_CMD }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
-_sf_4 ()   {  }
-_sf_5 ()   {  }
-_sf_6 ()   { SOCIAL_MEDIA_CMD }
+_sf_0 () { open "https://github.com/bellingcat/instagram-location-search" }
+_sf_1 () { open "https://inflact.com/tools/instagram-search/" }
+_sf_2 () { open "https://github.com/xadhrit/terra" }
+_sf_3 () { open "https://gramho.com/" }
+_sf_4 () { open "https://github.com/novitae/sterraxcyl" }
+_sf_5 () { open "https://www.storysaver.net" }
+_sf_6 () { open "https://apify.com/jaroslavhejlek/instagram-scraper" }
+_sf_7 () { open "https://console.apify.com/actors/reGe1ST3OBgYZSsZJ" }
+_sf_8 () { SOCIAL_MEDIA_CMD }
 
 # Search for a selected number of lines
 func (){

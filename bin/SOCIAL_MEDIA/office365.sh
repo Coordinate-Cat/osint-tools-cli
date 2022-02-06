@@ -48,8 +48,9 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()   { ERROR_CMD }
-_sf_1 ()   { SOCIAL_MEDIA_CMD }
+_sf_0 () { open "https://github.com/dievus/Oh365UserFinder" }
+_sf_1 () { open "https://github.com/nixintel/o365chk" }
+_sf_2 () { SOCIAL_MEDIA_CMD }
 
 # Search for a selected number of lines
 func (){

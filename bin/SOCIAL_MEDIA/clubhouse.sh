@@ -50,10 +50,10 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()   { ERROR_CMD }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
+_sf_0 ()   { open "https://clubhousedb.com/" }
+_sf_1 ()   { open "https://roomsofclubhouse.com/" }
+_sf_2 ()   { open "https://clubsearch.io/" }
+_sf_3 ()   { open "https://search4faces.com/ch00/index.html" }
 _sf_4 ()   { SOCIAL_MEDIA_CMD }
 
 # Search for a selected number of lines

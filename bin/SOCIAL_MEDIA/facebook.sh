@@ -48,17 +48,21 @@ menu="
    sowdust.github.io/fb-search — search facebook posts, people and groups using URL-filtres
    Dumplt Blue — GoogleChrome extension for @Facebook: dump to txt file friends, group members, messenger contacts etc, automate scroll page to bottom (+isolate scrolling), automate expanding comments and replies and much more.
    Fdown.net — Facebook video downloader
+   Facebook Latest Posts Scraper — Scrape #Facebook posts with comments from one or multiple page URLs. Get post and comment texts, timestamps, post URLs, likes, shares, comments count, author ID.
+   Facebook Latest Comments Scraper — Enter link to the #Facebook post and get comments comments to it (text, timestamp and other info).
   ← [ BACK TO SOCIAL MEDIA ]
 "
 
 # SNS URL PUSH
-_sf_0 ()   { ERROR_CMD }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
-_sf_4 ()   {  }
-_sf_5 ()   {  }
-_sf_6 ()   { SOCIAL_MEDIA_CMD }
+_sf_0 ()   { open "https://findmyfbid.in/" }
+_sf_1 ()   { open "http://4wbwa6vcpvcr3vvf4qkhppgy56urmjcj2vagu2iqgp3z656xcmfdbiqd.onion.pet/" }
+_sf_2 ()   { open "https://www.facebook.com/directory/people/" }
+_sf_3 ()   { open "https://sowdust.github.io/fb-search/" }
+_sf_4 ()   { open "https://chrome.google.com/webstore/detail/dumpitblue%2B/igmgknoioooacbcpcfgjigbaajpelbfe/related" }
+_sf_5 ()   { open "https://fdown.net" }
+_sf_6 ()   { open "https://console.apify.com/actors/EtZ9lsiipPgKrQIi6" }
+_sf_7 ()   { open "https://console.apify.com/actors/w8bYllu7Jq18uWz99" }
+_sf_8 ()   { SOCIAL_MEDIA_CMD }
 
 # Search for a selected number of lines
 func (){

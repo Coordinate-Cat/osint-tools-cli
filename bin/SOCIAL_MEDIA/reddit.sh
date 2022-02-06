@@ -48,17 +48,21 @@ menu="
    dashboard.laterforreddit.com/analysis — examine popular post trends for a given subreddit
    Reddit Timer — Get last week's hourly activity schedule for a specific subreddit
    Redditsave.com — Reddit video downloader
+   Reddit Scraper — Crawl posts, comments, communities, and users without login.
+   Reddloader.com — Reddit video downloader
   ← [ BACK TO SOCIAL MEDIA ]
 "
 
 # SNS URL PUSH
-_sf_0 ()   { ERROR_CMD }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
-_sf_4 ()   {  }
-_sf_5 ()   {  }
-_sf_6 ()   { SOCIAL_MEDIA_CMD }
+_sf_0 () { open "https://anvaka.github.io/map-of-reddit/?x=255000&y=381000&z=615624.4584051393" }
+_sf_1 () { open "https://www.redditinvestigator.com/" }
+_sf_2 () { open "http://redditcommentsearch.com" }
+_sf_3 () { open "https://dashboard.laterforreddit.com/analysis" }
+_sf_4 () { open "https://ebof1223-reddit-timer.netlify.app/" }
+_sf_5 () { open "https://redditsave.com" }
+_sf_5 () { open "https://apify.com/trudax/reddit-scraper" }
+_sf_5 () { open "https://reddloader.com" }
+_sf_6 () { SOCIAL_MEDIA_CMD }
 
 # Search for a selected number of lines
 func (){

@@ -51,12 +51,12 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()   { ERROR_CMD }
-_sf_1 ()   { ERROR_CMD }
-_sf_2 ()   { ERROR_CMD }
-_sf_3 ()   { ERROR_CMD }
-_sf_4 ()   { ERROR_CMD }
-_sf_5 ()   { SOCIAL_MEDIA_CMD }
+_sf_0 () { open "https://twitch-tools.rootonline.de/followerlist_viewer.php" }
+_sf_1 () { open "https://twitchtracker.com/" }
+_sf_2 () { open "https://sullygnome.com/" }
+_sf_3 () { open "https://twitch-tools.rootonline.de/channel_previews.php" }
+_sf_4 () { open "https://untwitch.com" }
+_sf_5 () { SOCIAL_MEDIA_CMD }
 
 # Search for a selected number of lines
 func (){

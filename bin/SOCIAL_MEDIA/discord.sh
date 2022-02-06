@@ -48,8 +48,8 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()   { ERROR_CMD }
-_sf_1 ()   {  }
+_sf_0 ()   { open "https://github.com/AstraaDev/Discord-All-Tools-In-One" }
+_sf_1 ()   { open "https://dht.chylex.com" }
 _sf_2 ()   { SOCIAL_MEDIA_CMD }
 
 # Search for a selected number of lines

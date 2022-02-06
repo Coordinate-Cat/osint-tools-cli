@@ -43,14 +43,16 @@ alias EXIT_CMD='clear && echo $EXIT_ASCII && sleep 3m;kill $! wait $! 2>/dev/nul
 ### [ Name of the function to be executed ] ####################################
 menu="
    Freepeoplesseacrhtool.com — find people in Linkedin without registration CrossLinked — LinkedIn enumeration tool to extract valid employee names from an organization through search engine scraping
+   CrossLinked — LinkedIn enumeration tool to extract valid employee names from an organization through search engine scraping
    Linkedin Datahub — linkedIn's generalized metadata search & discovery tool
   ← [ BACK TO SOCIAL MEDIA ]
 "
 
 # SNS URL PUSH
-_sf_0 ()   { ERROR_CMD }
-_sf_1 ()   {  }
-_sf_2 ()   { SOCIAL_MEDIA_CMD }
+_sf_0 () { open "https://freepeoplesearchtool.com/" }
+_sf_1 () { open "https://github.com/m8r0wn/crosslinked" }
+_sf_2 () { open "https://github.com/linkedin/datahub/blob/master/docs/faq.md" }
+_sf_3 () { SOCIAL_MEDIA_CMD }
 
 # Search for a selected number of lines
 func (){

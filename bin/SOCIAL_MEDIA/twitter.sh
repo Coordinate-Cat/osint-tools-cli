@@ -70,39 +70,41 @@ menu="
    projects.noahliebman.net/listcopy — copy a list made by another user to your Twitter account
    Unfollower Stats — iOS App that tracking unfollowers and show nofollowersback and unactive followers for your Twitter account
    Twish — very simple, quick, comfortable and nicely designed advanced #Twitter search query builder for #GoogleChrome.
+   Twitter Scraper — Scrape any #Twitter user profile. Creates an unofficial Twitter API to extract tweets, retweets, replies, favorites, and conversation threads with no Twitter API limits.
   ← [ BACK TO SOCIAL MEDIA ]
 "
 
 # SNS URL PUSH
-_sf_0 ()   { ERROR_CMD }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
-_sf_4 ()   {  }
-_sf_5 ()   {  }
-_sf_6 ()   {  }
-_sf_7 ()   {  }
-_sf_8 ()   {  }
-_sf_9 ()   {  }
-_sf_10 ()  {  }
-_sf_11 ()  {  }
-_sf_12 ()  {  }
-_sf_13 ()  {  }
-_sf_14 ()  {  }
-_sf_15 ()  {  }
-_sf_16 ()  {  }
-_sf_17 ()  {  }
-_sf_18 ()  {  }
-_sf_19 ()  {  }
-_sf_20 ()  {  }
-_sf_21 ()  {  }
-_sf_22 ()  {  }
-_sf_23 ()  {  }
-_sf_24 ()  {  }
-_sf_25 ()  {  }
-_sf_26 ()  {  }
-_sf_27 ()  {  }
-_sf_28 ()  { SOCIAL_MEDIA_CMD }
+_sf_0 ()  { open "https://chrome.google.com/webstore/detail/twitter-account-detector/papcdbgfejihdinhieggiamjnkclhkck/related" }
+_sf_1 ()  { open "https://followerwonk.com/compare/" }
+_sf_2 ()  { open "https://tweepsmap.com/dash/unfollows" }
+_sf_3 ()  { open "https://app.truthnest.com/" }
+_sf_4 ()  { open "https://treeverse.app" }
+_sf_5 ()  { open "https://hashtagify.me/" }
+_sf_6 ()  { open "https://www.scoutzen.com/twitter-lists/search" }
+_sf_7 ()  { open "https://onemilliontweetmap.com/" }
+_sf_8 ()  { open "https://www.tweetbinder.com/" }
+_sf_9 ()  { open "https://www.csc2.ncsu.edu/faculty/healey/tweet_viz/tweet_app/" }
+_sf_10 () { open "https://tweetbeaver.com/friendsfollowing.php" }
+_sf_11 () { open "http://tweettopicexplorer.neoformix.com/#n=NYTimes" }
+_sf_12 () { open "https://influencermarketinghub.com/twitter-money-calculator/" }
+_sf_13 () { open "https://analytics.twitter.com/" }
+_sf_14 () { open "https://www.vicinitas.io/free-tools/download-twitter-followers" }
+_sf_15 () { open "https://doesfollow.com/" }
+_sf_16 () { open "http://sleepingtime.org/" }
+_sf_17 () { open "https://tweettunnel.com/reverse.php" }
+_sf_18 () { open "https://twitter.com/i/directory/" }
+_sf_19 () { open "https://www.followeraudit.com" }
+_sf_20 () { open "https://foller.me/" }
+_sf_21 () { open "https://getdaytrends.com/" }
+_sf_22 () { open "https://us.trend-calendar.com/" }
+_sf_23 () { open "https://followerwonk.com/bio" }
+_sf_24 () { open "https://botometer.osome.iu.edu/" }
+_sf_25 () { open "http://projects.noahliebman.net/listcopy/connect.php" }
+_sf_26 () { open "https://unfollowerstats.com/" }
+_sf_27 () { open "https://chrome.google.com/webstore/detail/twish/afpegchfbaddfmenhkajjggbnjfjejeh/related" }
+_sf_28 () { open "https://console.apify.com/actors/u6ppkMWAx2E2MpEuF" }
+_sf_29 () { SOCIAL_MEDIA_CMD }
 
 # Search for a selected number of lines
 func (){

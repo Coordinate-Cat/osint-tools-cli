@@ -56,17 +56,17 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()   { ERROR_CMD }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
-_sf_4 ()   {  }
-_sf_5 ()   {  }
-_sf_6 ()   {  }
-_sf_7 ()   {  }
-_sf_8 ()   {  }
-_sf_9 ()   {  }
-_sf_10 ()  { SOCIAL_MEDIA_CMD }
+_sf_0 ()  { open "https://github.com/mikf/gallery-dl" }
+_sf_1 ()  { open "https://kribrum.io/search" }
+_sf_2 ()  { open "https://chrome.google.com/webstore/detail/auto-scroll-search/ieceeinfkigfaeoomfimmecebngempef/related" }
+_sf_3 ()  { open "https://socialblade.com/" }
+_sf_4 ()  { open "https://exportcomments.com" }
+_sf_5 ()  { open "http://lickd.co/blog/social-salary-calculator" }
+_sf_6 ()  { open "https://github.com/xenova/chat-downloader" }
+_sf_7 ()  { open "https://findmyfbid.in/" }
+_sf_8 ()  { open "https://chrome.google.com/webstore/detail/socialanalyzer-social-sen/efeikkcpimdfpdlmlbjdecnmkknjcfcp" }
+_sf_9 ()  { open "https://khalil-shreateh.com/khalil.shtml/social_applications/" }
+_sf_10 () { SOCIAL_MEDIA_CMD }
 
 # Search for a selected number of lines
 func (){

@@ -136,36 +136,36 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
   - [x] Tools
   - [x] Street View
   - [x] Other
-- [ ] Social Media
-  - [ ] Twitter
-  - [ ] YouTube
-  - [ ] TikTok
-  - [ ] Facebook
-  - [ ] Clubhouse
-  - [ ] Linkedin
-  - [ ] Xing
-  - [ ] Reddit
-  - [ ] Onlyfans
-  - [ ] Twitch
-  - [ ] Fidonet
-  - [ ] Usenet
-  - [ ] Tumblr
-  - [ ] Flickr
-  - [ ] Spotify
-  - [ ] Discord
-  - [ ] Yandex
-  - [ ] Instagram
-  - [ ] Google
-  - [ ] Patreon
-  - [ ] Github
-  - [ ] Parler
-  - [ ] Pornhub
-  - [ ] Steam
-  - [ ] Xbox
-  - [ ] VK
-  - [ ] Office365
-  - [ ] OneDrive
-  - [ ] Universal
+- [x] Social Media
+  - [x] Twitter
+  - [x] YouTube
+  - [x] TikTok
+  - [x] Facebook
+  - [x] Clubhouse
+  - [x] Linkedin
+  - [x] Xing
+  - [x] Reddit
+  - [x] Onlyfans
+  - [x] Twitch
+  - [x] Fidonet
+  - [x] Usenet
+  - [x] Tumblr
+  - [x] Flickr
+  - [x] Spotify
+  - [x] Discord
+  - [x] Yandex
+  - [x] Instagram
+  - [x] Google
+  - [x] Patreon
+  - [x] Github
+  - [x] Parler
+  - [x] Pornhub
+  - [x] Steam
+  - [x] Xbox
+  - [x] VK
+  - [x] Office365
+  - [x] OneDrive
+  - [x] Universal
 - [ ] Downloaders
 - [ ] Domain/IP/Links
   - [ ] Dorks/Pentest/Vulnerabilities

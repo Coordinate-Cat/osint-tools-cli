@@ -44,23 +44,29 @@ alias EXIT_CMD='clear && echo $EXIT_ASCII && sleep 3m;kill $! wait $! 2>/dev/nul
 menu="
    Tiktok Timestamp — determines the time of publication of the video to the nearest second. Just copy the link.
    TikStats — detailed statistics on the growth dynamics of subscribers, likes, and video views for the TikTok account TikTok Scraper — scrapping video from user, trend or hashtag feed, extracting video's or user's metadata, downloading video or music, processing a list of clips or users from a file
+   TikTok Scraper — scrapping video from user, trend or hashtag feed, extracting video's or user's metadata, downloading video or music, processing a list of clips or users from a file
    TikTokD — TikTok Video Downloader
    Snaptik.app — TikTok Video Downloader
    Exolyt.com — TikTok profile analyze
    Tikbuddy — TikTok profile analytics
    Mavekite.com — Enter the nickname of the user #TikTok and get the data on likes, comments, views, shares and engagements for his forty last videos
+   Tiktok Scraper — Extract data about videos, users, and channels based on hashtags, profiles and individual posts.
+   Tikrank.com — free tool for comparing and analyzing #TikTok accounts. Available ranking of the most popular users by country (there are more than a million accounts with the largest number of subscribers in the database)
   ← [ BACK TO SOCIAL MEDIA ]
 "
 
 # SNS URL PUSH
-_sf_0 ()   { ERROR_CMD }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
-_sf_4 ()   {  }
-_sf_5 ()   {  }
-_sf_6 ()   {  }
-_sf_7 ()   { SOCIAL_MEDIA_CMD }
+_sf_0 ()  { open "https://bellingcat.github.io/tiktok-timestamp/" }
+_sf_1 ()  { open "https://tikstats.org/" }
+_sf_2 ()  { open "https://github.com/drawrowfly/tiktok-scraper" }
+_sf_3 ()  { open "https://tiktokd.com/" }
+_sf_4 ()  { open "https://snaptik.app/" }
+_sf_5 ()  { open "https://exolyt.com/" }
+_sf_6 ()  { open "https://app.tikbuddy.com/" }
+_sf_7 ()  { open "https://mavekite.com/" }
+_sf_8 ()  { open "https://github.com/sauermar/Tiktok-Scraper" }
+_sf_9 ()  { open "https://tikrank.com" }
+_sf_10 () { SOCIAL_MEDIA_CMD }
 
 # Search for a selected number of lines
 func (){
