@@ -113,3 +113,6 @@ export WHATSAPP="$OSINTDIR/bin/MESSENGERS/whatsapp.sh"
 export KIK="$OSINTDIR/bin/MESSENGERS/kik.sh"
 export SLACK="$OSINTDIR/bin/MESSENGERS/slack.sh"
 export SKYPE="$OSINTDIR/bin/MESSENGERS/skype.sh"
+
+# BIN/AMAZON
+export AMAZON="$OSINTDIR/bin/AMAZON/amazon.sh"

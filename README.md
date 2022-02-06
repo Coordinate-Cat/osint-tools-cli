@@ -109,6 +109,7 @@ IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
   ├ KEYWORDS_TRENDS_NEWS_ANALYTICS
   ├ APPS_AND_PROGRAMS
   ├ BRANDS_COMPANIES_ITEMS
+  │ └ Amazon
   ├ MOVIES
   ├ TV_RADIO
   ├ VIRTUALMACHINES_LINUX_DISTRIBUTIONS
@@ -213,7 +214,8 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
 - [x] IMEI and serial numbers
 - [x] Keywords, trends, news analytics
 - [x] Apps and programs
-- [ ] Brands, companies, items
+- [x] Brands, companies, items
+  - [x] Amazon
 - [ ] Movies
 - [ ] TV/Radio
 - [ ] VirtualMachines/Linux distributions
