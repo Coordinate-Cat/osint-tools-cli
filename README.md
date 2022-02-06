@@ -20,14 +20,14 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
 ## ISSUES
 ⚠️IT WON'T WORK UNTIL THESE TWO ISUUES ARE COMPLETED.⚠️  
 ### Progress
-### [LIST INSERTION #4](https://github.com/Coordinate-Cat/OSINT-TOOLS-CLI/issues/4)
+### ~~[LIST INSERTION #4](https://github.com/Coordinate-Cat/OSINT-TOOLS-CLI/issues/4)~~
 - [x] Maps, Geolocation and Transport
 - [x] Social Media
 - [x] Downloaders
 - [x] Domain/IP/Links
 - [x] Image Search and Identification
 - [x] Cryptocurrencies
-- [ ] Messengers
+- [x] Messengers
 - [x] Code
 - [x] Search engines
 - [x] Tools for DuckDuckGo
