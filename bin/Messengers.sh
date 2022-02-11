@@ -55,12 +55,12 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 ()   { TELEGRAM_CMD }
-_sf_1 ()   { WHATSAPP_CMD }
-_sf_2 ()   { KIK_CMD }
-_sf_3 ()   { SLACK_CMD }
-_sf_4 ()   { SKYPE_CMD }
-_sf_5 ()   { TOC_CMD }
+_sf_0 () { TELEGRAM_CMD }
+_sf_1 () { WHATSAPP_CMD }
+_sf_2 () { KIK_CMD }
+_sf_3 () { SLACK_CMD }
+_sf_4 () { SKYPE_CMD }
+_sf_5 () { TOC_CMD }
 
 # Search for a selected number of lines
 func (){

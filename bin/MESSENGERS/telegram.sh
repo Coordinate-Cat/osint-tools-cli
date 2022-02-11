@@ -59,19 +59,19 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()   {  }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
-_sf_4 ()   {  }
-_sf_5 ()   {  }
-_sf_6 ()   {  }
-_sf_7 ()   {  }
-_sf_8 ()   {  }
-_sf_9 ()   {  }
-_sf_10 ()  {  }
-_sf_11 ()  {  }
-_sf_12 ()  {  }
+_sf_0 ()   { open "https://cse.google.com/cse?q=+&cx=006368593537057042503:efxu7xprihg#gsc.tab=0&gsc.q=%20&gsc.page=1" }
+_sf_1 ()   { open "https://cse.google.com/cse?cx=006368593537057042503:ig4r3rz35qi#gsc.tab=0" }
+_sf_2 ()   { open "https://github.com/zqtay/Telegram-Message-Analyzer" }
+_sf_3 ()   { open "https://t.me/SangMataInfo_bot" }
+_sf_4 ()   { open "https://t.me/tgscanrobot" }
+_sf_5 ()   { open "https://github.com/tejado/telegram-nearby-map" }
+_sf_6 ()   { open "https://github.com/pielco11/telescan" }
+_sf_7 ()   { open "https://tgstat.com" }
+_sf_8 ()   { open "https://github.com/pielco11/telescan" }
+_sf_9 ()   { open "https://telegcrack.com/" }
+_sf_10 ()  { open "https://t.me/VoiceMsgBot" }
+_sf_11 ()  { open "https://t.me/transcriber_bot" }
+_sf_12 ()  { open "https://telegramchannels.me/list/biggest?language=en" }
 _sf_13 ()  { MESSENGERS_CMD }
 
 # Search for a selected number of lines

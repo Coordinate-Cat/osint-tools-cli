@@ -50,11 +50,11 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()   {  }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
-_sf_4 ()   { MESSENGERS_CMD }
+_sf_0 () { open "https://Whatsanalyze.com" }
+_sf_1 () { open "https://chatvisualizer.com" }
+_sf_2 () { open "https://watools.io/download-profile-picture" }
+_sf_3 () { open "https://github.com/riz4d/WaGpScraper" }
+_sf_4 () { MESSENGERS_CMD }
 
 # Search for a selected number of lines
 func (){

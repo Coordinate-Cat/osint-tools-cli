@@ -47,8 +47,8 @@ menu="
 "
 
 # SNS URL PUSH
-_sf_0 ()   {  }
-_sf_1 ()   { MESSENGERS_CMD }
+_sf_0 () { open "https://www.vedbex.com/tools/email2skype" }
+_sf_1 () { MESSENGERS_CMD }
 
 # Search for a selected number of lines
 func (){

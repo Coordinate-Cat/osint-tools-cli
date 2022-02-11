@@ -192,12 +192,12 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
   - [ ] Face recognition and search
   - [ ] Font Indenfication
 - [x] Cryptocurrencies
-- [ ] Messengers
-  - [ ] Telegram
-  - [ ] WhatsApp
-  - [ ] Kik
-  - [ ] Skype
-  - [ ] Others
+- [x] Messengers
+  - [x] Telegram
+  - [x] WhatsApp
+  - [x] Kik
+  - [x] Skype
+  - [x] Others
 - [x] Code
 - [x] Search engines
 - [x] Tools for Google
