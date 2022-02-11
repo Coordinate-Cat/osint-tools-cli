@@ -57,19 +57,19 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 ()   {  }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
-_sf_4 ()   {  }
-_sf_5 ()   {  }
-_sf_6 ()   {  }
-_sf_7 ()   {  }
-_sf_8 ()   {  }
-_sf_9 ()   {  }
-_sf_10 ()  {  }
-_sf_11 ()  {  }
-_sf_12 ()  {  }
+_sf_0 ()   { open "https://cipher387.github.io/osintmap/" }
+_sf_1 ()   { open "https://cipher387.github.io/hashtags_and_keywords_social_media_quick_search/" }
+_sf_2 ()   { open "https://cipher387.github.io/quickgeolocationsearch/" }
+_sf_3 ()   { open "https://cipher387.github.io/phonenumberqueryconstructor/" }
+_sf_4 ()   { open "https://cipher387.github.io/domain_investigation_toolbox/" }
+_sf_5 ()   { open "https://cipher387.github.io/domain_investigation_toolbox/ip.html" }
+_sf_6 ()   { open "https://cipher387.github.io/quickcacheandarchivesearch/" }
+_sf_7 ()   { open "https://github.com/cipher387/grep_for_osint" }
+_sf_8 ()   { open "https://cipher387.github.io/pastebinsearchengines/" }
+_sf_9 ()   { open "https://cipher387.github.io/code_repository_google_custom_search_engines/" }
+_sf_10 ()  { open "https://github.com/cipher387/Dorks-collections-list" }
+_sf_11 ()  { open "https://github.com/cipher387/API-s-for-OSINT" }
+_sf_12 ()  { open "https://github.com/cipher387/Advanced-search-operators-list" }
 _sf_13 ()  { TOC_CMD }
 
 # Search for a selected number of lines

@@ -219,7 +219,7 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
 - [x] Movies
 - [x] TV/Radio
 - [x] VirtualMachines/Linux distributions
-- [ ] My Projects
+- [x] My Projects
 
 ## USAGE
 
