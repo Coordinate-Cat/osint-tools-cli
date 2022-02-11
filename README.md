@@ -13,6 +13,10 @@ THIS IS A CLI VERSION OF THE CHEAT SHEET FOR EASY ACCESS.
 TABLE OF CONTENTS IS BASED ON [CIPHER387/OSINT_STUFF_TOOL_COLLECTION](HTTPS://GITHUB.COM/CIPHER387/OSINT_STUFF_TOOL_COLLECTION).  
 IT CAN BE NAVIGATED WITHOUT USING COMMANDS OR THE CURSOR.
 
+<!-- ###[ WIKI ]############################################################ -->
+## WIKI
+[HERE](https://github.com/Coordinate-Cat/OSINT-TOOLS-CLI/wiki/WIKI)
+
 <!-- ###[ TREE ]############################################################ -->
 ## TABLE OF CONTENTS
   ```
