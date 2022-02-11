@@ -62,23 +62,23 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 ()   {  }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
-_sf_4 ()   {  }
-_sf_5 ()   {  }
-_sf_6 ()   {  }
-_sf_7 ()   {  }
-_sf_8 ()   {  }
-_sf_9 ()   {  }
-_sf_10 ()  {  }
-_sf_11 ()  {  }
-_sf_12 ()  {  }
-_sf_13 ()  {  }
-_sf_14 ()  {  }
-_sf_15 ()  {  }
-_sf_16 ()  { IMAGE_SEARCH_AND_IDENTIFICATION_CMD }
+_sf_0 ()  { open "https://news.myseldon.com/en/" }
+_sf_1 ()  { open "http://ascii2d.net" }
+_sf_2 ()  { open "https://searchbyimage.app/" }
+_sf_3 ()  { open "https://www.aliseeks.com/search" }
+_sf_4 ()  { open "https://lykdat.com/" }
+_sf_5 ()  { open "https://iqdb.org/" }
+_sf_6 ()  { open "https://pic.sogou.com/" }
+_sf_7 ()  { open "https://same.energy/" }
+_sf_8 ()  { open "https://revesesearch.com" }
+_sf_9 ()  { open "https://chrome.google.com/webstore/detail/image-search-assistant/kldhhobmmejaeaiilomaibhjlcfpceac/related" }
+_sf_10 () { open "https://pixsy.com" }
+_sf_11 () { open "https://www.everypixel.com/" }
+_sf_12 () { open "https://openi.nlm.nih.gov/gridquery" }
+_sf_13 () { open "https://ru.depositphotos.com/search/by-images.html" }
+_sf_14 () { open "http://zeus.robots.ox.ac.uk/portraitmatcher/index?error=agree" }
+_sf_15 () { open "https://image.so.com/" }
+_sf_16 () { IMAGE_SEARCH_AND_IDENTIFICATION_CMD }
 
 # Search for a selected number of lines
 func (){

@@ -184,13 +184,13 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
   - [ ] Website technology look up
   - [ ] Source Code Analyzes
   - [ ] URL unshorteners
-- [ ] Image Search and Identification
-  - [ ] Reverse Image Search Engines
-  - [ ] Other Image Search Engines
-  - [ ] Image Analyze
-  - [ ] Exif Analyze and Editing
-  - [ ] Face recognition and search
-  - [ ] Font Indenfication
+- [x] Image Search and Identification
+  - [x] Reverse Image Search Engines
+  - [x] Other Image Search Engines
+  - [x] Image Analyze
+  - [x] Exif Analyze and Editing
+  - [x] Face recognition and search
+  - [x] Font Indenfication
 - [x] Cryptocurrencies
 - [x] Messengers
   - [x] Telegram

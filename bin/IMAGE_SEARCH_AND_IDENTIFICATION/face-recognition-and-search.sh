@@ -50,10 +50,10 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 () {  }
-_sf_1 () {  }
-_sf_2 () {  }
-_sf_3 () {  }
+_sf_0 () { open "https://github.com/ageitgey/face_recognition" }
+_sf_1 () { open "http://facemaker.uvrg.org/" }
+_sf_2 () { open "https://search4faces.com/" }
+_sf_3 () { open "https://t.me/facematch_bot" }
 _sf_4 () { IMAGE_SEARCH_AND_IDENTIFICATION_CMD }
 
 # Search for a selected number of lines

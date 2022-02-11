@@ -50,10 +50,10 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 () {  }
-_sf_1 () {  }
-_sf_2 () {  }
-_sf_3 () {  }
+_sf_0 () { open "http://github.com/GuidoBartoli/sherloq" }
+_sf_1 () { open "https://imagecolorpicker.com/" }
+_sf_2 () { open "https://www.blocklayer.com/scale-fixereng.aspx" }
+_sf_3 () { open "http://www.imageforensic.org/" }
 _sf_4 () { IMAGE_SEARCH_AND_IDENTIFICATION_CMD }
 
 # Search for a selected number of lines

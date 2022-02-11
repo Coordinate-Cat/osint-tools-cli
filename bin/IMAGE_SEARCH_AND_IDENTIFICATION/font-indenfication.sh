@@ -52,12 +52,12 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 () {  }
-_sf_1 () {  }
-_sf_2 () {  }
-_sf_3 () {  }
-_sf_4 () {  }
-_sf_5 () {  }
+_sf_0 () { open "https://www.myfonts.com/WhatTheFont/" }
+_sf_1 () { open "https://www.whatfontis.com/" }
+_sf_2 () { open "https://www.fontsquirrel.com/matcherator" }
+_sf_3 () { open "https://www.fontspring.com/matcherator" }
+_sf_4 () { open "http://www.identifont.com/" }
+_sf_5 () { open "https://en.likefont.com/" }
 _sf_6 () { IMAGE_SEARCH_AND_IDENTIFICATION_CMD }
 
 # Search for a selected number of lines

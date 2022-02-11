@@ -48,9 +48,9 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 ()   {  }
-_sf_1 ()   {  }
-_sf_2 ()  { IMAGE_SEARCH_AND_IDENTIFICATION_CMD }
+_sf_0 () { open "https://snradar.azurewebsites.net/" }
+_sf_1 () { open "http://zeus.robots.ox.ac.uk/bbc_search/" }
+_sf_2 () { IMAGE_SEARCH_AND_IDENTIFICATION_CMD }
 
 # Search for a selected number of lines
 func (){

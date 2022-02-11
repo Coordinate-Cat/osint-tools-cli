@@ -55,15 +55,15 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 () {  }
-_sf_1 () {  }
-_sf_2 () {  }
-_sf_3 () {  }
-_sf_4 () {  }
-_sf_5 () {  }
-_sf_6 () {  }
-_sf_7 () {  }
-_sf_8 () {  }
+_sf_0 () { open "https://github.com/ianare/exif-py" }
+_sf_1 () { open "http://exif.app" }
+_sf_2 () { open "https://chrome.google.com/webstore/detail/image-analyzer/bgadhpbbppdihhbfcjbbihfcckbblcek" }
+_sf_3 () { open "https://products.groupdocs.app/metadata/" }
+_sf_4 () { open "https://4qrcode.com/scan-qr-code.php" }
+_sf_5 () { open "https://identify.plantnet.org/" }
+_sf_6 () { open "https://www.forensicdots.de/" }
+_sf_7 () { open "https://www.diffchecker.com/image-diff/" }
+_sf_8 () { open "https://vsudo.net/tools/geotag" }
 _sf_9 () { IMAGE_SEARCH_AND_IDENTIFICATION_CMD }
 
 # Search for a selected number of lines
