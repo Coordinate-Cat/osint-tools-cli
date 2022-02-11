@@ -50,12 +50,12 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 ()   {  }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
-_sf_4 ()   {  }
-_sf_5 ()   {  }
+_sf_0 ()   { open "https://www.walletexplorer.com/" }
+_sf_1 ()   { open "https://blockpath.com/" }
+_sf_2 ()   { open "https://cryptocurrencyalerting.com/" }
+_sf_3 ()   { open "https://learnmeabitcoin.com/tools/path/" }
+_sf_4 ()   { open "https://coinwink.com/" }
+_sf_5 ()   { open "https://blockcypher.herokuapp.com/" }
 _sf_6 ()   { TOC_CMD }
 
 # Search for a selected number of lines
