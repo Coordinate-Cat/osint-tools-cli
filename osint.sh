@@ -22,42 +22,8 @@ TITLE_ASCII='\e[31m
                       GITHUB:(https://github.com/Coordinate-Cat/OSINT-TOOLS-CLI)
                   COLLECTION:(https://github.com/CIPHER387/OSINT_STUFF_TOOL_COLLECTION)
                               AUTHOR:(https://github.com/Coordinate-Cat)
-                                          UPDATE:(23/1/2022)
+                                          UPDATE:(11/2/2022)
                                     ≡≡≡≡≡ ≡≡≡≡≡ ≡≡≡≡≡ ≡≡≡≡≡ ≡≡≡≡≡
-
-NEXFIL — Search username by 350 social media platforms
-De4js — HTML/JS deobfuscator
-XGS — allows you to search for links to onion sites using Google Dorks (site:http://onion.cab, site:http://onion.city etc)
-LFITester — Tool which tests if a server is vulnerable to Local File Inclusion (LFI) attack
-TIO RUN — Run and test code written in one of 680 programming languages (260 practical and 420 recreational) directly in your browser
-Nonfungible.com — help to analyze the NFT market, find out which tokens were sold most actively (week, month, year, all time)
-Text2img — text to image AI generator
-YouTube Timestamp Comments — extension finds all the timestamps in YouTube video comments and arranges them in chronological order.
-Google Docs Voice Comments — simple trick to save time. Voice comments in GoogleDocs, Sheets, Slides, and Forms.
-Youtube Actual Top Comments — Fetch all comments to Youtube video (without answers). Sort them by likes and filter by keywords
-Crab — Well done and well designed port scanner, host info gatherer (include whois).
-Face Anonimyzer — Upload a face photo and get set of similar AI generated faces.
-Text to ASCII Art Generator (TAAG) — This site will help you make atmospheric lettering for your command line tool or README.
-DuckDuckGo !bangs — extension that add DuckDuckGo bang buttons to search results and search links in the context menu
-SEARCH Investigative and Forensic Toolbar — extension with quick access to dozens of online tools for osint, forensics and othef investigations goals.
-vstat.info — Getting detailed info about website traffic (sources, keywords, linked sites etc)
-Tenssens — osint framework
-Analyzeid.com Username Search — view "Summary" of accounts found: list of names used, locations, bio, creations dates etc.
-Oralyzer — Script that check website for following types of Open Redirect Vulnerabilities
-RobotTester — Simple Python script can enumerate all URLs present in robots.txt files, and test whether they can be accessed or not.
-Cheat sheet maker — simple tool for creating cheat sheets
-Caloriemama — AI can identify the type of food from the photo and give information about its caloric value.
-flixable.com — alternative way to find anything interesting on Netflix
-flixwatch.co — alternative way to find anything interesting on Netflix
-flicksurfer.com — alternative way to find anything interesting on Netflix
-flixboss.com — alternative way to find anything interesting on Netflix
-flickmetrix.com — alternative way to find anything interesting on Netflix
-whatthehellshouldiwatchonnetflix.com — alternative way to find anything interesting on Netflix
-netflix-codes.com — alternative way to find anything interesting on Netflix
-Anon Scraper — Search uploaded files to AnonFile using Google
-Webmapper — Extension that create a map-visualization based by browser history. A visual representation of the most visited sites in 10, 20, 50 or 100 days. Zoomable and searchable.
-Earthviewer360.com — Click on a point on the map to see a 360 degree video panorama (its possiblle to pause to see some areas in more detail)
-Telegramchannels.me — Ratings of the 100 largest (by number of subscribers) #Telegram channels for different languages
 
 ◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢◣◥◤◢◣◥◤◢◣ ◥◤◆◥◤◢
 
