@@ -54,14 +54,14 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 () {  }
-_sf_1 () {  }
-_sf_2 () {  }
-_sf_3 () {  }
-_sf_4 () {  }
-_sf_5 () {  }
-_sf_6 () {  }
-_sf_7 () {  }
+_sf_0 () { open "https://chrome.google.com/webstore/detail/retirejs/moibopkbhjceeedibkbkbchbjnkadmom/related" }
+_sf_1 () { open "https://chrome.google.com/webstore/detail/openlink-structured-data/egdaiaihbdoiibopledjahjaihbmjhdj/related" }
+_sf_2 () { open "https://github.com/gildas-lormeau/SingleFile" }
+_sf_3 () { open "https://github.com/Cillian-Collins/dirscraper" }
+_sf_4 () { open "https://chrome.google.com/webstore/detail/analyzer/bmbhpmmhjkbmcachipmccnlcemaoiiji/related" }
+_sf_5 () { open "https://github.com/m4ll0k/SecretFinder" }
+_sf_6 () { open "https://chrome.google.com/webstore/detail/copy-all-links-and-image/ccddopnnikeeoogpfbnfommfoeliaidg/related" }
+_sf_7 () { open "http://archiveready.com" }
 _sf_8 () { DOMAIN_IP_LINKS_CMD }
 
 # Search for a selected number of lines

@@ -50,10 +50,10 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 () {  }
-_sf_1 () {  }
-_sf_2 () {  }
-_sf_3 () {  }
+_sf_0 () { open "https://www.similarweb.com/" }
+_sf_1 () { open "https://www.alexa.com/" }
+_sf_2 () { open "https://chrome.google.com/webstore/detail/hypestat-analyzer-plugin/fmebbkhpaallipfibkfnajnlimgaoefp/related" }
+_sf_3 () { open "https://vstat.info" }
 _sf_4 () { DOMAIN_IP_LINKS_CMD }
 
 # Search for a selected number of lines

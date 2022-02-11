@@ -55,6 +55,7 @@ menu="
    HostHunter — Tool to efficiently discover and extract hostnames providing a large set of target IP addresses. HostHunter utilises simple OSINT techniques to map IP addresses with virtual hostnames
    Tor Whois
    Dnstwister — The anti-phishing domain name search engine and DNS monitoring service
+   Source code search engine (315 million domains indexed). Search by title, metadata, javascript files, server name, location and more. — Source code search engine (315 million domains indexed). Search by title, metadata, javascript files, server name, location and more.
    Dnstwist — Command line anti-phishing domain name search engine and DNS monitoring service
    Ditto — Dsmall tool that accepts a domain name as input and generates all its variants for an homograph attack as output, checking which ones are available and which are already registered
    RADB — Provides information collected from all the registries that form part of the Internet Routing Registry
@@ -78,47 +79,50 @@ menu="
    Gotanda — Google Chrome extension. 56 tools for domain, ip and url investigation in one
    Ip Investigation Toolbox — type ip-adress once and gather information about it with 13 tools
    Crab — Well done and well designed port scanner, host info gatherer (include whois).
+   MayorSecDNSScan — Identify DNS records for target domains, check for zone transfers and conduct subdomain enumeration.
   ﴚ [ BACK TO DOMAIN_IP_LINKS ]
 "
 
 # CODE URL PUSH
-_sf_0 () {  }
-_sf_1 () {  }
-_sf_2 () {  }
-_sf_3 () {  }
-_sf_4 () {  }
-_sf_5 () {  }
-_sf_6 () {  }
-_sf_7 () {  }
-_sf_8 () {  }
-_sf_9 () {  }
-_sf_10 () {  }
-_sf_11 () {  }
-_sf_12 () {  }
-_sf_13 () {  }
-_sf_14 () {  }
-_sf_15 () {  }
-_sf_16 () {  }
-_sf_17 () {  }
-_sf_18 () {  }
-_sf_19 () {  }
-_sf_20 () {  }
-_sf_21 () {  }
-_sf_22 () {  }
-_sf_23 () {  }
-_sf_24 () {  }
-_sf_25 () {  }
-_sf_26 () {  }
-_sf_27 () {  }
-_sf_28 () {  }
-_sf_29 () {  }
-_sf_30 () {  }
-_sf_31 () {  }
-_sf_32 () {  }
-_sf_33 () {  }
-_sf_34 () {  }
-_sf_35 () {  }
-_sf_36 () { DOMAIN_IP_LINKS_CMD }
+_sf_0 ()  { open "https://t.me/UniversalSearchBot" }
+_sf_1 ()  { open "http://cipher387.github.io/domain_investigation_toolbox/" }
+_sf_2 ()  { open "https://gofindwhois.com/" }
+_sf_3 ()  { open "https://www.spyfu.com/overview/domain" }
+_sf_4 ()  { open "https://spyse.com/" }
+_sf_5 ()  { open "https://github.com/spyse-com/cli" }
+_sf_6 ()  { open "https://domaintracker.app/" }
+_sf_7 ()  { open "https://whois.marcaria.com/en" }
+_sf_8 ()  { open "https://www.ip-neighbors.com/host/" }
+_sf_9 ()  { open "http://besticon.herokuapp.com/" }
+_sf_10 () { open "https://github.com/SpiderLabs/HostHunter" }
+_sf_11 () { open "https://torwhois.com/" }
+_sf_12 () { open "https://dnstwister.report/" }
+_sf_13 () { open "https://domaincodex.com" }
+_sf_14 () { open "https://github.com/elceef/dnstwist" }
+_sf_15 () { open "https://github.com/evilsocket/ditto" }
+_sf_16 () { open "http://radb.net/query" }
+_sf_17 () { open "https://ipinfo.io/map" }
+_sf_18 () { open "https://whois.whoisxmlapi.com/database/pricing" }
+_sf_19 () { open "https://github.com/hakluke/hakrawler" }
+_sf_20 () { open "https://passivedns.mnemonic.no/" }
+_sf_21 () { open "https://talosintelligence.com/reputation_center/" }
+_sf_22 () { open "https://netbootcamp.org/websitetool.html" }
+_sf_23 () { open "https://github.com/harshnandwana/hussh" }
+_sf_24 () { open "https://www.vpnmentor.com/tools/test-the-great-china-firewall/" }
+_sf_25 () { open "https://t.me/iptools_robot" }
+_sf_26 () { open "https://github.com/hamza07-w/raymond" }
+_sf_27 () { open "https://pulsedive.com/" }
+_sf_28 () { open "https://github.com/s0md3v/Striker" }
+_sf_29 () { open "https://github.com/Anon-Exploiter/SiteBroker" }
+_sf_30 () { open "https://dnslytics.com/" }
+_sf_31 () { open "https://github.com/h3x0crypt/HostSpider" }
+_sf_32 () { open "https://github.com/indiancyberops/Drishti" }
+_sf_33 () { open "https://passivedns.mnemonic.no" }
+_sf_34 () { open "https://chrome.google.com/webstore/detail/gotanda/jbmdcdfnnpenkgliplbglfpninigbiml" }
+_sf_35 () { open "https://cipher387.github.io/domain_investigation_toolbox/ip.html" }
+_sf_36 () { open "https://github.com/N0tA1dan/Crab" }
+_sf_37 () { open "https://github.com/dievus/msdnsscan" }
+_sf_38 () { DOMAIN_IP_LINKS_CMD }
 
 # Search for a selected number of lines
 func (){

@@ -54,14 +54,14 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 () {  }
-_sf_1 () {  }
-_sf_2 () {  }
-_sf_3 () {  }
-_sf_4 () {  }
-_sf_5 () {  }
-_sf_6 () {  }
-_sf_7 () {  }
+_sf_0 () { open "https://whoisfreaks.com/" }
+_sf_1 () { open "https://www.expireddomains.net/deleted-domains/" }
+_sf_2 () { open "https://instantdomainsearch.com/domain/sale" }
+_sf_3 () { open "http://whoisds.com/newly-registered-domains" }
+_sf_4 () { open "https://api.domaindumper.com" }
+_sf_5 () { open "http://ptrarchive.com/" }
+_sf_6 () { open "https://www.peeringdb.com/" }
+_sf_7 () { open "https://iqwhois.com/advanced-search" }
 _sf_8 () { DOMAIN_IP_LINKS_CMD }
 
 # Search for a selected number of lines

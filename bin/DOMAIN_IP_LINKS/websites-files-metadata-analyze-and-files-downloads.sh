@@ -45,14 +45,16 @@ menu="
    Metagoofil — finds pdf/xlsx/docx files and other documents on the site/server, analyzes their metadata, and outputs a list of found user names and email addresses
    Aline — a very simple tool that simply downloads files of a certain type, located on a certain domain and indexed by Google.
    Goblyn — tool focused to enumeration and capture of website files metadata. It will search for active directories in the website and so enumerate the files, if it find some file it will get the metadata of file
+   DORK DUMP  — Looks for Google-indexed files with doc, docx, ppt, pptx, csv, pdf, xls, xlsx extensions on a particular domain and downloads them.
   ﴚ [ BACK TO DOMAIN_IP_LINKS ]
 "
 
 # CODE URL PUSH
-_sf_0 () {  }
-_sf_1 () {  }
-_sf_2 () {  }
-_sf_3 () { DOMAIN_IP_LINKS_CMD }
+_sf_0 () { open "https://github.com/laramies/metagoofil" }
+_sf_1 () { open "https://github.com/ferreiraklet/Aline" }
+_sf_2 () { open "https://github.com/loseys/Goblyn" }
+_sf_3 () { open "https://github.com/dievus/msdorkdump" }
+_sf_4 () { DOMAIN_IP_LINKS_CMD }
 
 # Search for a selected number of lines
 func (){

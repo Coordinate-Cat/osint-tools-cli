@@ -48,9 +48,9 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 ()   {  }
-_sf_1 ()   {  }
-_sf_2 ()   { DOMAIN_IP_LINKS_CMD }
+_sf_0 () { open "https://www.link-assistant.com/seo-spyglass/free-backlink-checker-tool.html" }
+_sf_1 () { open "https://app.neilpatel.com/en/seo_analyzer/backlinks" }
+_sf_2 () { DOMAIN_IP_LINKS_CMD }
 
 # Search for a selected number of lines
 func (){

@@ -49,9 +49,9 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 () {  }
-_sf_1 () {  }
-_sf_2 () {  }
+_sf_0 () { open "https://github.com/lijiejie/subDomainsBrute" }
+_sf_1 () { open "https://github.com/jonluca/Anubis" }
+_sf_2 () { open "https://github.com/alex14324/Turbolist3r" }
 _sf_3 () { DOMAIN_IP_LINKS_CMD }
 
 # Search for a selected number of lines

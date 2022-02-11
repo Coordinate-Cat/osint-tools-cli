@@ -168,22 +168,22 @@ https://qiita.com/tommy_aka_jps/items/5b39e4b27364c759aa53
   - [x] OneDrive
   - [x] Universal
 - [x] Downloaders
-- [ ] Domain/IP/Links
-  - [ ] Dorks/Pentest/Vulnerabilities
-  - [ ] Searchers, scrapers, extractors, parsers
-  - [ ] Backlinks analyze
-  - [ ] Redirect lookup
-  - [ ] Cookies analyze
-  - [ ] Website's files metadata analyze and files downloads
-  - [ ] Website analyze
-  - [ ] Domain/IP investigation
-  - [ ] Subdomains scan/brute
-  - [ ] Cloudfare
-  - [ ] Databases of domains
-  - [ ] Website traffic look up
-  - [ ] Website technology look up
-  - [ ] Source Code Analyzes
-  - [ ] URL unshorteners
+- [x] Domain/IP/Links
+  - [x] Dorks/Pentest/Vulnerabilities
+  - [x] Searchers, scrapers, extractors, parsers
+  - [x] Backlinks analyze
+  - [x] Redirect lookup
+  - [x] Cookies analyze
+  - [x] Website's files metadata analyze and files downloads
+  - [x] Website analyze
+  - [x] Domain/IP investigation
+  - [x] Subdomains scan/brute
+  - [x] Cloudfare
+  - [x] Databases of domains
+  - [x] Website traffic look up
+  - [x] Website technology look up
+  - [x] Source Code Analyzes
+  - [x] URL unshorteners
 - [x] Image Search and Identification
   - [x] Reverse Image Search Engines
   - [x] Other Image Search Engines

@@ -46,15 +46,17 @@ menu="
    Audits website cookies, online tracking and HTTPS usage for GDPR compliance
    Webemailextractor.com — extract email's and phone numbers from the website or list of website
    cookieserve.com — detailed website cookie analyze
+   What every Browser knows about you — This site not only shows what information your browser provides to third-party sites, but also explains how it can be dangerous and suggests what extensions will help to ensure your anonymity.
   ﴚ [ BACK TO DOMAIN_IP_LINKS ]
 "
 
 # CODE URL PUSH
-_sf_0 ()   {  }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   {  }
-_sf_4 ()   { DOMAIN_IP_LINKS_CMD }
+_sf_0 () { open "https://www.cookiemetrix.com/" }
+_sf_1 () { open "https://2gdpr.com/" }
+_sf_2 () { open "https://www.webemailextractor.com/" }
+_sf_3 () { open "https://www.cookieserve.com/" }
+_sf_4 () { open "https://webkay.robinlinus.com" }
+_sf_5 () { DOMAIN_IP_LINKS_CMD }
 
 # Search for a selected number of lines
 func (){

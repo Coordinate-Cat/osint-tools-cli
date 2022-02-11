@@ -56,18 +56,30 @@ menu="
   ﴚ [ BACK TO DOMAIN_IP_LINKS ]
 "
 
+</br><a href='https://chrome.google.com/webstore/detail/whatruns/cmkdbmfndkfgebldhnkbfhlneefdaaip/related'>WhatRuns</a> — extension, which discover what runs a website: frameworks, Analytics Tools, Wordpress Plugins, Fonts.
+</br><a href="https://builtwith.com/">Built With</a>
+</br><a href="https://w3techs.com/sites">w3techs</a>
+</br><a href="https://hexometer.com/stack-checker">Hexometer stack checker</a>
+</br><a href="https://webtechsurvey.com/website/">Web Tech Survey</a>
+</br><a href="https://awesometechstack.com/">Awesome Tech Stack</a>
+</br><a href="https://sitereport.netcraft.com/">Netcraft Site Report</a>
+</br><a href="https://www.wappalyzer.com/">Wappalyzer</a>
+</br><a href="https://www.larger.io/">Larger.io</a>
+</br><a href="https://tools.cmlabs.co/en/technology-lookup">CMLabs Tools</a>
+</br><a href='app.snov.io/techcheck/main'>Snov.io technology checker</a> — type name of #webdev technology (jquery, django, wordpress etc) and get the list of websites, which used it. 
+
 # CODE URL PUSH
-_sf_0 () {  }
-_sf_1 () {  }
-_sf_2 () {  }
-_sf_3 () {  }
-_sf_4 () {  }
-_sf_5 () {  }
-_sf_6 () {  }
-_sf_7 () {  }
-_sf_8 () {  }
-_sf_9 () {  }
-_sf_10 () {  }
+_sf_0 ()  { open "https://chrome.google.com/webstore/detail/whatruns/cmkdbmfndkfgebldhnkbfhlneefdaaip/related" }
+_sf_1 ()  { open "https://builtwith.com/" }
+_sf_2 ()  { open "https://w3techs.com/sites" }
+_sf_3 ()  { open "https://hexometer.com/stack-checker" }
+_sf_4 ()  { open "https://webtechsurvey.com/website/" }
+_sf_5 ()  { open "https://awesometechstack.com/" }
+_sf_6 ()  { open "https://sitereport.netcraft.com/" }
+_sf_7 ()  { open "https://www.wappalyzer.com/" }
+_sf_8 ()  { open "https://www.larger.io/" }
+_sf_9 ()  { open "https://tools.cmlabs.co/en/technology-lookup" }
+_sf_10 () { open "app.snov.io/techcheck/main" }
 _sf_11 () { DOMAIN_IP_LINKS_CMD }
 
 # Search for a selected number of lines

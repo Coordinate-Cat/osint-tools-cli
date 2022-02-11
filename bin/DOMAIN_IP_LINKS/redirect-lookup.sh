@@ -49,10 +49,10 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 ()   {  }
-_sf_1 ()   {  }
-_sf_2 ()   {  }
-_sf_3 ()   { DOMAIN_IP_LINKS_CMD }
+_sf_0 () { open "https://redirectdetective.com/" }
+_sf_1 () { open "https://wheregoes.com/" }
+_sf_2 () { open "https://www.spyoffers.com/" }
+_sf_3 () { DOMAIN_IP_LINKS_CMD }
 
 # Search for a selected number of lines
 func (){

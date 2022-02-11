@@ -48,8 +48,8 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 () {  }
-_sf_1 () {  }
+_sf_0 () { open "https://github.com/MrH0wl/Cloudmare" }
+_sf_1 () { open "https://github.com/greycatz/CloudUnflare" }
 _sf_2 () { DOMAIN_IP_LINKS_CMD }
 
 # Search for a selected number of lines

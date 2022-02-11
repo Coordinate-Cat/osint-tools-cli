@@ -56,16 +56,16 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 () {  }
-_sf_1 () {  }
-_sf_2 () {  }
-_sf_3 () {  }
-_sf_4 () {  }
-_sf_5 () {  }
-_sf_6 () {  }
-_sf_7 () {  }
-_sf_8 () {  }
-_sf_9 () {  }
+_sf_0 ()  { open "https://lookyloo.circl.lu/" }
+_sf_1 ()  { open "https://chrome.google.com/webstore/detail/core-serp-vitals/oipmhlkineglclpndlecjmbleapbcilf/related" }
+_sf_2 ()  { open "https://bgpview.io/" }
+_sf_3 ()  { open "https://tosdr.org/" }
+_sf_4 ()  { open "https://analyzeid.com" }
+_sf_5 ()  { open "https://mmhdan.herokuapp.com" }
+_sf_6 ()  { open "https://github.com/pyhackertarget/hackertarget" }
+_sf_7 ()  { open "https://github.com/Josue87/AnalyticsRelationships" }
+_sf_8 ()  { open "https://github.com/enemy-submarine/pidrila" }
+_sf_9 ()  { open "https://osint.sh/adsense/" }
 _sf_10 () { DOMAIN_IP_LINKS_CMD }
 
 # Search for a selected number of lines

@@ -50,10 +50,10 @@ menu="
 "
 
 # CODE URL PUSH
-_sf_0 () {  }
-_sf_1 () {  }
-_sf_2 () {  }
-_sf_3 () {  }
+_sf_0 () { open "https://www.getlinkinfo.com/" }
+_sf_1 () { open "https://unshorten.me/" }
+_sf_2 () { open "http://urlxray.com/" }
+_sf_3 () { open "https://unshorten.it/" }
 _sf_4 () { DOMAIN_IP_LINKS_CMD }
 
 # Search for a selected number of lines
