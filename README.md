@@ -5,6 +5,9 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Coordinate-Cat/osint-tools-cli?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Coordinate-Cat/osint-tools-cli?style=flat-square)
 
+> [!IMPORTANT]
+> This project is planned to be rewritten in Rust and ratatui (2025-02-20).
+
 ![top](./assets/top.png)
 ![list](./assets/list.png)
 <!-- ###[ WHATS THIS ]###################################################### -->
